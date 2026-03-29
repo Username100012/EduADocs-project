@@ -12,7 +12,7 @@ def display_llm_selector():
         i18n("sidebar.ai_model_type_label"),
         llm_options,
         key="llm_type",
-        index=0  # Default to Google GenAI (most capable)
+        index=3  # Default to OpenAI API
     )
     
     config = {"type": llm_type}

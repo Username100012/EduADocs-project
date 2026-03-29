@@ -17,8 +17,8 @@ class LanguageManager:
     
     # Supported languages
     SUPPORTED_LANGUAGES = {
-        "Português": "pt",
-        "English": "en"
+        "English": "en",
+        "Português": "pt"
     }
     
     def __init__(self):
@@ -41,7 +41,7 @@ class LanguageManager:
     def get_current_language(self) -> str:
         """Get the current language code from session state."""
         if "language" not in st.session_state:
-            st.session_state.language = "pt"  # Default to Portuguese
+            st.session_state.language = "en"  # Default to English
         return st.session_state.language
     
     def set_language(self, lang_code: str) -> None:
