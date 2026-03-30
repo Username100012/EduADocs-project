@@ -1,0 +1,215 @@
+{
+	"page": {
+		"title": "EduADocs ",
+		"icon": "📚",
+		"header": "📚 EduADocs ",
+		"description": "Gere planos de aula, notas de aula, listas de exercícios e mapas mentais para suas aulas"
+	},
+
+	"sidebar": {
+		"ai_model_selection_header": "🤖 Seleção do Modelo de IA",
+		"ai_model_type_label": "Tipo de Modelo de IA",
+		"ai_model_type_options": ["Google GenAI", "Hugging Face", "Ollama (Local)", "OpenAI API"]
+	},
+
+	"document_settings": {
+		"header": "📋 Configurações do Documento",
+		"subject_label": "Disciplina",
+		"subject_placeholder": "ex.: Matemática, História, Ciências",
+		"grade_level_label": "Nível Escolar",
+		"grade_level_options": [
+			"Fundamental (K-5)",
+			"Ensino Fundamental II (6-8)",
+			"Ensino Médio (9-12)",
+			"Faculdade/Universidade",
+			"Não especificado"
+		]
+	},
+
+	"content_description": {
+		"header": "📝 Descrição do Conteúdo",
+		"document_type_label": "Tipo de Documento",
+		"document_type_options": ["Plano de Aula", "Notas de Aula", "Lista de Exercícios", "Mapa Mental da Aula"],
+		"topic_label": "Descreva o tópico ou forneça detalhes do conteúdo:",
+		"topic_placeholder": "Insira o tópico específico, objetivos de aprendizagem ou conteúdo que deseja incluir..."
+	},
+
+	"exercise_list": {
+		"num_questions_label": "Número de Questões",
+		"difficulty_label": "Nível de Dificuldade",
+		"difficulty_options": ["Fácil", "Médio", "Difícil", "Misto"],
+		"question_types_label": "Tipos de Questões",
+		"question_types_options": ["Múltipla Escolha", "Verdadeiro/Falso", "Resposta Curta", "Redação", "Resolução de Problemas"],
+		"question_types_default": ["Múltipla Escolha", "Resposta Curta"],
+		"include_answer_key_label": "Incluir gabarito/soluções"
+	},
+
+	"slide_presentation": {
+		"num_slides_label": "Número de Slides",
+		"include_images_label": "Incluir espaços para imagens",
+		"presentation_style_label": "Estilo da Apresentação",
+		"presentation_style_options": ["Educacional", "Interativa", "Formal", "Criativa"]
+	},
+
+	"summary": {
+		"summary_length_label": "Tamanho do Resumo",
+		"summary_length_options": ["Breve (1-2 páginas)", "Detalhado (3-5 páginas)", "Abrangente (5+ páginas)"],
+		"include_examples_label": "Incluir exemplos",
+		"format_style_label": "Estilo de Formatação",
+		"format_style_options": ["Tópicos", "Parágrafos", "Esboço", "Formato de Perguntas e Respostas"]
+	},
+
+	"lesson_plan": {
+		"duration_label": "Duração (minutos)",
+		"duration_help": "Tempo total da aula",
+		"learning_objectives_label": "Objetivos de aprendizagem",
+		"learning_objectives_placeholder": "Liste os objetivos, um por linha",
+		"materials_label": "Materiais/Recursos",
+		"materials_placeholder": "ex.: slides, fichas, kit de laboratório",
+		"methodology_label": "Metodologia de ensino",
+		"methodology_options": ["Expositiva", "Interativa", "Aprendizagem baseada em problemas", "Aprendizagem baseada em projetos", "Sala de aula invertida"],
+		"assessment_strategy_label": "Estratégia de avaliação (opcional)",
+		"assessment_strategy_placeholder": "Como os alunos serão avaliados nesta aula?",
+		"include_differentiation_label": "Incluir diferenciação/adaptações",
+		"lesson_flow_label": "Fluxo da aula (opcional)",
+		"lesson_flow_placeholder": "ex.: Aquecimento → Exploração → Prática → Fechamento"
+	},
+
+	"lecture_notes": {
+		"output_type_label": "Formato de saída",
+		"output_type_options": ["Notas Escritas", "Apresentação em Slides"],
+		"detail_level_label": "Nível de detalhe",
+		"detail_level_options": ["Breve", "Padrão", "Detalhado"],
+		"format_style_label": "Estilo de formatação",
+		"format_style_options": ["Parágrafos", "Tópicos", "Esboço"],
+		"include_examples_label": "Incluir exemplos",
+		"include_references_label": "Incluir referências/leitura complementar"
+	},
+
+	"mind_map": {
+		"main_branches_label": "Número de ramos principais",
+		"depth_label": "Níveis de profundidade",
+		"include_examples_label": "Incluir exemplos/aplicações",
+		"highlight_hierarchy_label": "Destacar hierarquia de conceitos"
+	},
+
+	"generation": {
+		"options_header": "🎯 Opções de Geração",
+		"generate_button": "🚀 Gerar Documento",
+		"spinner_message": "Gerando seu documento...",
+		"success_message": "Documento gerado com sucesso!",
+		"document_preview_header": "📄 Visualização do Documento",
+		"view_generated_content": "Ver Conteúdo Gerado",
+		"download_options_header": "💾 Opções de Download",
+		"download_word_label": "📄 Baixar Documento Word",
+		"download_ppt_label": "📊 Baixar Apresentação em Slides",
+		"download_latex_label": "🔣 Baixar Fonte LaTeX",
+		"error_generating_template": "Erro ao gerar o documento: {error}",
+		"exception_template": "Ocorreu um erro: {error}",
+		"validation_warning_prefix": "Aviso: "
+	},
+
+	"help": {
+		"title": "❓ Ajuda e Dicas",
+		"getting_started_steps": [
+			"Selecione seu modelo de IA preferido",
+			"Escolha o tipo de documento e as configurações",
+			"Descreva seu tópico em detalhes",
+			"Clique em Gerar Documento"
+		],
+		"ollama_for_users": [
+			"Certifique-se de que o Ollama esteja em execução: `ollama serve`",
+			"Puxe um modelo primeiro: `ollama pull llama2`",
+			"Use modelos menores para geração mais rápida"
+		],
+		"tips_for_better_results": [
+			"Seja específico sobre os objetivos de aprendizagem",
+			"Inclua contexto sobre o nível dos alunos",
+			"Mencione quaisquer requisitos específicos",
+			"Use linguagem clara e descritiva"
+		]
+	},
+
+	"language_selector": {
+		"header": "🌐 Language / Idioma",
+		"label": "Selecione o idioma"
+	},
+
+	"llm": {
+		"google": {
+			"header": "Configuração do Google GenAI",
+			"api_key_label": "Chave da API Google",
+			"api_key_help": "Insira sua chave de API do Google",
+			"api_key_configured": "✅ Chave de API configurada",
+			"model_label": "Modelo",
+			"model_options": ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.5-flash-lite"],
+			"model_help": "Escolha o modelo do Google GenAI a usar"
+		},
+
+		"openai": {
+			"header": "Configuração do OpenAI",
+			"api_key_label": "Chave da API OpenAI",
+			"api_key_help": "Insira sua chave de API do OpenAI",
+			"api_key_configured": "✅ Chave de API configurada",
+			"model_label": "Modelo",
+			"model_options": ["gpt-5-nano", "gpt-4.1-nano", "gpt-4.1-mini", "gpt-4o-mini-search-preview"],
+			"model_help": "Escolha o modelo do OpenAI a usar",
+			"temperature_label": "Temperatura (Criatividade)",
+			"temperature_help": "Valores maiores tornam a saída mais criativa, porém menos focada"
+		},
+
+		"ollama": {
+			"header": "Configuração do Ollama",
+			"host_label": "Host do Ollama",
+			"host_help": "URL do servidor Ollama",
+			"connected_template": "✅ Conectado ao Ollama em {host}",
+			"cannot_connect_template": "❌ Não foi possível conectar ao Ollama em {host}",
+			"fix_steps": [
+				"Verifique se o Ollama está instalado",
+				"Inicie o Ollama: `ollama serve`",
+				"Puxe um modelo: `ollama pull llama2`",
+				"Atualize esta página"
+			],
+			"model_name_label": "Nome do Modelo",
+			"model_name_help": "Insira o nome do modelo Ollama a ser usado",
+			"no_models_info": "Nenhum modelo encontrado. Certifique-se de ter puxado pelo menos um modelo.",
+			"warning_could_not_fetch": "Não foi possível obter modelos do Ollama. Certifique-se de que o Ollama está em execução.",
+			"temperature_label": "Temperatura (Criatividade)"
+		},
+
+		"huggingface": {
+			"header": "Configuração do Hugging Face",
+			"api_key_label": "Chave da API Hugging Face (Opcional)",
+			"api_key_help": "Para modelos privados ou limites maiores de taxa",
+			"model_label": "Modelo",
+			"model_options": [
+				"microsoft/DialoGPT-large",
+				"facebook/blenderbot-400M-distill",
+				"google/flan-t5-large",
+				"meta-llama/Llama-2-7b-chat-hf"
+			],
+			"run_locally_label": "Executar localmente (requer download do modelo)",
+			"run_locally_help": "Baixe e execute o modelo localmente em vez de usar a API",
+			"temperature_label": "Temperatura (Criatividade)"
+		}
+	},
+
+	"ui_messages": {
+		"error_prefix": "❌ ",
+		"success_prefix": "✅ ",
+		"info_prefix": "ℹ️ ",
+		"warning_prefix": "⚠️ "
+	},
+
+	"validation": {
+		"subject_required": "A disciplina é obrigatória",
+		"topic_required": "A descrição do tópico é obrigatória",
+		"ai_config_required": "A configuração do modelo de IA é obrigatória",
+		"google_api_key_required": "A chave da API Google é obrigatória",
+		"openai_api_key_required": "A chave da API OpenAI é obrigatória",
+		"ollama_host_model_required": "Host e modelo do Ollama são obrigatórios",
+		"ollama_not_connected": "O Ollama não está conectado. Inicie o Ollama e atualize a página",
+		"huggingface_model_required": "O modelo do Hugging Face é obrigatório",
+		"valid": "Válido"
+	}
+}
