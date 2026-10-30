@@ -2,8 +2,7 @@ from generators.exercise_generator import generate_exercises
 from generators.lesson_notes_generator import generate_lecture_notes
 from generators.lesson_plan_generator import generate_lesson_plan
 from generators.mind_map_generator import generate_mind_map
-from generators.slides_generator import generate_slide_presentation
-from generators.summary_generator import generate_summary
+from generators.assessment_generator import generate_assessment_stub
 
 def generate_document(params):
     """Main document generation coordinator"""
@@ -26,10 +25,8 @@ def generate_document(params):
                 doc_type_key = "exercise"
             elif "mind map" in normalized or "mapa mental" in normalized:
                 doc_type_key = "mind_map"
-            elif "slide_presentation" in normalized or "apresenta" in normalized:
-                doc_type_key = "slide_presentation"
-            elif "summary" in normalized or "resumo" in normalized:
-                doc_type_key = "summary"
+            elif "assessment" in normalized or "avalia" in normalized:
+                doc_type_key = "assessment"
             else:
                 doc_type_key = "unknown"
         
@@ -41,10 +38,8 @@ def generate_document(params):
             return generate_exercises(params)
         elif doc_type_key == "mind_map":
             return generate_mind_map(params)
-        elif doc_type_key == "slide_presentation":
-            return generate_slide_presentation(params)
-        elif doc_type_key == "summary":
-            return generate_summary(params)
+        elif doc_type_key == "assessment":
+            return generate_assessment_stub(params)
         else:
             return {"success": False, "error": "Unknown document type"}
             

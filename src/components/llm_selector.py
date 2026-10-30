@@ -12,7 +12,7 @@ def display_llm_selector():
         i18n("sidebar.ai_model_type_label"),
         llm_options,
         key="llm_type",
-        index=3  # Default to OpenAI API
+        index=0  # Default to Google GenAI (most capable)
     )
     
     config = {"type": llm_type}
@@ -57,7 +57,7 @@ def _configure_openai():
     model = st.selectbox(
         i18n("llm.openai.model_label"),
         i18n_list("llm.openai.model_options"),
-        index=4,  # Default to gpt-5-nano (cheaper)
+        index=0,  # Default to gpt-5-nano (cheaper)
         help=i18n("llm.openai.model_help")
     )
     
