@@ -81,6 +81,8 @@
 	},
 
 	"generation": {
+		"download_record_label": "📋 Download last generation record (JSON)",
+		"probability_correction": "A coin/die ambiguity in the extension activity was corrected. The record identifies the change and preserves the original text.",
 		"options_header": "🎯 Generation Options",
 		"generate_button": "🚀 Generate Document",
 		"spinner_message": "Generating your document...",

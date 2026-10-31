@@ -65,3 +65,7 @@ urllib3==2.5.0
 watchdog==6.0.0
 websockets==15.0.1
 xlsxwriter==3.2.9
+
+# Native editable Word equations
+latex2mathml==3.81.1
+mathml2omml==0.0.2

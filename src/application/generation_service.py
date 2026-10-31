@@ -7,6 +7,7 @@ from typing import Any, Protocol
 from experiment import ExecutionLogger, ExecutionRecord
 from models import GenerationRequest
 from processing import ProcessedResponse, process_response
+from processing.probability_example import correct_known_probability_example
 from prompting import PromptArtifact
 from providers import ProviderGateway, ProviderResponse
 
@@ -52,6 +53,7 @@ class GenerationOutcome:
             )
         else:
             result["error"] = self.error
+            result["execution_record"] = self.execution_record
         return result
 
 
@@ -84,6 +86,7 @@ def execute_generation(
     try:
         provider_response = selected_gateway.generate(request, prompt, connection_config)
         processed_response = process_response(provider_response.content)
+        processed_response = correct_known_probability_example(processed_response)
         docx_file = exporter(processed_response.content, request)
         record = ExecutionRecord(
             execution_id=str(request.execution_id),

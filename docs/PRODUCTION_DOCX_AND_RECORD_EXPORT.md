@@ -1,0 +1,11 @@
+# Correções de produção — 31/10/2026
+
+Esta versão da aplicação é posterior ao estudo computacional congelado. Não redefine prompts, métricas ou resultados já coletados. Os arquivos originais do workspace científico continuam preservados.
+
+- LaTeX delimitado por $, $$, \( ... \) e \[ ... \] é convertido para equações OMML editáveis no Word com latex2mathml e mathml2omml. Expressões não suportadas produzem erro explícito, não exportação silenciosa de código. Não há execução de comandos TeX nem uso de serviços externos.
+- Listas preservam até três níveis de indentação. Linhas vazias de Markdown deixam de gerar parágrafos vazios; margens, títulos e espaçamento são compactados. Não se promete número fixo de páginas, pois depende do conteúdo e do renderizador Word.
+- O resultado e o JSON sanitizado ficam na sessão Streamlit para permitir baixar Word e registro em cliques separados. O botão não lê data/executions.jsonl nem disponibiliza registros de outros usuários. O ID corresponde ao mesmo objeto ExecutionRecord produzido pela geração; erros também podem ter download quando há registro.
+- A serialização remove campos de credenciais recursivamente, a chave ativa conhecida, padrões de tokens e atribuições sensíveis em texto. Consumo input_tokens/output_tokens permanece disponível. A sanitização não altera o registro persistido e pode ocultar conteúdos/alterar correspondência de hashes se houver segredo no texto.
+- Uma correção determinística e estritamente localizada substitui a frase conhecida que mistura a face de uma moeda com a de um dado a 50%. Para um dado equilibrado de seis faces, a extensão passa a usar obter número par (3/6); uma face específica tem 1/6. O original continua em raw_response, a alteração é marcada em processing_warnings como probability_coin_die_example_corrected_v1 e a interface informa a correção. Variantes não reconhecidas não são automaticamente corrigidas. Não é um validador geral de fatos.
+
+A atualização não recupera o registro de uma geração de sessão anterior do Streamlit Cloud. Após o deploy, uma nova geração permite baixar o registro associado. O aplicativo em produção usa esta nova versão; os números do artigo permanecem vinculados à versão e configuração coletadas.

@@ -81,6 +81,8 @@
 	},
 
 	"generation": {
+		"download_record_label": "📋 Baixar registro da última geração (JSON)",
+		"probability_correction": "Foi corrigida uma ambiguidade entre moeda e dado na atividade de extensão. A alteração está identificada no registro; o texto original foi preservado.",
 		"options_header": "🎯 Opções de Geração",
 		"generate_button": "🚀 Gerar Documento",
 		"spinner_message": "Gerando seu documento...",

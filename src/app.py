@@ -7,6 +7,7 @@ src_path = Path(__file__).parent
 sys.path.append(str(src_path))
 
 from components import llm_selector, document_generator, language_selector
+from application.record_download import execution_record_json
 from utils.validation import validate_inputs
 from utils.language_manager import get_language_manager, i18n, i18n_list
 
@@ -245,31 +246,53 @@ def main():
                         # Generate document
                         result = document_generator.generate_document(params)
                         
-                        if result["success"]:
-                            st.success(i18n("generation.success_message"))
-                            
-                            # Display preview
-                            st.header(i18n("generation.document_preview_header"))
-                            with st.expander(i18n("generation.view_generated_content"), expanded=True):
-                                st.markdown(result["content"])
-
-                            # Download options
-                            st.header(i18n("generation.download_options_header"))
-                            if result.get("docx_file"):
-                                st.download_button(
-                                    label=i18n("generation.download_word_label"),
-                                    data=result["docx_file"],
-                                    file_name=f"{subject}_{doc_type.replace(' ', '_')}.docx",
-                                    mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-                                )
-                        else:
-                            st.error(i18n("generation.error_generating_template").format(error=result['error']))
-                            
+                        record = result.get("execution_record")
+                        st.session_state["last_generation"] = {
+                            "success": result["success"],
+                            "error": result.get("error"),
+                            "content": result.get("content"),
+                            "docx_file": result.get("docx_file"),
+                            "word_filename": f"{subject}_{doc_type.replace(' ', '_')}.docx",
+                            "execution_id": result.get("execution_id", "generation"),
+                            "record_json": execution_record_json(
+                                record, secrets=(selected_llm.get("api_key", ""),)
+                            ) if record else None,
+                            "warnings": record.processing_warnings if record else [],
+                        }
                     except Exception as e:
                         st.error(i18n("generation.exception_template").format(error=str(e)))
             else:
                 st.warning(validation_message)
         
+        last = st.session_state.get("last_generation")
+        if last:
+            if last["success"]:
+                st.success(i18n("generation.success_message"))
+                if "probability_coin_die_example_corrected_v1" in last["warnings"]:
+                    st.info(i18n("generation.probability_correction"))
+                st.header(i18n("generation.document_preview_header"))
+                with st.expander(i18n("generation.view_generated_content"), expanded=True):
+                    st.markdown(last["content"])
+                st.header(i18n("generation.download_options_header"))
+                if last["docx_file"]:
+                    st.download_button(
+                        label=i18n("generation.download_word_label"),
+                        data=last["docx_file"],
+                        file_name=last["word_filename"],
+                        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        key="download_last_word",
+                    )
+            else:
+                st.error(i18n("generation.error_generating_template").format(error=last['error']))
+            if last["record_json"]:
+                st.download_button(
+                    label=i18n("generation.download_record_label"),
+                    data=last["record_json"],
+                    file_name=f"execution_{last['execution_id']}.json",
+                    mime="application/json",
+                    key="download_last_record",
+                )
+
         # Help section
         with st.expander(i18n("help.title")):
             getting_started = i18n_list("help.getting_started_steps")
