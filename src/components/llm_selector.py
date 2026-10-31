@@ -190,7 +190,7 @@ def _configure_google():
     model = st.selectbox(
         i18n("llm.google.model_label"),
         i18n_list("llm.google.model_options"),
-        index=0,  # Default to gemini-2.5-pro (most capable)
+        index=0,  # Default to the current stable Flash-Lite model
         help=i18n("llm.google.model_help")
     )
     
