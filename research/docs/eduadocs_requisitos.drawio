@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="draw.io" version="20.8.16" type="device">
+  <diagram id="EduADocs-Req" name="Página-1">
+    <mxGraphModel dx="1160" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Plano de Aula -->
+        <mxCell id="2" value="Plano de Aula" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE699;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Definir duração" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Objetivos de aprendizagem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Materiais/recursos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Metodologia de ensino" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Estratégia de avaliação" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Fluxo da aula" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Diferenciação/adaptações" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="11" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="12" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="13" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="14" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="15" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="16" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="9"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Notas de Aula -->
+        <mxCell id="20" value="Notas de Aula" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE699;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Nível de detalhe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Estilo de formatação" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="20" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Exemplos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="Referências/leitura complementar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="20" target="21"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="26" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="20" target="22"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="27" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="20" target="23"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="28" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="20" target="24"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Lista de Exercícios -->
+        <mxCell id="30" value="Lista de Exercícios" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE699;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Número de questões" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="Dificuldade" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="Tipos de questão" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="Incluir gabarito/soluções" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="30" target="31"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="36" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="30" target="32"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="37" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="30" target="33"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="38" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="30" target="34"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Mapa Mental da Aula -->
+        <mxCell id="40" value="Mapa Mental da Aula" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE699;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="Ramos principais" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="Níveis de profundidade" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="Exemplos/aplicações" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="Hierarquia de conceitos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="45" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="40" target="41"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="46" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="40" target="42"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="47" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="40" target="43"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="48" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="40" target="44"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Avaliação -->
+        <mxCell id="50" value="Avaliação (em integração)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE699;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="650" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="Módulo em integração" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="Agente inteligente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="Geração automática de questões" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="740" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="54" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="50" target="51"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="55" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="50" target="52"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="56" style="endArrow=classic;html=1;rounded=1;strokeColor=#000000;" edge="1" parent="1" source="50" target="53"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

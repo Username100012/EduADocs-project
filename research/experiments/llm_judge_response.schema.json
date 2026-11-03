@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eduadocs.local/schemas/llm-judge-response-v1.0.0.json",
+  "title": "EduADocs LLM Judge Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "rubric_version",
+    "evaluation_id",
+    "assessments"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "eduadocs-llm-judge-response-v1.0.0"
+    },
+    "rubric_version": {
+      "const": "eduadocs-llm-judge-v1.0.0"
+    },
+    "evaluation_id": {
+      "type": "string",
+      "pattern": "^eval-[a-f0-9]{32}$"
+    },
+    "assessments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "semantic_fidelity",
+        "instructional_alignment",
+        "grade_appropriateness",
+        "coherence_feasibility"
+      ],
+      "properties": {
+        "semantic_fidelity": {
+          "$ref": "#/$defs/criterion_result"
+        },
+        "instructional_alignment": {
+          "$ref": "#/$defs/criterion_result"
+        },
+        "grade_appropriateness": {
+          "$ref": "#/$defs/criterion_result"
+        },
+        "coherence_feasibility": {
+          "$ref": "#/$defs/criterion_result"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "criterion_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "justification"],
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "justification": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      }
+    }
+  }
+}

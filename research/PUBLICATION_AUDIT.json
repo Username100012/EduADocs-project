@@ -1,0 +1,14 @@
+{
+  "files_scanned": 418,
+  "known_local_secrets_checked": 3,
+  "findings": [],
+  "original_files_verified": 412,
+  "original_snapshot_changed": [],
+  "api_calls": 0,
+  "reviewed_on": "2026-11-03",
+  "scope": "Research snapshot only; no .env, credentials files or virtualenv included.",
+  "original_files_redacted": 0,
+  "note": "No credential findings; original included files preserved byte-for-byte. Pattern scanning is not an absolute guarantee. Known local secret values were never written to the report.",
+  "offline_reproduction_verified": true,
+  "security_scanner_tests_passed": 3
+}

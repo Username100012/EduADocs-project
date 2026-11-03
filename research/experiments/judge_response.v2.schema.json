@@ -1,0 +1,188 @@
+{
+  "$defs": {
+    "Assessments": {
+      "additionalProperties": false,
+      "properties": {
+        "instructional_alignment": {
+          "$ref": "#/$defs/CriterionResult"
+        },
+        "textual_coherence": {
+          "$ref": "#/$defs/CriterionResult"
+        }
+      },
+      "required": [
+        "instructional_alignment",
+        "textual_coherence"
+      ],
+      "title": "Assessments",
+      "type": "object"
+    },
+    "CriterionResult": {
+      "additionalProperties": false,
+      "properties": {
+        "score": {
+          "maximum": 4,
+          "minimum": 1,
+          "title": "Score",
+          "type": "integer"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "maxItems": 3,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "justification": {
+          "maxLength": 800,
+          "minLength": 1,
+          "title": "Justification",
+          "type": "string"
+        }
+      },
+      "required": [
+        "score",
+        "evidence",
+        "justification"
+      ],
+      "title": "CriterionResult",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "line_start": {
+          "minimum": 1,
+          "title": "Line Start",
+          "type": "integer"
+        },
+        "line_end": {
+          "minimum": 1,
+          "title": "Line End",
+          "type": "integer"
+        },
+        "quote": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "line_start",
+        "line_end",
+        "quote"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "RequirementResult": {
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "supported",
+            "partial",
+            "not_addressed",
+            "contradicted",
+            "uncertain"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "maxItems": 3,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "justification": {
+          "maxLength": 800,
+          "minLength": 1,
+          "title": "Justification",
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "evidence",
+        "justification"
+      ],
+      "title": "RequirementResult",
+      "type": "object"
+    },
+    "Requirements": {
+      "additionalProperties": false,
+      "properties": {
+        "topic": {
+          "$ref": "#/$defs/RequirementResult"
+        },
+        "grade_level": {
+          "$ref": "#/$defs/RequirementResult"
+        },
+        "learning_objectives": {
+          "$ref": "#/$defs/RequirementResult"
+        },
+        "duration_minutes": {
+          "$ref": "#/$defs/RequirementResult"
+        },
+        "methodology": {
+          "$ref": "#/$defs/RequirementResult"
+        },
+        "materials": {
+          "$ref": "#/$defs/RequirementResult"
+        },
+        "assessment_strategy": {
+          "$ref": "#/$defs/RequirementResult"
+        }
+      },
+      "required": [
+        "topic",
+        "grade_level",
+        "learning_objectives",
+        "duration_minutes",
+        "methodology",
+        "materials",
+        "assessment_strategy"
+      ],
+      "title": "Requirements",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "eduadocs-requirement-judge-response-v2.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "rubric_version": {
+      "const": "eduadocs-requirement-judge-v2.0.0",
+      "title": "Rubric Version",
+      "type": "string"
+    },
+    "evaluation_id": {
+      "pattern": "^eval-[a-f0-9]{32}$",
+      "title": "Evaluation Id",
+      "type": "string"
+    },
+    "requirements": {
+      "$ref": "#/$defs/Requirements"
+    },
+    "assessments": {
+      "$ref": "#/$defs/Assessments"
+    }
+  },
+  "required": [
+    "schema_version",
+    "rubric_version",
+    "evaluation_id",
+    "requirements",
+    "assessments"
+  ],
+  "title": "ValidatedJudgment",
+  "type": "object"
+}

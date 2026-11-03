@@ -1,0 +1,58 @@
+{
+  "valid_raw_responses_reparsed": 80,
+  "unique_valid_evaluation_ids": 80,
+  "validation_errors_reproduced": [
+    {
+      "evaluation_id": "eval-25733be99302abc0895e6e2efe657a5f",
+      "code": "evidence_mismatch",
+      "path": "$.requirements.materials.evidence.0"
+    }
+  ],
+  "temporal_case": {
+    "job_id": "qwen3:pilot-001:c1:r1",
+    "candidate_sha256": "fbb15a69b389e8274ba10ce08ff3a645367a10def9255780612384d1c21ee1eb",
+    "heading_regex": "^###\\s+\\*\\*(\\d+)\\.\\s+.+?\\((\\d+)\\s+minutos\\)\\*\\*\\s*$",
+    "steps": [
+      {
+        "line": 14,
+        "step": 1,
+        "minutes": 5,
+        "text": "### **1. Introdução (5 minutos)**"
+      },
+      {
+        "line": 27,
+        "step": 2,
+        "minutes": 10,
+        "text": "### **2. Aprendizagem Direta (10 minutos)**"
+      },
+      {
+        "line": 55,
+        "step": 3,
+        "minutes": 25,
+        "text": "### **3. Atividade Colaborativa (25 minutos)**"
+      },
+      {
+        "line": 92,
+        "step": 4,
+        "minutes": 10,
+        "text": "### **4. Apresentação e Discussão (10 minutos)**"
+      },
+      {
+        "line": 103,
+        "step": 5,
+        "minutes": 10,
+        "text": "### **5. Avaliação (10 minutos)**"
+      },
+      {
+        "line": 114,
+        "step": 6,
+        "minutes": 5,
+        "text": "### **6. Encerramento (5 minutos)**"
+      }
+    ],
+    "sum_minutes": 65,
+    "target_minutes": 50,
+    "contradiction": true,
+    "scope": "Case-specific verification of six explicitly enumerated sequential headings. Not a new general extractor or validation of all judge classifications."
+  }
+}

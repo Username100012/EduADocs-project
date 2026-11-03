@@ -1,0 +1,73 @@
+{
+  "validation_state": "passed_offline",
+  "prepared_judgments": 645,
+  "eligible_plans": 215,
+  "repetitions_per_plan": 3,
+  "generation_source_sha256": "70969e6fe4df45f92d7dd9605eb68cb90b6dfa9eaa6d0346bb2f1f1a4b5b4135",
+  "prompt_version": "lesson-plan-requirement-judge-v2.0.0",
+  "checks": {
+    "unique_evaluation_ids": true,
+    "exactly_three_repetitions_per_eligible_plan": true,
+    "all_prompts_and_wire_requests_reconstructed": true,
+    "candidate_and_payload_hashes_match": true,
+    "frozen_judge_configuration_matches": true,
+    "labels_kept_in_separate_mapping": true,
+    "no_collision_with_pilot_or_diagnostic_ids": true,
+    "no_execution_log_created": true
+  },
+  "groups": [
+    {
+      "generator_id": "gemini",
+      "condition": "c0",
+      "plans": 36,
+      "judgments": 108
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "plans": 35,
+      "judgments": 105
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "plans": 36,
+      "judgments": 108
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "plans": 36,
+      "judgments": 108
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "plans": 36,
+      "judgments": 108
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "plans": 36,
+      "judgments": 108
+    }
+  ],
+  "excluded_generations": [
+    {
+      "job_id": "gemini:task-002:c1:r1",
+      "status": "error",
+      "error": {
+        "type": "ReadTimeout",
+        "code": null
+      }
+    }
+  ],
+  "artifact_sha256": {
+    "queue.jsonl": "fdf9eb674d4ac9405d790f7dde2b40b3171a9f51c29b6367d9bce33903437356",
+    "mapping.jsonl": "0e2647d24a742126b174691e2426311c2fa7f119846aee27c79f885996c9a2b5",
+    "preparation_report.json": "c827740aa2546576834ea7a858d78e7cce36e2bf0ed05430aa038dbb681d7b60"
+  },
+  "api_calls": 0,
+  "judgments_executed": 0
+}

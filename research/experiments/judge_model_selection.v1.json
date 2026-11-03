@@ -1,0 +1,24 @@
+{
+  "selection_version": "eduadocs-judge-model-selection-v1.0.0",
+  "selected_at": "2026-10-15",
+  "judge_configuration": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "model_version": "gpt-5.4-mini-2026-03-17",
+    "temperature": 0,
+    "seed": null,
+    "max_output_tokens": 1200,
+    "response_format": "json_schema",
+    "provider_parameters": {
+      "api": "responses",
+      "reasoning_effort": "none",
+      "top_p": 1,
+      "store": false,
+      "service_tier": "standard",
+      "strict_schema": true
+    }
+  },
+  "primary_role": "secondary_automatic_semantic_metric",
+  "exact_model_is_generator": false,
+  "provider_family_overlap_requires_separate_reporting": true
+}

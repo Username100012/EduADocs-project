@@ -1,0 +1,90 @@
+{
+  "protocol_version": "eduadocs-main-v1.0.0",
+  "simulated": false,
+  "collection_state": "completed_with_recorded_failure",
+  "planned": 216,
+  "completed": 216,
+  "statuses": {
+    "success": 215,
+    "error": 1
+  },
+  "eligible_for_judgment": 215,
+  "planned_judgments_for_eligible_responses": 645,
+  "groups": [
+    {
+      "generator_id": "gemini",
+      "condition": "c0",
+      "planned": 36,
+      "completed": 36,
+      "statuses": {
+        "success": 36
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "planned": 36,
+      "completed": 36,
+      "statuses": {
+        "success": 35,
+        "error": 1
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "planned": 36,
+      "completed": 36,
+      "statuses": {
+        "success": 36
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "planned": 36,
+      "completed": 36,
+      "statuses": {
+        "success": 36
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "planned": 36,
+      "completed": 36,
+      "statuses": {
+        "success": 36
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "planned": 36,
+      "completed": 36,
+      "statuses": {
+        "success": 36
+      }
+    }
+  ],
+  "failures": [
+    {
+      "job_id": "gemini:task-002:c1:r1",
+      "status": "error",
+      "error": {
+        "type": "ReadTimeout",
+        "code": null
+      }
+    }
+  ],
+  "config_sha256": "b0ec9b311a388756ec4fe9591654b8a6c975795fdc8986a210e9e994f173abc3",
+  "source_log_sha256": "70969e6fe4df45f92d7dd9605eb68cb90b6dfa9eaa6d0346bb2f1f1a4b5b4135",
+  "integrity": {
+    "all_planned_ids_completed_once": true,
+    "no_unresolved_started_calls": true,
+    "frozen_artifacts_unchanged": true,
+    "all_provider_condition_cells_attempted_36_times": true
+  },
+  "judgments_executed_in_this_step": 0,
+  "note": "One Gemini ReadTimeout was preserved; resume processed only unattempted IDs. Generation success is technical, not content-quality validation."
+}

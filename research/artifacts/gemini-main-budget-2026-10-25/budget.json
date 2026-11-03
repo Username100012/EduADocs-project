@@ -1,0 +1,118 @@
+{
+  "checked_on": "2026-10-25",
+  "scope": "Gemini generation only; OpenAI judging balance and local electricity excluded.",
+  "configuration_hash": "de679b331f86e6499e9935868f7c2962bc8811c94ddc522ffa31e6534e4e2026",
+  "input_counts_sha256": "15908e2cdf4d2e17202ee50800eaf46bd9190d5a195d6f5bb0c23d7a2c97b757",
+  "model": "gemini-3.8-flash",
+  "pricing": {
+    "checked_on": "2026-10-25",
+    "valid_through": "2026-12-31",
+    "input_usd_per_million": 0.75,
+    "output_usd_per_million": 3.75,
+    "url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.8-flash"
+  },
+  "budget_policy": "R$30 is a reference balance, not a strict cap: user explicitly accepts overruns. No reduction solely to meet this amount.",
+  "exchange_reference": {
+    "date": "2026-10-23",
+    "ptax_usd_brl_sell": 5.0377,
+    "source": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+    "planning_rate": 6.0,
+    "interpretation": "Authorial conservative conversion, not the actual Google billing exchange rate."
+  },
+  "current_price_output_cap": {
+    "calls": 108,
+    "by_condition": [
+      {
+        "condition": "c0",
+        "calls": 36,
+        "input_tokens": 831,
+        "input_tokens_min_per_call": 19,
+        "input_tokens_max_per_call": 27,
+        "output_tokens_cap": 147456,
+        "usd_at_output_cap": "0.55358325"
+      },
+      {
+        "condition": "c1",
+        "calls": 36,
+        "input_tokens": 4944,
+        "input_tokens_min_per_call": 123,
+        "input_tokens_max_per_call": 155,
+        "output_tokens_cap": 147456,
+        "usd_at_output_cap": "0.556668"
+      },
+      {
+        "condition": "c2",
+        "calls": 36,
+        "input_tokens": 6888,
+        "input_tokens_min_per_call": 177,
+        "input_tokens_max_per_call": 209,
+        "output_tokens_cap": 147456,
+        "usd_at_output_cap": "0.558126"
+      }
+    ],
+    "input_tokens_total": 12663,
+    "output_tokens_total_cap": 442368,
+    "output_tokens_per_call_cap": 4096,
+    "price_multiplier": "1",
+    "usd_at_output_cap": "1.66837725",
+    "planning_usd_brl": "6.00",
+    "brl_at_output_cap": "10.02",
+    "reserve_fraction": "0.25",
+    "conservative_brl": "12.52",
+    "available_brl": "30.00",
+    "remaining_brl_after_reserve": "17.48",
+    "fits_budget": true
+  },
+  "double_price_stress_test": {
+    "calls": 108,
+    "by_condition": [
+      {
+        "condition": "c0",
+        "calls": 36,
+        "input_tokens": 831,
+        "input_tokens_min_per_call": 19,
+        "input_tokens_max_per_call": 27,
+        "output_tokens_cap": 147456,
+        "usd_at_output_cap": "1.1071665"
+      },
+      {
+        "condition": "c1",
+        "calls": 36,
+        "input_tokens": 4944,
+        "input_tokens_min_per_call": 123,
+        "input_tokens_max_per_call": 155,
+        "output_tokens_cap": 147456,
+        "usd_at_output_cap": "1.113336"
+      },
+      {
+        "condition": "c2",
+        "calls": 36,
+        "input_tokens": 6888,
+        "input_tokens_min_per_call": 177,
+        "input_tokens_max_per_call": 209,
+        "output_tokens_cap": 147456,
+        "usd_at_output_cap": "1.116252"
+      }
+    ],
+    "input_tokens_total": 12663,
+    "output_tokens_total_cap": 442368,
+    "output_tokens_per_call_cap": 4096,
+    "price_multiplier": "2",
+    "usd_at_output_cap": "3.3367545",
+    "planning_usd_brl": "6.00",
+    "brl_at_output_cap": "20.03",
+    "reserve_fraction": "0.25",
+    "conservative_brl": "25.03",
+    "available_brl": "30.00",
+    "remaining_brl_after_reserve": "4.97",
+    "fits_budget": true
+  },
+  "decision": "Keep 12 tasks, three conditions and three repetitions per generator; no reduction required.",
+  "limits": [
+    "Assumes a single candidate, no tools, no paid cache storage, no conversation history and no automatic retries.",
+    "4096 includes thinking and visible output; do not add the thinking budget a second time.",
+    "No cache discounts or free-tier allowances assumed. No collection calls made.",
+    "Reserve and exchange buffer are planning assumptions, not a guarantee or an invoice; other project usage can consume balance.",
+    "Recheck pricing after 2026-12-31 or any change of provider configuration."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-16T17:47:07.686686+00:00",
+  "sdk_version": "1.56.0",
+  "model": "gemini-3.8-flash",
+  "configuration_valid": true,
+  "live_requested": true,
+  "api_called": true,
+  "status": "api_error",
+  "experimental_data": false,
+  "error_type": "ServerError",
+  "error_code": 503
+}

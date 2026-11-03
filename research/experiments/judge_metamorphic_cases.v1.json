@@ -1,0 +1,73 @@
+{
+  "suite_version": "eduadocs-judge-metamorphic-v1.0.0",
+  "repetitions_per_candidate": 3,
+  "seeds": [
+    {
+      "id": "science",
+      "payload": {
+        "topic": "Evaporação e condensação",
+        "grade_level": "5º ano do ensino fundamental",
+        "learning_objectives": "Distinguir evaporação de condensação em situações cotidianas",
+        "duration_minutes": 50,
+        "methodology": "Investigação guiada",
+        "materials": "Quadro e imagens de roupas secando e de gotas no copo frio",
+        "assessment_strategy": "Classificar situações como evaporação ou condensação e justificar"
+      },
+      "sections": [
+        "Tema: evaporação e condensação. Turma: 5º ano do ensino fundamental. Duração: 50 minutos.",
+        "Objetivo: distinguir evaporação de condensação em situações cotidianas.",
+        "Recursos: quadro e imagens de roupas secando e de gotas no copo frio.",
+        "Investigação guiada: levantar hipóteses sobre as imagens (10 min), discutir em grupos as mudanças da água (20 min), comparar explicações no quadro (10 min).",
+        "Avaliação (10 min): classificar quatro situações como evaporação ou condensação e justificar a classificação."
+      ],
+      "misaligned_assessment": "Avaliação (10 min): copiar nomes de capitais brasileiras; a nota depende somente da grafia das capitais."
+    },
+    {
+      "id": "math",
+      "payload": {
+        "topic": "Frações equivalentes",
+        "grade_level": "6º ano do ensino fundamental",
+        "learning_objectives": "Representar e identificar frações equivalentes usando desenhos",
+        "duration_minutes": 50,
+        "methodology": "Resolução colaborativa de problemas",
+        "materials": "Papel quadriculado e lápis de cor",
+        "assessment_strategy": "Desenhar pares de frações equivalentes e explicar a equivalência"
+      },
+      "sections": [
+        "Tema: frações equivalentes. Turma: 6º ano do ensino fundamental. Duração: 50 minutos.",
+        "Objetivo: representar e identificar frações equivalentes usando desenhos.",
+        "Recursos: papel quadriculado e lápis de cor.",
+        "Resolução colaborativa de problemas: explorar partes iguais (10 min), desenhar em duplas diferentes representações de uma mesma quantidade (20 min), comparar as soluções (10 min).",
+        "Avaliação (10 min): desenhar dois pares de frações equivalentes e explicar por que representam a mesma quantidade."
+      ],
+      "misaligned_assessment": "Avaliação (10 min): listar planetas do sistema solar; a nota depende somente dos nomes dos planetas."
+    },
+    {
+      "id": "language",
+      "payload": {
+        "topic": "Tese e argumento",
+        "grade_level": "1º ano do ensino médio",
+        "learning_objectives": "Identificar a tese e relacionar argumentos à tese de um texto",
+        "duration_minutes": 50,
+        "methodology": "Leitura colaborativa",
+        "materials": "Texto de opinião impresso e canetas",
+        "assessment_strategy": "Anotar a tese e explicar a relação de dois argumentos com ela"
+      },
+      "sections": [
+        "Tema: tese e argumento. Turma: 1º ano do ensino médio. Duração: 50 minutos.",
+        "Objetivo: identificar a tese e relacionar argumentos à tese de um texto.",
+        "Recursos: texto de opinião impresso e canetas.",
+        "Leitura colaborativa: ler o texto individualmente (10 min), discutir em grupos a tese e suas razões (20 min), comparar interpretações com evidências textuais (10 min).",
+        "Avaliação (10 min): anotar a tese e explicar a relação de dois argumentos com ela, citando passagens do texto."
+      ],
+      "misaligned_assessment": "Avaliação (10 min): resolver multiplicações; a nota depende somente dos resultados numéricos."
+    }
+  ],
+  "verbosity_suffix": "Observação editorial: este documento é um plano de aula. O plano de aula está apresentado neste documento. Este documento apresenta o plano de aula.",
+  "relations": [
+    {"kind": "consistency", "criterion": "all", "operator": "equal"},
+    {"kind": "verbosity", "criterion": "all", "operator": "non_increasing"},
+    {"kind": "omission", "criterion": "semantic_fidelity", "operator": "non_increasing"},
+    {"kind": "misalignment", "criterion": "instructional_alignment", "operator": "non_increasing"}
+  ]
+}

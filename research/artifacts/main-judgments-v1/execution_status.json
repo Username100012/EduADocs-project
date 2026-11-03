@@ -1,0 +1,26 @@
+{
+  "execution_state": "completed_with_preserved_failures",
+  "completed_on": "2026-10-27",
+  "planned": 645,
+  "attempted": 645,
+  "statuses": {
+    "success": 624,
+    "validation_error": 15,
+    "api_error": 6
+  },
+  "unattempted": 0,
+  "pending_started": 0,
+  "automatic_retries": 0,
+  "requests_repeated": 0,
+  "validation_error_codes": {
+    "evidence_mismatch": 15
+  },
+  "source_judgment_log_sha256": "d975021750a36abb3adf0feefa3271991a08c97c0628e51cc3f76f8bb1f29cc3",
+  "queue_and_mapping_unchanged": true,
+  "generation_log_unchanged": true,
+  "unique_started_ids": 645,
+  "unique_result_ids": 645,
+  "historical_api_failures": 6,
+  "next_action": "Consolidate the saved judgments offline under the frozen aggregation policy. Preserve failed IDs; do not retry automatically.",
+  "partial_data_interpretation": "Execution complete; 21 failed judgments remain missing, never zero scores. No semantic superiority inferred from execution counts."
+}

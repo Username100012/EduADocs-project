@@ -1,0 +1,21 @@
+EduADocs — arquivos experimentais para conferência da metodologia
+Cópia organizada em 02/11/2026, sem novas gerações ou julgamentos.
+
+BAIXE E EXTRAIA O ZIP para acessar os arquivos completos. Os dados estão nos formatos originais JSON/JSONL/CSV/Markdown; os scripts Python também estão incluídos. Não é a versão atual da aplicação em produção.
+
+COMECE POR:
+1. docs/EXPERIMENTAL_ARTIFACTS_INDEX.md — mapa dos arquivos.
+2. docs/MAIN_STUDY_PROTOCOL.md e experiments/main_config.json — protocolo congelado, 12 tarefas, requisitos, modelos, parâmetros, repetições e plano de análise.
+3. artifacts/main-study-v1/generations.jsonl — execução principal: 216 tentativas (12 × 3 condições × 2 geradores × 3 repetições), 215 textos e um timeout preservado. O cabeçalho registra a configuração e os prompts.
+4. docs/REQUIREMENT_JUDGE_CONTRACT_V2.md, experiments/judge_response.v2.schema.json e src/experiment/judge_contract_v2.py — contrato, rubrica, prompt e parser v2 usados no julgamento principal.
+5. artifacts/main-judgments-v1/queue.jsonl, mapping.jsonl e judgments.v2.jsonl — requisições, identificação e respostas brutas dos 645 julgamentos. Foram 624 válidos, 15 falhas de validação e seis falhas de crédito; não houve repetição de IDs com erro na coleta principal.
+6. artifacts/main-study-v1/AUTOMATIC_METRICS.md e artifacts/main-judgments-v1/RESULTS.md — métricas e tabelas efetivamente calculadas.
+7. artifacts/main-judgments-v1/case-audit/ e paired-complete-sensitivity/ — auditoria exploratória e sensibilidade pós-coleta; manter separadas da metodologia originalmente congelada.
+8. docs/ARTICLE_MAIN_RESULTS_AND_LIMITATIONS.md — rascunho integrado, não substitui os registros brutos.
+
+ATENÇÃO À SEPARAÇÃO DOS CONJUNTOS:
+Outras pastas de artifacts/ e documentos v1 guardam piloto, pré-testes, diagnósticos e simulações para rastreabilidade. NÃO somar esses registros ao experimento principal. O principal é exclusivamente main-study-v1 e main-judgments-v1. Simulações não são chamadas reais. Manifestações v1 não substituem o contrato de julgamento v2.
+
+O conteúdo original dos arquivos foi mantido. MANIFEST_SHA256.json permite verificar a integridade das cópias. Credenciais reais, .env, ambiente virtual, configuração de contas, cópia de publicação Git e anexos alheios ao estudo foram excluídos. Não foram encontrados padrões de chaves na varredura do conjunto incluído; isso não é garantia absoluta de ausência de toda informação sensível.
+
+As correções de produção posteriores (modelos da interface, equações Word e registro baixável) não foram retroaplicadas ao estudo congelado. Nenhuma permissão de compartilhamento do Google Drive foi alterada.

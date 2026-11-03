@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eduadocs.local/schemas/task-catalog-v1.0.0.json",
+  "title": "EduADocs Experimental Task Catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "catalog_id", "language", "tasks"],
+  "properties": {
+    "schema_version": {
+      "const": "eduadocs-task-catalog-v1.0.0"
+    },
+    "catalog_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "const": "pt-BR"
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    }
+  },
+  "$defs": {
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["task_id", "subject_area", "payload"],
+      "properties": {
+        "task_id": {
+          "type": "string",
+          "pattern": "^task-[0-9]{3}$"
+        },
+        "subject_area": {
+          "type": "string",
+          "minLength": 1
+        },
+        "payload": {
+          "$ref": "#/$defs/payload"
+        }
+      }
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "topic",
+        "grade_level",
+        "learning_objectives",
+        "duration_minutes",
+        "methodology",
+        "materials",
+        "assessment_strategy"
+      ],
+      "properties": {
+        "topic": {"type": "string", "minLength": 1},
+        "grade_level": {"type": "string", "minLength": 1},
+        "learning_objectives": {"type": "string", "minLength": 1},
+        "duration_minutes": {"type": "integer", "minimum": 10},
+        "methodology": {"type": "string", "minLength": 1},
+        "materials": {"type": "string", "minLength": 1},
+        "assessment_strategy": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

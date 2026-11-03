@@ -1,0 +1,1116 @@
+{
+  "experimental_data": false,
+  "source_type": "technical_preflights",
+  "records": [
+    {
+      "source": "artifacts/qwen3-preflight/report.json",
+      "model": "qwen3:4b-q4_K_M",
+      "finish_reason": "stop",
+      "metrics": {
+        "metrics_version": "eduadocs-textual-proxies-v1",
+        "status": "text_available",
+        "word_count": 469,
+        "requirements": {
+          "topic": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "busca linear",
+                  "busca sequencial"
+                ],
+                "evidence": [
+                  {
+                    "line": 1,
+                    "text": "**Plano de Aula: Busca Linear em Vetores**",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 6,
+                    "text": "**Busca Linear em Vetores**",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 16,
+                    "text": "- Implementar algoritmo de busca linear em pseudocódigo sobre um vetor de inteiros;  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 31,
+                    "text": "- Produção de pseudocódigo de busca linear  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 42,
+                    "text": "- Explicar o que é uma busca linear e sua aplicação prática.  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 47,
+                    "text": "- Explicar o funcionamento de um algoritmo de busca linear.  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 49,
+                    "text": "- Apresentar a estrutura geral de pseudocódigo para busca linear.",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 53,
+                    "text": "- Os alunos trabalham em grupos para escrever o pseudocódigo de busca linear em um vetor de inteiros.  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 75,
+                    "text": "- Vídeo explicativo de busca linear (para reforço).  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 81,
+                    "text": "- Produção do pseudocódigo de busca linear.  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "vetor",
+                  "vetores",
+                  "array"
+                ],
+                "evidence": [
+                  {
+                    "line": 1,
+                    "text": "**Plano de Aula: Busca Linear em Vetores**",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 6,
+                    "text": "**Busca Linear em Vetores**",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 16,
+                    "text": "- Implementar algoritmo de busca linear em pseudocódigo sobre um vetor de inteiros;  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 18,
+                    "text": "- Testar casos de presença e ausência do elemento no vetor;  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 26,
+                    "text": "- Folha com vetores de inteiros para testes de mesa  ",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 41,
+                    "text": "- Introduzir o conceito de vetor e a necessidade de buscar elementos em uma estrutura de dados.  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 48,
+                    "text": "- Mostrar como o algoritmo iterativo percorre o vetor elemento por elemento.  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 53,
+                    "text": "- Os alunos trabalham em grupos para escrever o pseudocódigo de busca linear em um vetor de inteiros.  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 59,
+                    "text": "- Cada grupo recebe um vetor de inteiros e um valor a ser buscado.  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 67,
+                    "text": "  - O que acontece se o elemento for encontrado no início do vetor?  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 68,
+                    "text": "  - O que acontece se o elemento não estiver no vetor?  ",
+                    "alias": "vetor",
+                    "ambiguous_context": true
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": null,
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "grade_level": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "graduação",
+                  "ensino superior",
+                  "bacharelado"
+                ],
+                "evidence": [
+                  {
+                    "line": 9,
+                    "text": "Graduação em Ciência da Computação – Formação Introductory",
+                    "alias": "graduação",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": null,
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "learning_objectives": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "implementar",
+                  "elaborar",
+                  "testar"
+                ],
+                "evidence": [
+                  {
+                    "line": 16,
+                    "text": "- Implementar algoritmo de busca linear em pseudocódigo sobre um vetor de inteiros;  ",
+                    "alias": "implementar",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 18,
+                    "text": "- Testar casos de presença e ausência do elemento no vetor;  ",
+                    "alias": "testar",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "busca linear",
+                  "busca sequencial"
+                ],
+                "evidence": [
+                  {
+                    "line": 16,
+                    "text": "- Implementar algoritmo de busca linear em pseudocódigo sobre um vetor de inteiros;  ",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "vetor",
+                  "vetores",
+                  "array"
+                ],
+                "evidence": [
+                  {
+                    "line": 16,
+                    "text": "- Implementar algoritmo de busca linear em pseudocódigo sobre um vetor de inteiros;  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 18,
+                    "text": "- Testar casos de presença e ausência do elemento no vetor;  ",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": "objective",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "duration_minutes": {
+            "target_minutes": 50,
+            "declared": [
+              {
+                "minutes": 50.0,
+                "line": 11,
+                "text": "3. Duração:  \n50 minutos"
+              }
+            ],
+            "declared_matches_target": true,
+            "clock_intervals": [
+              {
+                "start": 0,
+                "end": 5,
+                "text": "00:00 – 00:05"
+              },
+              {
+                "start": 5,
+                "end": 15,
+                "text": "00:05 – 00:15"
+              },
+              {
+                "start": 15,
+                "end": 35,
+                "text": "00:15 – 00:35"
+              },
+              {
+                "start": 35,
+                "end": 50,
+                "text": "00:35 – 00:50"
+              },
+              {
+                "start": 50,
+                "end": 60,
+                "text": "00:50 – 01:00"
+              }
+            ],
+            "clock_schedule_minutes": 60,
+            "schedule_matches_target": false,
+            "detected_contradiction": true,
+            "warning": "Only explicit numeric declarations and contiguous HH:MM intervals are parsed; no inference from absence. Clock intervals are interpreted as lesson minutes."
+          },
+          "methodology": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "resolução colaborativa de problemas",
+                  "resolucao colaborativa de problemas"
+                ],
+                "evidence": [
+                  {
+                    "line": 22,
+                    "text": "Resolução colaborativa de problemas, com atividades práticas e discussões em grupo.",
+                    "alias": "resolução colaborativa de problemas",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 22,
+                    "text": "Resolução colaborativa de problemas, com atividades práticas e discussões em grupo.",
+                    "alias": "resolucao colaborativa de problemas",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": "methodology",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "materials": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "quadro",
+                  "lousa"
+                ],
+                "evidence": [
+                  {
+                    "line": 25,
+                    "text": "- Quadro de whiteboard  ",
+                    "alias": "quadro",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "folha",
+                  "folhas",
+                  "material impresso"
+                ],
+                "evidence": [
+                  {
+                    "line": 26,
+                    "text": "- Folha com vetores de inteiros para testes de mesa  ",
+                    "alias": "folha",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": "materials",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "assessment_strategy": {
+            "present": false,
+            "groups": [
+              {
+                "aliases": [
+                  "pseudocódigo",
+                  "pseudocodigo"
+                ],
+                "evidence": [
+                  {
+                    "line": 31,
+                    "text": "- Produção de pseudocódigo de busca linear  ",
+                    "alias": "pseudocódigo",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 31,
+                    "text": "- Produção de pseudocódigo de busca linear  ",
+                    "alias": "pseudocodigo",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 81,
+                    "text": "- Produção do pseudocódigo de busca linear.  ",
+                    "alias": "pseudocódigo",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 81,
+                    "text": "- Produção do pseudocódigo de busca linear.  ",
+                    "alias": "pseudocodigo",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 89,
+                    "text": "- Correção de erros no pseudocódigo.  ",
+                    "alias": "pseudocódigo",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 89,
+                    "text": "- Correção de erros no pseudocódigo.  ",
+                    "alias": "pseudocodigo",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "teste de mesa",
+                  "testes de mesa"
+                ],
+                "evidence": [
+                  {
+                    "line": 32,
+                    "text": "- Realização de testes de mesa com casos de presença e ausência  ",
+                    "alias": "testes de mesa",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 82,
+                    "text": "- Realização de testes de mesa com casos de presença e ausência.  ",
+                    "alias": "testes de mesa",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "presente",
+                  "encontrado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "ausente",
+                  "não encontrado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": "assessment",
+            "interpretation": "explicit_textual_evidence_only"
+          }
+        },
+        "limitations": [
+          "Not a semantic compliance score or factual validation.",
+          "Missing aliases or unrecognized headings can cause false negatives or nulls.",
+          "Negation detection is conservative and heuristic; language suitability is not evaluated."
+        ]
+      },
+      "operational": {
+        "latency_ms": 22594.7156,
+        "input_tokens": 236,
+        "output_tokens": 999,
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "source": "artifacts/ollama_local_feasibility.json",
+      "model": "llama3:latest",
+      "phase": "initial_load",
+      "finish_reason": "length",
+      "metrics": {
+        "metrics_version": "eduadocs-textual-proxies-v1",
+        "status": "text_available",
+        "word_count": 263,
+        "requirements": {
+          "topic": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "busca linear",
+                  "busca sequencial"
+                ],
+                "evidence": [
+                  {
+                    "line": 1,
+                    "text": "**Plano de Aula: Busca Linear em Vetores**",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de Aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 13,
+                    "text": "* Pseudocódigo de busca linear",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 18,
+                    "text": "\t* Repasse da importância da busca linear em programação",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 20,
+                    "text": "2. Implementação da Busca Linear (15 minutos)",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 21,
+                    "text": "\t* Mostrar como implementar a busca linear em pseudocódigo",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 41,
+                    "text": "* Avaliar a compreensão da implementação da busca linear em pseudocódigo e sua capacidade de aplicá-la em diferentes casos",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "vetor",
+                  "vetores",
+                  "array"
+                ],
+                "evidence": [
+                  {
+                    "line": 1,
+                    "text": "**Plano de Aula: Busca Linear em Vetores**",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de Aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 12,
+                    "text": "* Folha com vetores de inteiros para testes de mesa",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 23,
+                    "text": "\t\t+ Iterar sobre o vetor de inteiros",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 24,
+                    "text": "\t\t+ Verificar se o elemento buscado está presente no vetor",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 27,
+                    "text": "\t* Distribuir as folhas com vetores de inteiros para os estudantes",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 29,
+                    "text": "\t\t+ Vetor com elementos presentes e ausentes",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 30,
+                    "text": "\t\t+ Testar diferentes casos (por exemplo, elemento no início, meio ou final do vetor)",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": null,
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "grade_level": {
+            "present": false,
+            "groups": [
+              {
+                "aliases": [
+                  "graduação",
+                  "ensino superior",
+                  "bacharelado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": null,
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "learning_objectives": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "implementar",
+                  "elaborar",
+                  "testar"
+                ],
+                "evidence": [
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de Aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "implementar",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "busca linear",
+                  "busca sequencial"
+                ],
+                "evidence": [
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de Aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "vetor",
+                  "vetores",
+                  "array"
+                ],
+                "evidence": [
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de Aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": "objective",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "duration_minutes": {
+            "target_minutes": 50,
+            "declared": [
+              {
+                "minutes": 50.0,
+                "line": 5,
+                "text": "Duração: 50 minutos\n"
+              }
+            ],
+            "declared_matches_target": true,
+            "clock_intervals": [],
+            "clock_schedule_minutes": null,
+            "schedule_matches_target": null,
+            "detected_contradiction": false,
+            "warning": "Only explicit numeric declarations and contiguous HH:MM intervals are parsed; no inference from absence. Clock intervals are interpreted as lesson minutes."
+          },
+          "methodology": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "resolução colaborativa de problemas",
+                  "resolucao colaborativa de problemas"
+                ],
+                "evidence": [
+                  {
+                    "line": 7,
+                    "text": "**Metodologia:** Resolução Colaborativa de Problemas (RCP)",
+                    "alias": "resolução colaborativa de problemas",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 7,
+                    "text": "**Metodologia:** Resolução Colaborativa de Problemas (RCP)",
+                    "alias": "resolucao colaborativa de problemas",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": "methodology",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "materials": {
+            "present": null,
+            "groups": [
+              {
+                "aliases": [
+                  "quadro",
+                  "lousa"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "folha",
+                  "folhas",
+                  "material impresso"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": "materials",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "assessment_strategy": {
+            "present": false,
+            "groups": [
+              {
+                "aliases": [
+                  "pseudocódigo",
+                  "pseudocodigo"
+                ],
+                "evidence": [
+                  {
+                    "line": 41,
+                    "text": "* Avaliar a compreensão da implementação da busca linear em pseudocódigo e sua capacidade de aplicá-la em diferentes casos",
+                    "alias": "pseudocódigo",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 41,
+                    "text": "* Avaliar a compreensão da implementação da busca linear em pseudocódigo e sua capacidade de aplicá-la em diferentes casos",
+                    "alias": "pseudocodigo",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "teste de mesa",
+                  "testes de mesa"
+                ],
+                "evidence": [
+                  {
+                    "line": 40,
+                    "text": "* Observar atentamente a participação dos estudantes durante as discussões e testes de mesa",
+                    "alias": "testes de mesa",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "presente",
+                  "encontrado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "ausente",
+                  "não encontrado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": "assessment",
+            "interpretation": "explicit_textual_evidence_only"
+          }
+        },
+        "limitations": [
+          "Not a semantic compliance score or factual validation.",
+          "Missing aliases or unrecognized headings can cause false negatives or nulls.",
+          "Negation detection is conservative and heuristic; language suitability is not evaluated."
+        ]
+      },
+      "operational": {
+        "latency_ms": 19568.6791,
+        "input_tokens": 177,
+        "output_tokens": 512,
+        "finish_reason": "length"
+      }
+    },
+    {
+      "source": "artifacts/ollama_local_feasibility.json",
+      "model": "llama3:latest",
+      "phase": "warm",
+      "finish_reason": "length",
+      "metrics": {
+        "metrics_version": "eduadocs-textual-proxies-v1",
+        "status": "text_available",
+        "word_count": 264,
+        "requirements": {
+          "topic": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "busca linear",
+                  "busca sequencial"
+                ],
+                "evidence": [
+                  {
+                    "line": 1,
+                    "text": "**Plano de Aula: Busca Linear em Vetores**",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 15,
+                    "text": "* Motivar a importância da busca linear em diferentes contextos, como em algoritmos de ordenação ou em sistemas de gerenciamento de dados",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 19,
+                    "text": "* Distribuir o pseudocódigo de busca linear para os estudantes",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 23,
+                    "text": "**Pseudocódigo de Busca Linear:**",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "vetor",
+                  "vetores",
+                  "array"
+                ],
+                "evidence": [
+                  {
+                    "line": 1,
+                    "text": "**Plano de Aula: Busca Linear em Vetores**",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 9,
+                    "text": "* Quadro com vetores de inteiros para testes de mesa",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 14,
+                    "text": "* Revisar os conceitos básicos sobre vetores e busca em estruturas de dados",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 21,
+                    "text": "* Orientar os estudantes a utilizar o quadro com vetores de inteiros como exemplo para testes de mesa",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 25,
+                    "text": "FUNÇÃO busca_linear(vetor, valor_procurado):",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 27,
+                    "text": "    ENQUANTO posição < tamanho do vetor:",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 28,
+                    "text": "        SE vetor[posição] == valor_procurado:",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 36,
+                    "text": "* Solicitar que os estudantes realizem testes de mesa com diferentes vetores e valores procurados, utilizando o quadro como apoio",
+                    "alias": "vetores",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 38,
+                    "text": "\t+ Caso o elemento esteja presente no vetor: justificar a posição retornada e como foi encontrada",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  },
+                  {
+                    "line": 39,
+                    "text": "\t+ Caso o elemento não esteja presente no vetor: justificar que -1 é retornado e por quê",
+                    "alias": "vetor",
+                    "ambiguous_context": true
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": null,
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "grade_level": {
+            "present": false,
+            "groups": [
+              {
+                "aliases": [
+                  "graduação",
+                  "ensino superior",
+                  "bacharelado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": null,
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "learning_objectives": {
+            "present": true,
+            "groups": [
+              {
+                "aliases": [
+                  "implementar",
+                  "elaborar",
+                  "testar"
+                ],
+                "evidence": [
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "implementar",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "busca linear",
+                  "busca sequencial"
+                ],
+                "evidence": [
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "busca linear",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              },
+              {
+                "aliases": [
+                  "vetor",
+                  "vetores",
+                  "array"
+                ],
+                "evidence": [
+                  {
+                    "line": 3,
+                    "text": "**Objetivo de aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.",
+                    "alias": "vetor",
+                    "ambiguous_context": false
+                  }
+                ],
+                "positive_match": true
+              }
+            ],
+            "section_required": "objective",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "duration_minutes": {
+            "target_minutes": 50,
+            "declared": [
+              {
+                "minutes": 50.0,
+                "line": 5,
+                "text": "Duração: 50 minutos\n"
+              }
+            ],
+            "declared_matches_target": true,
+            "clock_intervals": [],
+            "clock_schedule_minutes": null,
+            "schedule_matches_target": null,
+            "detected_contradiction": false,
+            "warning": "Only explicit numeric declarations and contiguous HH:MM intervals are parsed; no inference from absence. Clock intervals are interpreted as lesson minutes."
+          },
+          "methodology": {
+            "present": null,
+            "groups": [
+              {
+                "aliases": [
+                  "resolução colaborativa de problemas",
+                  "resolucao colaborativa de problemas"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": "methodology",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "materials": {
+            "present": null,
+            "groups": [
+              {
+                "aliases": [
+                  "quadro",
+                  "lousa"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "folha",
+                  "folhas",
+                  "material impresso"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": "materials",
+            "interpretation": "explicit_textual_evidence_only"
+          },
+          "assessment_strategy": {
+            "present": false,
+            "groups": [
+              {
+                "aliases": [
+                  "pseudocódigo",
+                  "pseudocodigo"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "teste de mesa",
+                  "testes de mesa"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "presente",
+                  "encontrado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              },
+              {
+                "aliases": [
+                  "ausente",
+                  "não encontrado"
+                ],
+                "evidence": [],
+                "positive_match": false
+              }
+            ],
+            "section_required": "assessment",
+            "interpretation": "explicit_textual_evidence_only"
+          }
+        },
+        "limitations": [
+          "Not a semantic compliance score or factual validation.",
+          "Missing aliases or unrecognized headings can cause false negatives or nulls.",
+          "Negation detection is conservative and heuristic; language suitability is not evaluated."
+        ]
+      },
+      "operational": {
+        "latency_ms": 19758.0721,
+        "input_tokens": 177,
+        "output_tokens": 512,
+        "finish_reason": "length"
+      }
+    }
+  ],
+  "cost": null,
+  "note": "No composite scores, no automatic pedagogical judgment; truncated texts remain labelled."
+}

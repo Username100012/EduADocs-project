@@ -1,0 +1,2407 @@
+{
+  "source_log_sha256": "70969e6fe4df45f92d7dd9605eb68cb90b6dfa9eaa6d0346bb2f1f1a4b5b4135",
+  "scope": "All empty operational field observations with immediate context. These are extractor states, not verified missing content. No reassignment or detector tuning.",
+  "cases": [
+    {
+      "job_id": "gemini:task-001:c0:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 101,
+        "text": "## 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 102,
+          "text": "*   **Formativa:** Circulação do professor durante o Momento 4 para observar a lógica dos alunos e orientar na resolução de *bugs* sintáticos ou lógicos."
+        },
+        {
+          "line": 103,
+          "text": "*   **Entrega:** Envio do código do desafio (maior valor + índice) ao final da aula pelo AVA (Ambiente Virtual de Aprendizagem) ou verificação presencial."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-001:c1:r1",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 22,
+        "text": "### **Materiais e Recursos**"
+      },
+      "following_lines": [
+        {
+          "line": 23,
+          "text": "1. **Quadro e marcadores:** Para discussões conceituais iniciais e síntese final."
+        },
+        {
+          "line": 24,
+          "text": "2. **Folha de Testes (Handout impresso):** Contendo espaço para o pseudocódigo e tabelas pré-formatadas para testes de mesa com duas instâncias obrigatórias:"
+        },
+        {
+          "line": 25,
+          "text": "   * **Vetor A (Negativos):** $V = [-12, -3, -45, -5, -8]$"
+        },
+        {
+          "line": 26,
+          "text": "   * **Vetor B (Máximos repetidos):** $V = [4, 9, 2, 9, 7]$"
+        },
+        {
+          "line": 27,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-001:c1:r2",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 29,
+        "text": "## 3. Recursos e Materiais"
+      },
+      "following_lines": [
+        {
+          "line": 30,
+          "text": "* **Quadro branco e marcadores:** Para diagramação do problema, alinhamento conceitual e consolidação final."
+        },
+        {
+          "line": 31,
+          "text": "* **Folha de Atividade Pré-impressa (uma por dupla):** Contendo espaço para o pseudocódigo e tabelas estruturadas para a realização dos testes de mesa (colunas: *Índice*, *Elemento Atual*, *Comparação*, *Variável Maior*)."
+        },
+        {
+          "line": 32,
+          "text": ""
+        },
+        {
+          "line": 33,
+          "text": "---"
+        },
+        {
+          "line": 34,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-001:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 72,
+        "text": "### 6. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 73,
+          "text": ""
+        },
+        {
+          "line": 74,
+          "text": "* **Instrumento:** Entrega da folha com o pseudocódigo e os dois testes de mesa preenchidos."
+        },
+        {
+          "line": 75,
+          "text": "* **Critérios de Correção (Rubrica de 0 a 10 pontos):**"
+        },
+        {
+          "line": 76,
+          "text": "  1. **Lógica do Algoritmo (4,0 pts):**"
+        },
+        {
+          "line": 77,
+          "text": "     * Inicialização correta de `maior` com o primeiro elemento (2,0 pts)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-001:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 42,
+        "text": "### **5. Estratégia de Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 43,
+          "text": "* **Instrumento:** Entrega física da folha de atividades resolvida pela dupla ao término da aula."
+        },
+        {
+          "line": 44,
+          "text": "* **Critérios de Correção:**"
+        },
+        {
+          "line": 45,
+          "text": "  1. **Pseudocódigo (40%):** Corretude lógica da iteração, tratamento da condição de parada e correta inicialização da variável `maior` utilizando a primeira posição do vetor."
+        },
+        {
+          "line": 46,
+          "text": "  2. **Teste de Mesa 1 – Negativos (30%):** Rastreamento correto de variáveis comprovando que o algoritmo não falha ao lidar com valores menores que zero."
+        },
+        {
+          "line": 47,
+          "text": "  3. **Teste de Mesa 2 – Máximos Repetidos (30%):** Rastreamento demonstrando o comportamento correto diante de empates (garantindo que o valor final seja preservado sem falhas operacionais)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-002:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 87,
+        "text": "### **6. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 88,
+          "text": "*   **Formativa:** Circulação do professor pelo laboratório para observar o código dos alunos, tirar dúvidas e avaliar a autonomia na resolução do problema."
+        },
+        {
+          "line": 89,
+          "text": "*   **Diagnóstica:** Respostas dos alunos durante a etapa de problematização e perguntas dirigidas durante a aula."
+        },
+        {
+          "line": 90,
+          "text": "*   **Entregável (opcional):** Submissão do código funcionando no ambiente virtual (Moodle, Google Classroom ou GitHub) até o final do dia."
+        },
+        {
+          "line": 91,
+          "text": ""
+        },
+        {
+          "line": 92,
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-002:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 78,
+        "text": "### 6. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 79,
+          "text": "* **Instrumento:** Entrega da folha de atividades em duplas contendo:"
+        },
+        {
+          "line": 80,
+          "text": "  1. O pseudocódigo final da função."
+        },
+        {
+          "line": 81,
+          "text": "  2. As tabelas de Teste de Mesa preenchidas para os casos: $N=0$ e $V$ sem pares."
+        },
+        {
+          "line": 82,
+          "text": "  3. Uma breve justificativa (2 a 3 linhas) explicando: *\"Por que a inicialização da variável contadora em 0 é crucial para que o algoritmo responda corretamente a vetores vazios e sem pares?\"*"
+        },
+        {
+          "line": 83,
+          "text": "* **Critérios de Correção:**"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-002:c2:r1",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 22,
+        "text": "### 3. RECURSOS E MATERIAIS"
+      },
+      "following_lines": [
+        {
+          "line": 23,
+          "text": "* **Quadro branco e marcadores:** Para alinhamento conceitual, instruções e síntese coletiva."
+        },
+        {
+          "line": 24,
+          "text": "* **Folha de Atividade Impressa (por dupla):** Contendo a descrição do problema, modelos visuais de vetores (com valores mistos, apenas ímpares e vazio), espaço para escrita de pseudocódigo e grades para execução de testes de mesa (rastreamento de variáveis)."
+        },
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "---"
+        },
+        {
+          "line": 27,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-002:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 56,
+        "text": "### 5. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 57,
+          "text": "* **Instrumento:** Folha de Atividade produzida pela dupla (Pseudocódigo + Tabelas de Teste de Mesa + Justificativas)."
+        },
+        {
+          "line": 58,
+          "text": "* **Critérios de Correção (Rubrica):**"
+        },
+        {
+          "line": 59,
+          "text": "  1. **Lógica do Algoritmo:** Uso correto da inicialização do contador em zero, estrutura de repetição que respeite os limites do vetor e teste condicional de paridade ($V[i] \\pmod 2 == 0$)."
+        },
+        {
+          "line": 60,
+          "text": "  2. **Rastreamento de Casos de Borda (Teste de Mesa):**"
+        },
+        {
+          "line": 61,
+          "text": "     * Execução correta para **vetor vazio**, indicando que o laço não executa (iterações = 0) e o contador permanece 0."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-002:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 29,
+        "text": "### 4. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 30,
+          "text": "* **Instrumento:** Folha de atividade entregável em duplas ao final da sessão."
+        },
+        {
+          "line": 31,
+          "text": "* **Critérios:**"
+        },
+        {
+          "line": 32,
+          "text": "  1. *Sintaxe e Lógica:* Construção correta do pseudocódigo (inicialização de variáveis, laço e condição)."
+        },
+        {
+          "line": 33,
+          "text": "  2. *Teste de Mesa (Vetor Vazio):* Execução passo a passo demonstrando que o laço não itera e que a variável contadora permanece com o valor `0`."
+        },
+        {
+          "line": 34,
+          "text": "  3. *Teste de Mesa (Vetor sem Pares):* Execução passo a passo demonstrando que a condição nunca é satisfeita e justificando a saída `0`."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-003:c0:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 89,
+        "text": "### 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 90,
+          "text": "*   **Durante a aula:** Observação do engajamento na dinâmica dos voluntários e assertividade na resposta do exercício rápido no caderno."
+        },
+        {
+          "line": 91,
+          "text": "*   **Critério de Sucesso:** O aluno deve perceber que o índice final contém com certeza o maior valor, mesmo que o resto do vetor continue bagunçado."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-003:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 55,
+        "text": "### ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 56,
+          "text": ""
+        },
+        {
+          "line": 57,
+          "text": "* **Instrumento:** Exercício individual impresso ao final da folha de atividades (*Exit Ticket*)."
+        },
+        {
+          "line": 58,
+          "text": "* **Enunciado da Avaliação:**"
+        },
+        {
+          "line": 59,
+          "text": "  1. *Dado o vetor `[6, 8, 2, 9, 1]`, simule a primeira passagem de trocas adjacentes da esquerda para a direita. Registre o estado do vetor após **cada comparação realizada**, indicando explicitamente onde houve ou não troca.*"
+        },
+        {
+          "line": 60,
+          "text": "  2. *Explique sucintamente (2 a 4 linhas) por que o número 9 necessariamente terminará na última posição do vetor após essa única passagem.*"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-004:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 109,
+        "text": "## 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 110,
+          "text": ""
+        },
+        {
+          "line": 111,
+          "text": "A avaliação será formativa e contínua:"
+        },
+        {
+          "line": 112,
+          "text": "*   **Participação:** Engajamento dos alunos nas perguntas conceituais no início da aula."
+        },
+        {
+          "line": 113,
+          "text": "*   **Prática em Laboratório:** Capacidade de implementar a classe da Pilha e resolver o \"Desafio dos Parênteses\"."
+        },
+        {
+          "line": 114,
+          "text": "*   **Tarefa de Casa (Assíncrona):** Implementar um programa que inverta uma palavra digitada pelo usuário utilizando obrigatoriamente a estrutura de Pilha criada em aula."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-004:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 61,
+        "text": "### **6. Estratégia de Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 62,
+          "text": "* **Instrumento:** Entrega formal da folha com a **Tabela de Rastreamento de Operações**."
+        },
+        {
+          "line": 63,
+          "text": "* **Critérios de Correção (Rubrica Rápida):**"
+        },
+        {
+          "line": 64,
+          "text": "  * **Corretude da Pilha (40%):** A ordem dos elementos reflete fielmente o comportamento LIFO (o elemento do topo é sempre o último que foi inserido)."
+        },
+        {
+          "line": 65,
+          "text": "  * **Identificação do Topo (30%):** O apontador do topo é atualizado corretamente a cada passo (ex: `-1` ou `NULL` quando vazia, ou índice do último elemento)."
+        },
+        {
+          "line": 66,
+          "text": "  * **Tratamento de Subfluxo (30%):** Identificação precisa da operação que tentou remover de uma pilha já vazia, com anotação explícita de *Stack Underflow* / Erro / Exceção, mantendo o estado da estrutura íntegro após a falha."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-004:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 57,
+        "text": "### 4. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 58,
+          "text": ""
+        },
+        {
+          "line": 59,
+          "text": "* **Instrumento:** Entrega da folha de registro contendo o rastreamento detalhado das sequências de operações `push` e `pop`."
+        },
+        {
+          "line": 60,
+          "text": "* **Critérios de Correção (Rubrica Rápida):**"
+        },
+        {
+          "line": 61,
+          "text": "  1. **Consistência LIFO (40%):** Os dados inseridos e removidos respeitam estritamente a ordem \"último a entrar, primeiro a sair\"."
+        },
+        {
+          "line": 62,
+          "text": "  2. **Apontamento do Topo (30%):** O identificador do `topo` é corretamente atualizado e indicado a cada passo da execução."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-004:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 52,
+        "text": "## 7. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 53,
+          "text": ""
+        },
+        {
+          "line": 54,
+          "text": "### Instrumento Avaliativo:"
+        },
+        {
+          "line": 55,
+          "text": "* **Entrega da Folha de Rastreamento de Operações:** Cada dupla entrega a folha com a execução passo a passo do algoritmo de pilha."
+        },
+        {
+          "line": 56,
+          "text": ""
+        },
+        {
+          "line": 57,
+          "text": "### Critérios de Correção (Rubrica Rápida):"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-004:c2:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 64,
+        "text": "### ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 65,
+          "text": ""
+        },
+        {
+          "line": 66,
+          "text": "* **Instrumento:** Entrega individual ou em dupla da **Folha de Rastreamento de Operações**."
+        },
+        {
+          "line": 67,
+          "text": "* **Critérios de Correção:**"
+        },
+        {
+          "line": 68,
+          "text": "  1. **Rastreamento de Inserções (`push`):** Precisão no posicionamento do elemento empilhado imediatamente acima do anterior."
+        },
+        {
+          "line": 69,
+          "text": "  2. **Rastreamento de Remoções (`pop`):** Correção do elemento desempilhado e devida desconsideração visual deste no diagrama."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-005:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 45,
+        "text": "### 6. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 46,
+          "text": ""
+        },
+        {
+          "line": 47,
+          "text": "* **Instrumento:** Exercício impresso de checagem de saída (entregue nos últimos 10 minutos da aula)."
+        },
+        {
+          "line": 48,
+          "text": "* **Critérios de Correção e Desempenho:**"
+        },
+        {
+          "line": 49,
+          "text": "  1. **Identificação das Chaves (50%):**"
+        },
+        {
+          "line": 50,
+          "text": "     * Identificar `ID_Cliente` como Chave Primária (PK) na tabela `Clientes`."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-006:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 129,
+        "text": "## 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 130,
+          "text": "A avaliação será formativa através de:"
+        },
+        {
+          "line": 131,
+          "text": "*   Observação do professor durante a atividade prática (verificando quem teve dificuldade na cláusula `ON` ou em aliases)."
+        },
+        {
+          "line": 132,
+          "text": "*   Resolução do mini-desafio proposto no Momento 4."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-006:c0:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 85,
+        "text": "## 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 86,
+          "text": "A avaliação será formativa através de:"
+        },
+        {
+          "line": 87,
+          "text": "* Observação direta do professor durante o momento prático."
+        },
+        {
+          "line": 88,
+          "text": "* Resolução dos exercícios propostos nos minutos finais."
+        },
+        {
+          "line": 89,
+          "text": "* Participação nas perguntas orais feitas na revisão."
+        },
+        {
+          "line": 90,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-007:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 69,
+        "text": "## Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 70,
+          "text": ""
+        },
+        {
+          "line": 71,
+          "text": "* **Instrumento:** Entrega da folha de atividades preenchida pela dupla ao final da aula."
+        },
+        {
+          "line": 72,
+          "text": "* **Critérios de Correção (Checklist):**"
+        },
+        {
+          "line": 73,
+          "text": "  1. **Sintaxe SQL (40%):** Uso correto de `SELECT`, `FROM`, `GROUP BY` e `COUNT(...)`, respeitando a correspondência entre a coluna agrupada e a coluna projetada."
+        },
+        {
+          "line": 74,
+          "text": "  2. **Resultado Numérico (30%):** A tabela resultante esperada na folha deve conter a contagem correta de pedidos associada a cada cliente (conferência a partir da tabela pequena fornecida)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-007:c2:r1",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 21,
+        "text": "## 3. RECURSOS E MATERIAIS"
+      },
+      "following_lines": [
+        {
+          "line": 22,
+          "text": "* **Quadro branco e marcadores:** Para diagramação do fluxo de execução SQL e fechamento coletivo."
+        },
+        {
+          "line": 23,
+          "text": "* **Folha de Atividade Impressa (1 por dupla):** Contendo o esquema da tabela `Pedidos`, um conjunto reduzido de dados de teste (7 registros), área para resolução manual, espaço para escrita da sintaxe SQL e campo para justificativa teórica."
+        },
+        {
+          "line": 24,
+          "text": ""
+        },
+        {
+          "line": 25,
+          "text": "---"
+        },
+        {
+          "line": 26,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-007:c2:r2",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 28,
+        "text": "## 4. MATERIAIS E RECURSOS"
+      },
+      "following_lines": [
+        {
+          "line": 29,
+          "text": "* **Quadro branco e marcadores:** Para demonstração do fluxo lógico da consulta e síntese final."
+        },
+        {
+          "line": 30,
+          "text": "* **Folha de Atividade Impressa (1 por dupla):** Contendo uma tabela sintética de pedidos (`Pedidos`) com colunas `id_pedido`, `id_cliente`, `data_pedido` e `valor`."
+        },
+        {
+          "line": 31,
+          "text": ""
+        },
+        {
+          "line": 32,
+          "text": "---"
+        },
+        {
+          "line": 33,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-008:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 93,
+        "text": "## 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 94,
+          "text": ""
+        },
+        {
+          "line": 95,
+          "text": "* **Formativa:**"
+        },
+        {
+          "line": 96,
+          "text": "  * Observação da participação dos alunos durante a discussão inicial."
+        },
+        {
+          "line": 97,
+          "text": "  * Resolução do exercício prático em sala (acompanhamento do professor nas carteiras para tirar dúvidas)."
+        },
+        {
+          "line": 98,
+          "text": "* **Somativa (Pós-aula):**"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-008:c0:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 84,
+        "text": "### **5. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 85,
+          "text": "*   **Formativa:** Observação da participação dos alunos durante a resolução do exercício em duplas."
+        },
+        {
+          "line": 86,
+          "text": "*   **Somativa (Pós-aula/Tarefa de Casa):**"
+        },
+        {
+          "line": 87,
+          "text": "    *   Exercício com 3 cenários reais (ex: E-commerce com carrinho de compras, cadastro de currículos com formação acadêmica) para os alunos identificarem atributos multivalorados e normalizarem até a 1FN."
+        },
+        {
+          "line": 88,
+          "text": ""
+        },
+        {
+          "line": 89,
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-008:c0:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 78,
+        "text": "## 5. AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 79,
+          "text": "*   **Formativa:** Observação da participação dos alunos na discussão inicial e durante a resolução do exercício em duplas."
+        },
+        {
+          "line": 80,
+          "text": "*   **Somativa (Pós-aula):** Exercício individual para casa (ou no AVA) contendo 3 tabelas desnormalizadas para que o aluno aponte os erros e desenhe a solução na 1FN."
+        },
+        {
+          "line": 81,
+          "text": ""
+        },
+        {
+          "line": 82,
+          "text": "---"
+        },
+        {
+          "line": 83,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-008:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 59,
+        "text": "### 4. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 60,
+          "text": "* **Instrumento:** Entrega da folha de atividades preenchida pela dupla ao final da aula."
+        },
+        {
+          "line": 61,
+          "text": "* **Critérios avaliativos:**"
+        },
+        {
+          "line": 62,
+          "text": "  1. **Reorganização correta dos dados:** A tabela proposta deve apresentar dados estritamente atômicos (cada célula contendo apenas um único número de telefone)."
+        },
+        {
+          "line": 63,
+          "text": "  2. **Justificativa técnica:** Capacidade de explicar, por escrito ou oralmente, por que a solução elimina o atributo multivalorado e atende à 1FN, indicando como a identificação das tuplas (chave primária) foi tratada na nova estrutura."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-008:c2:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 51,
+        "text": "## 5. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 52,
+          "text": "- **Instrumento:** Apresentação da folha de atividade preenchida e arguição oral formativa durante a plenária final."
+        },
+        {
+          "line": 53,
+          "text": "- **Critérios de Sucesso:**"
+        },
+        {
+          "line": 54,
+          "text": "  - A dupla deve apresentar a tabela devidamente reorganizada com valores atômicos;"
+        },
+        {
+          "line": 55,
+          "text": "  - Explicar com clareza como os números de telefone deixaram de ocupar uma única célula multivalorada;"
+        },
+        {
+          "line": 56,
+          "text": "  - Justificar a conformidade da nova estrutura com a Primeira Forma Normal (1FN), demonstrando a eliminação de valores compostos/multivalorados."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c0:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 100,
+        "text": "### **7. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 101,
+          "text": "*   **Formativa:** Observação da participação dos alunos durante a discussão em sala e precisão das dúvidas levantadas."
+        },
+        {
+          "line": 102,
+          "text": "*   **Prática:** Entrega do documento de especificação do caso de uso secundário proposto na atividade em grupo (avaliar coerência dos passos, clareza e identificação correta de exceções)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c1:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 39,
+        "text": "## 4. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 40,
+          "text": ""
+        },
+        {
+          "line": 41,
+          "text": "* **Instrumento:** Entrega da folha de atividade preenchida pela dupla."
+        },
+        {
+          "line": 42,
+          "text": "* **Critérios de Correção (Rubrica simples):**"
+        },
+        {
+          "line": 43,
+          "text": "  1. **Ator:** Identificação correta do ator primário (ex: *Aluno/Cliente/Atleta*)."
+        },
+        {
+          "line": 44,
+          "text": "  2. **Pré-condições:** Definição de estados válidos que antecedem a ação (ex: *Usuário autenticado no sistema; Sistema conectado ao banco de dados de horários*)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 58,
+        "text": "## 4. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 59,
+          "text": ""
+        },
+        {
+          "line": 60,
+          "text": "* **Instrumento:** Entrega escrita da especificação elaborada em grupo ao final da aula."
+        },
+        {
+          "line": 61,
+          "text": "* **Critérios de Correção (Rubrica Rápida):**"
+        },
+        {
+          "line": 62,
+          "text": "  1. **Completude Estrutural:** Presença explícita de Ator, Pré-condição, Fluxo Principal e Fluxo Alternativo."
+        },
+        {
+          "line": 63,
+          "text": "  2. **Coerência do Fluxo Alternativo:** O desvio deve estar claramente indexado a um passo do fluxo principal (ex.: *\"Passo 3a: A quadra está indisponível...\"*)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 60,
+        "text": "## 6. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 61,
+          "text": "* **Instrumento:** Entrega da folha de atividade preenchida pela dupla/trio ao final da aula."
+        },
+        {
+          "line": 62,
+          "text": "* **Critérios de Avaliação:**"
+        },
+        {
+          "line": 63,
+          "text": "  1. **Ator:** Identificação correta da entidade externa iniciadora (ex.: Cliente/Atleta)."
+        },
+        {
+          "line": 64,
+          "text": "  2. **Pré-condição:** Definição coerente do estado prévio do sistema (ex.: \"O usuário deve estar autenticado no sistema\" ou \"A quadra deve estar cadastrada e ativa\")."
+        },
+        {
+          "line": 65,
+          "text": "  3. **Fluxo Principal:** Sequenciamento lógico da interação Usuário-Sistema até a confirmação da reserva."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c2:r2",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 21,
+        "text": "### 3. RECURSOS E MATERIAIS"
+      },
+      "following_lines": [
+        {
+          "line": 22,
+          "text": "* **Quadro branco e marcadores:** Para alinhamento de conceitos, anotações de dúvidas e síntese final."
+        },
+        {
+          "line": 23,
+          "text": "* **Folha impressa de atividade (Handout):** Contendo uma descrição narrativa sucinta das regras de negócio de um sistema de reserva de quadras (horários, permissões, checagem de conflitos) e o template para preenchimento da especificação do caso de uso."
+        },
+        {
+          "line": 24,
+          "text": ""
+        },
+        {
+          "line": 25,
+          "text": "---"
+        },
+        {
+          "line": 26,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 52,
+        "text": "### 5. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 53,
+          "text": "* **Instrumento:** Entrega da folha de atividade preenchida pelo grupo ao término da aula."
+        },
+        {
+          "line": 54,
+          "text": "* **Critérios de Correção (Rubrica Rápida):**"
+        },
+        {
+          "line": 55,
+          "text": "  1. **Ator:** Identificação clara de quem interage primariamente com o sistema."
+        },
+        {
+          "line": 56,
+          "text": "  2. **Pré-condição:** Definição de um estado válido e necessário antes do início do caso de uso."
+        },
+        {
+          "line": 57,
+          "text": "  3. **Fluxo Principal:** Sequência lógica e coesa de ações usuário-sistema que leva ao sucesso da reserva."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-009:c2:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 48,
+        "text": "## 5. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 49,
+          "text": ""
+        },
+        {
+          "line": 50,
+          "text": "* **Instrumento:** Entrega individual ou em duplas da folha de especificação do caso de uso preenchida ao final da aula."
+        },
+        {
+          "line": 51,
+          "text": "* **Critérios de Correção (Rubrica):**"
+        },
+        {
+          "line": 52,
+          "text": "  1. **Ator e Pré-condição:** Identificação precisa do agente externo e do estado prévio do sistema exigido para disparar a ação."
+        },
+        {
+          "line": 53,
+          "text": "  2. **Fluxo Principal:** Sequência lógica, coesa e bidirecional (ações do ator vs. respostas do sistema) para o caminho de sucesso da reserva."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-010:c1:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 24,
+        "text": "### **Estratégia de Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 25,
+          "text": "* **Formato:** Entrega física (em duplas) de uma folha contendo:"
+        },
+        {
+          "line": 26,
+          "text": "  1. O cenário em formato BDD para o **cupom válido** (com seus impactos observáveis)."
+        },
+        {
+          "line": 27,
+          "text": "  2. O cenário em formato BDD para o **cupom expirado** (com suas restrições e feedback)."
+        },
+        {
+          "line": 28,
+          "text": "  3. Breve justificativa (1 a 2 linhas) do porquê o sistema deve exibir aqueles resultados específicos."
+        },
+        {
+          "line": 29,
+          "text": "* **Critério de Sucesso:** Correção semântica da sintaxe Dado/Quando/Então, diferenciação clara entre os estados de sucesso e erro, e identificação precisa do resultado observável (ex.: cálculo correto de valor vs. recusa sem alteração de saldo)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-010:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 39,
+        "text": "## 5. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 40,
+          "text": ""
+        },
+        {
+          "line": 41,
+          "text": "* **Instrumento:** Entrega escrita ao final da aula (individual ou em dupla)."
+        },
+        {
+          "line": 42,
+          "text": "* **Critérios de Sucesso:**"
+        },
+        {
+          "line": 43,
+          "text": "  1. **Estrutura Sintática:** Uso correto dos conectivos `Dado`, `Quando` e `Então`."
+        },
+        {
+          "line": 44,
+          "text": "  2. **Diferenciação de Cenários:** "
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-010:c2:r2",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 17,
+        "text": "## 3. Materiais e Recursos"
+      },
+      "following_lines": [
+        {
+          "line": 18,
+          "text": "* **Quadro branco e marcadores:** Para modelagem coletiva da sintaxe e discussão de conceitos."
+        },
+        {
+          "line": 19,
+          "text": "* **Folha de apoio impressa:** \"Documento de Regras de Negócio: Módulo de Cupons do E-commerce\" (contendo regras de validação, validade temporal, cálculos de desconto e comportamentos esperados do sistema)."
+        },
+        {
+          "line": 20,
+          "text": ""
+        },
+        {
+          "line": 21,
+          "text": "---"
+        },
+        {
+          "line": 22,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-010:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 35,
+        "text": "## 5. Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 36,
+          "text": ""
+        },
+        {
+          "line": 37,
+          "text": "* **Instrumento:** Entrega escrita ao final da aula (folha de resolução) contendo:"
+        },
+        {
+          "line": 38,
+          "text": "  1. Cenário 1: Cupom Válido (formato Dado/Quando/Então + Justificativa do resultado)."
+        },
+        {
+          "line": 39,
+          "text": "  2. Cenário 2: Cupom Expirado (formato Dado/Quando/Então + Justificativa do resultado)."
+        },
+        {
+          "line": 40,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-010:c2:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 30,
+        "text": "## Estratégia de Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 31,
+          "text": ""
+        },
+        {
+          "line": 32,
+          "text": "- **Instrumento:** Entrega escrita ao final da aula (folha de atividade preenchida)."
+        },
+        {
+          "line": 33,
+          "text": "- **Conteúdo da entrega:**"
+        },
+        {
+          "line": 34,
+          "text": "  1. **Cenário 1 (Cupom Válido):** Estrutura *Dado-Quando-Então* completa, contendo o estado do carrinho, a inserção do código e o resultado esperado (aplicação do desconto, atualização do valor total e mensagem de sucesso)."
+        },
+        {
+          "line": 35,
+          "text": "  2. **Cenário 2 (Cupom Expirado):** Estrutura *Dado-Quando-Então* completa, contendo a data simulada/status do cupom, a tentativa de aplicação e o resultado esperado (manutenção do valor original e mensagem clara de erro/expiração)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-011:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 89,
+        "text": "## 5. Avaliação"
+      },
+      "following_lines": [
+        {
+          "line": 90,
+          "text": "A avaliação será formativa e baseada em:"
+        },
+        {
+          "line": 91,
+          "text": "1.  **Participação:** Engajamento dos alunos durante a discussão inicial e a análise do problema."
+        },
+        {
+          "line": 92,
+          "text": "2.  **Entrega Prática:** Verificação da matriz de casos de teste produzida na *Fase 4*. Critérios:"
+        },
+        {
+          "line": 93,
+          "text": "    *   Identificou corretamente as classes válidas?"
+        },
+        {
+          "line": 94,
+          "text": "    *   Identificou as classes inválidas (incluindo valores negativos e não numéricos)?"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-011:c1:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 62,
+        "text": "### **4. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 63,
+          "text": "* **Instrumento:** Entrega da folha de atividade em duplas/trios."
+        },
+        {
+          "line": 64,
+          "text": "* **Critérios de Sucesso (Rubrica de Correção):**"
+        },
+        {
+          "line": 65,
+          "text": "  1. **Classificação das Partições:** Identificação correta de pelo menos três classes fundamentais (Inválida $< 0$, Válida $0 \\le x \\le 120$, Inválida $> 120$)."
+        },
+        {
+          "line": 66,
+          "text": "  2. **Seleção de Entradas:** Apresentação de três valores de teste coerentes com cada partição (um para cada)."
+        },
+        {
+          "line": 67,
+          "text": "  3. **Resultados Esperados:** Coerência entre a entrada escolhida e a saída esperada (ex.: Entrada: $30 \\rightarrow$ Aceito; Entrada: $-5 \\rightarrow$ Rejeitado; Entrada: $150 \\rightarrow$ Rejeitado)."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-011:c1:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 71,
+        "text": "### **4. Estratégia de Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 72,
+          "text": ""
+        },
+        {
+          "line": 73,
+          "text": "* **Instrumento:** Entrega da folha de atividade preenchida pelo grupo."
+        },
+        {
+          "line": 74,
+          "text": "* **Critérios de Sucesso:**"
+        },
+        {
+          "line": 75,
+          "text": "  1. **Classificação das Partições:** Identificação correta de pelo menos uma classe válida ($0 \\le x \\le 120$) e duas classes inválidas ($x < 0$ e $x > 120$ no domínio dos inteiros)."
+        },
+        {
+          "line": 76,
+          "text": "  2. **Casos de Teste (Mínimo de 3 entradas):**"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-011:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 47,
+        "text": "### 6. AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 48,
+          "text": "* **Instrumento:** Entrega da folha de resolução ao final da aula."
+        },
+        {
+          "line": 49,
+          "text": "* **Critérios de Sucesso:**"
+        },
+        {
+          "line": 50,
+          "text": "  1. Identificação correta das 3 partições (1 válida e 2 inválidas)."
+        },
+        {
+          "line": 51,
+          "text": "  2. Apresentação de **três entradas de teste representativas** cobrindo todas as classes, contendo:"
+        },
+        {
+          "line": 52,
+          "text": "     * **Entrada 1 (Partição Inválida Inferior):** Exemplo de entrada (ex: `-5`) $\\rightarrow$ Resultado esperado: Rejeitado / Erro."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-011:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 39,
+        "text": "### ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 40,
+          "text": "* **Instrumento:** Entrega de registro escrito na própria folha de atividades ao final da aula."
+        },
+        {
+          "line": 41,
+          "text": "* **Critério de Aceitação / Rubrica:**"
+        },
+        {
+          "line": 42,
+          "text": "  1. **Mapeamento das Partições:** Identificação correta de pelo menos uma partição válida ($[0, 120]$) e duas partições inválidas ($< 0$ e $> 120$)."
+        },
+        {
+          "line": 43,
+          "text": "  2. **Casos de Teste (Mínimo de 3 entradas):**"
+        },
+        {
+          "line": 44,
+          "text": "     * **Entrada 1 (Classe Válida):** Ex.: Idade = `25` $\\rightarrow$ *Resultado Esperado:* Aceito/Sucesso."
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-012:c1:r3",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 22,
+        "text": "### 2. Recursos e Materiais"
+      },
+      "following_lines": [
+        {
+          "line": 23,
+          "text": "* **Quadro branco e marcadores:** Para alinhamento conceitual, desenho do modelo da matriz e síntese final."
+        },
+        {
+          "line": 24,
+          "text": "* **Folha impressa de atividades (1 por dupla/trio):** Contendo a descrição de três requisitos funcionais de um app de entregas e um banco com casos de teste pré-definidos (propositalmente incompletos)."
+        },
+        {
+          "line": 25,
+          "text": ""
+        },
+        {
+          "line": 26,
+          "text": "---"
+        },
+        {
+          "line": 27,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-012:c2:r1",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 19,
+        "text": "### 2. MATERIAIS E RECURSOS"
+      },
+      "following_lines": [
+        {
+          "line": 20,
+          "text": "* **Quadro branco e marcadores:** Para instrução inicial, alinhamento de conceitos e consolidação final."
+        },
+        {
+          "line": 21,
+          "text": "* **Folha de Atividade Impressa (por dupla/trio):** Contendo a descrição de três requisitos funcionais e um conjunto com quatro casos de teste previamente formulados."
+        },
+        {
+          "line": 22,
+          "text": ""
+        },
+        {
+          "line": 23,
+          "text": "> **Conteúdo do Material Impresso:**"
+        },
+        {
+          "line": 24,
+          "text": "> * **Requisitos Funcionais (RF):**"
+        }
+      ]
+    },
+    {
+      "job_id": "gemini:task-012:c2:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 70,
+        "text": "### 6. ESTRATÉGIA DE AVALIAÇÃO"
+      },
+      "following_lines": [
+        {
+          "line": 71,
+          "text": "* **Instrumento:** Entrega da folha de atividade preenchida pelo grupo ao final da aula."
+        },
+        {
+          "line": 72,
+          "text": "* **Critérios de Correção:**"
+        },
+        {
+          "line": 73,
+          "text": "  1. **Estrutura da Matriz (40%):** Associação correta entre os requisitos funcionais e os casos de teste pré-existentes."
+        },
+        {
+          "line": 74,
+          "text": "  2. **Identificação da Lacuna (20%):** Reconhecimento exato do requisito que permaneceu sem nenhum caso de teste associado."
+        },
+        {
+          "line": 75,
+          "text": "  3. **Proposta e Justificativa (40%):** Clareza técnica na descrição do novo caso de teste criado e coerência da justificativa que demonstra a cobertura efetiva da regra do requisito em questão."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-002:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 103,
+        "text": "## **Avaliação:**"
+      },
+      "following_lines": [
+        {
+          "line": 104,
+          "text": ""
+        },
+        {
+          "line": 105,
+          "text": "- **Participação na aula:**"
+        },
+        {
+          "line": 106,
+          "text": "- **Execução correta da atividade prática:**"
+        },
+        {
+          "line": 107,
+          "text": "- **Entendimento do conceito de números pares e vetores.**"
+        },
+        {
+          "line": 108,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-002:c1:r2",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 37,
+        "text": "**Materiais:**"
+      },
+      "following_lines": [
+        {
+          "line": 38,
+          "text": ""
+        },
+        {
+          "line": 39,
+          "text": "- **Quadro:** com exemplos de vetores (com valores pares, ímpares e vazio)."
+        },
+        {
+          "line": 40,
+          "text": "- **Folhas:** com os mesmos vetores para os alunos anotarem e testarem."
+        },
+        {
+          "line": 41,
+          "text": "- **Pincel e papel:** para desenhar o pseudocódigo."
+        },
+        {
+          "line": 42,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-002:c1:r3",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 37,
+        "text": "**Materiais:**"
+      },
+      "following_lines": [
+        {
+          "line": 38,
+          "text": ""
+        },
+        {
+          "line": 39,
+          "text": "- **Quadro:** com exemplos de vetores (com valores pares, ímpares e vazio)."
+        },
+        {
+          "line": 40,
+          "text": "- **Folhas:** com os mesmos vetores para os alunos anotarem e testarem."
+        },
+        {
+          "line": 41,
+          "text": "- **Pincel e papel:** para desenhar o pseudocódigo."
+        },
+        {
+          "line": 42,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-003:c0:r1",
+      "requirement": "duration_minutes",
+      "observation": "empty",
+      "label": {
+        "line": 10,
+        "text": "### **2. Duração da Aula:**"
+      },
+      "following_lines": [
+        {
+          "line": 11,
+          "text": "**45 minutos**"
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "### **3. Objetivos de Aprendizagem:**"
+        },
+        {
+          "line": 14,
+          "text": ""
+        },
+        {
+          "line": 15,
+          "text": "- Entender o conceito de **ordenamento por bolha**."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-003:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 70,
+        "text": "### **6. Avaliação:**"
+      },
+      "following_lines": [
+        {
+          "line": 71,
+          "text": "- **Atividade prática:** O aluno deve implementar o algoritmo de ordenação por bolha em uma linguagem de programação simples."
+        },
+        {
+          "line": 72,
+          "text": "- **Perguntas de reflexão:** Alunos respondem a algumas perguntas sobre o funcionamento do algoritmo."
+        },
+        {
+          "line": 73,
+          "text": "- **Discussão em grupo:** Os alunos discutem as vantagens e desvantagens do algoritmo."
+        },
+        {
+          "line": 74,
+          "text": ""
+        },
+        {
+          "line": 75,
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-003:c0:r2",
+      "requirement": "duration_minutes",
+      "observation": "empty",
+      "label": {
+        "line": 10,
+        "text": "### **2. Duração da Aula:**"
+      },
+      "following_lines": [
+        {
+          "line": 11,
+          "text": "**1 aula (45 minutos)**"
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "### **3. Objetivos de Aprendizagem:**"
+        },
+        {
+          "line": 14,
+          "text": "- Entender o conceito de **ordenação por bolha**."
+        },
+        {
+          "line": 15,
+          "text": "- Compreender o **mecanismo de trocas adjacentes** nesse algoritmo."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-003:c0:r3",
+      "requirement": "duration_minutes",
+      "observation": "empty",
+      "label": {
+        "line": 10,
+        "text": "### **2. Duração da Aula:**"
+      },
+      "following_lines": [
+        {
+          "line": 11,
+          "text": "**90 minutos**"
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "### **3. Objetivos de Aprendizagem:**"
+        },
+        {
+          "line": 14,
+          "text": ""
+        },
+        {
+          "line": 15,
+          "text": "- Entender o conceito de **ordenação por bolha**."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-004:c0:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 129,
+        "text": "### **6. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 130,
+          "text": ""
+        },
+        {
+          "line": 131,
+          "text": "- **Participação nas aulas:** 20%  "
+        },
+        {
+          "line": 132,
+          "text": "- **Exercício prático (implementação de pilha):** 30%  "
+        },
+        {
+          "line": 133,
+          "text": "- **Teste final (com perguntas sobre pilhas):** 50%  "
+        },
+        {
+          "line": 134,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-004:c0:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 129,
+        "text": "### **6. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 130,
+          "text": ""
+        },
+        {
+          "line": 131,
+          "text": "- **Participação nas aulas:** 20%  "
+        },
+        {
+          "line": 132,
+          "text": "- **Exercício prático (implementação de pilha):** 30%  "
+        },
+        {
+          "line": 133,
+          "text": "- **Teste final (com perguntas sobre pilhas):** 50%  "
+        },
+        {
+          "line": 134,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-004:c0:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 129,
+        "text": "### **6. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 130,
+          "text": ""
+        },
+        {
+          "line": 131,
+          "text": "- **Participação nas aulas:** 20%  "
+        },
+        {
+          "line": 132,
+          "text": "- **Exercício prático (implementação de pilha):** 30%  "
+        },
+        {
+          "line": 133,
+          "text": "- **Teste final (com perguntas sobre pilhas):** 50%  "
+        },
+        {
+          "line": 134,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-006:c2:r1",
+      "requirement": "learning_objectives",
+      "observation": "empty",
+      "label": {
+        "line": 20,
+        "text": "### **4. Objetivo de Aprendizagem**  "
+      },
+      "following_lines": [
+        {
+          "line": 21,
+          "text": "Os alunos serão capazes de:  "
+        },
+        {
+          "line": 22,
+          "text": "- Escrever uma consulta SQL que utiliza o INNER JOIN entre as tabelas **clientes** e **pedidos**.  "
+        },
+        {
+          "line": 23,
+          "text": "- Identificar quais linhas serão retornadas pela consulta.  "
+        },
+        {
+          "line": 24,
+          "text": "- Explicar por que clientes que não possuem pedidos não aparecerão nos resultados."
+        },
+        {
+          "line": 25,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-006:c2:r2",
+      "requirement": "learning_objectives",
+      "observation": "empty",
+      "label": {
+        "line": 20,
+        "text": "### **4. Objetivo de Aprendizagem**  "
+      },
+      "following_lines": [
+        {
+          "line": 21,
+          "text": "Os alunos serão capazes de:  "
+        },
+        {
+          "line": 22,
+          "text": "- Escrever uma consulta SQL que utiliza o INNER JOIN entre as tabelas **clientes** e **pedidos**.  "
+        },
+        {
+          "line": 23,
+          "text": "- Identificar quais linhas serão retornadas pela consulta.  "
+        },
+        {
+          "line": 24,
+          "text": "- Explicar por que clientes que não possuem pedidos não aparecerão nos resultados."
+        },
+        {
+          "line": 25,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-006:c2:r3",
+      "requirement": "learning_objectives",
+      "observation": "empty",
+      "label": {
+        "line": 20,
+        "text": "### **4. Objetivo de Aprendizagem**  "
+      },
+      "following_lines": [
+        {
+          "line": 21,
+          "text": "Os alunos serão capazes de:  "
+        },
+        {
+          "line": 22,
+          "text": "- Escrever uma consulta SQL que utiliza o INNER JOIN entre as tabelas **clientes** e **pedidos**.  "
+        },
+        {
+          "line": 23,
+          "text": "- Identificar quais linhas serão retornadas por essa consulta.  "
+        },
+        {
+          "line": 24,
+          "text": "- Explicar por que clientes que não possuem pedidos não aparecerão no resultado."
+        },
+        {
+          "line": 25,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-007:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 128,
+        "text": "## **Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 129,
+          "text": ""
+        },
+        {
+          "line": 130,
+          "text": "- **Estratégia:**  "
+        },
+        {
+          "line": 131,
+          "text": "  - A consulta SQL correta e a justificativa sobre a diferença entre linhas e grupos."
+        },
+        {
+          "line": 132,
+          "text": "  - Participação ativa em grupos e em discussões."
+        },
+        {
+          "line": 133,
+          "text": "- **Avaliação por desempenho:**  "
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-008:c0:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 69,
+        "text": "## **Avaliação:**"
+      },
+      "following_lines": [
+        {
+          "line": 70,
+          "text": "- **Atividade de grupo:** Desenhar um esquema de uma tabela com atributos multivalorados e transformá-la em 1FN.  "
+        },
+        {
+          "line": 71,
+          "text": "- **Perguntas de reflexão:**  "
+        },
+        {
+          "line": 72,
+          "text": "  - Por que a normalização é importante?  "
+        },
+        {
+          "line": 73,
+          "text": "  - Qual é a diferença entre atributo simples e atributo multivalorado?"
+        },
+        {
+          "line": 74,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-008:c1:r2",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 25,
+        "text": "**Materiais:**"
+      },
+      "following_lines": [
+        {
+          "line": 26,
+          "text": "- **Quadro:** com uma tabela de contatos que inclui múltiplos telefones em uma única célula."
+        },
+        {
+          "line": 27,
+          "text": "- **Folha com tabela de contatos:** com dados de exemplo, incluindo campos como:  "
+        },
+        {
+          "line": 28,
+          "text": "  - Nome  "
+        },
+        {
+          "line": 29,
+          "text": "  - Endereço  "
+        },
+        {
+          "line": 30,
+          "text": "  - Telefone 1  "
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-008:c1:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 91,
+        "text": "**Estratégia de Avaliação:**  "
+      },
+      "following_lines": [
+        {
+          "line": 92,
+          "text": "- **Exposição da tabela reorganizada:** Os alunos apresentam a tabela reorganizada e explicam como os telefones deixaram de ocupar uma única célula."
+        },
+        {
+          "line": 93,
+          "text": "- **Justificativa:** Os alunos justificam a reorganização, relacionando-a à aplicação da 1FN."
+        },
+        {
+          "line": 94,
+          "text": ""
+        },
+        {
+          "line": 95,
+          "text": "**Critérios de Avaliação:**"
+        },
+        {
+          "line": 96,
+          "text": "- Identificação correta do atributo multivalorado."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-010:c1:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 76,
+        "text": "**Estratégia de Avaliação:**  "
+      },
+      "following_lines": [
+        {
+          "line": 77,
+          "text": "- **Cenário 1:** Cupom válido  "
+        },
+        {
+          "line": 78,
+          "text": "  - **Dado:** Data de expiração do cupom é 30/06/2025.  "
+        },
+        {
+          "line": 79,
+          "text": "  - **Quando:** Data atual é 15/06/2025.  "
+        },
+        {
+          "line": 80,
+          "text": "  - **Então:** O cupom é válido.  "
+        },
+        {
+          "line": 81,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-010:c2:r1",
+      "requirement": "learning_objectives",
+      "observation": "empty",
+      "label": {
+        "line": 16,
+        "text": "### **2. OBJETIVOS DE APRENDIZAGEM**"
+      },
+      "following_lines": [
+        {
+          "line": 17,
+          "text": ""
+        },
+        {
+          "line": 18,
+          "text": "- **Objetivo principal:** Identificar e especificar dois critérios de aceitação no formato **Dado Quando Então** para determinar se um cupom é **válido** ou **expirado** em uma compra.  "
+        },
+        {
+          "line": 19,
+          "text": "- **Objetivos secundários:**  "
+        },
+        {
+          "line": 20,
+          "text": "  - Compreender a importância de regras de validação em sistemas de compras.  "
+        },
+        {
+          "line": 21,
+          "text": "  - Desenvolver habilidades de pensamento lógico e resolução de problemas.  "
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-010:c2:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 76,
+        "text": "### **5. AVALIAÇÃO**"
+      },
+      "following_lines": [
+        {
+          "line": 77,
+          "text": ""
+        },
+        {
+          "line": 78,
+          "text": "- **Critérios de avaliação:**"
+        },
+        {
+          "line": 79,
+          "text": "  - Uso correto do formato **Dado Quando Então**."
+        },
+        {
+          "line": 80,
+          "text": "  - Precisão nos critérios de validade e expiração."
+        },
+        {
+          "line": 81,
+          "text": "  - Justificativa clara dos resultados observáveis."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-010:c2:r2",
+      "requirement": "learning_objectives",
+      "observation": "empty",
+      "label": {
+        "line": 16,
+        "text": "### **2. OBJETIVOS DE APRENDIZAGEM**"
+      },
+      "following_lines": [
+        {
+          "line": 17,
+          "text": ""
+        },
+        {
+          "line": 18,
+          "text": "- **Objetivo principal:** Identificar e especificar dois critérios de aceitação no formato **Dado Quando Então** para determinar se um cupom é **válido** ou **expirado** em uma compra.  "
+        },
+        {
+          "line": 19,
+          "text": "- **Objetivos secundários:**  "
+        },
+        {
+          "line": 20,
+          "text": "  - Compreender a importância de regras de validação em sistemas de compras.  "
+        },
+        {
+          "line": 21,
+          "text": "  - Desenvolver habilidades de pensamento lógico e resolução de problemas.  "
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-010:c2:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 76,
+        "text": "### **5. AVALIAÇÃO**"
+      },
+      "following_lines": [
+        {
+          "line": 77,
+          "text": ""
+        },
+        {
+          "line": 78,
+          "text": "- **Critérios de avaliação:**"
+        },
+        {
+          "line": 79,
+          "text": "  - Uso correto do formato **Dado Quando Então**."
+        },
+        {
+          "line": 80,
+          "text": "  - Precisão nos critérios de validade e expiração."
+        },
+        {
+          "line": 81,
+          "text": "  - Justificativa clara dos resultados observáveis."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-010:c2:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 78,
+        "text": "### **5. AVALIAÇÃO**"
+      },
+      "following_lines": [
+        {
+          "line": 79,
+          "text": ""
+        },
+        {
+          "line": 80,
+          "text": "- **Critérios de Avaliação:**"
+        },
+        {
+          "line": 81,
+          "text": "  1. Uso correto do formato Dado Quando Então."
+        },
+        {
+          "line": 82,
+          "text": "  2. Justificação clara dos resultados observáveis."
+        },
+        {
+          "line": 83,
+          "text": "  3. Participação ativa e colaborativa nos grupos."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-011:c0:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 74,
+        "text": "### **4. Avaliação**"
+      },
+      "following_lines": [
+        {
+          "line": 75,
+          "text": ""
+        },
+        {
+          "line": 76,
+          "text": "- **Através de exercícios práticos**:"
+        },
+        {
+          "line": 77,
+          "text": "  - Desenvolver um algoritmo para validar a idade."
+        },
+        {
+          "line": 78,
+          "text": "  - Apresentar os resultados e explicar o raciocínio."
+        },
+        {
+          "line": 79,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-011:c1:r1",
+      "requirement": "materials",
+      "observation": "empty",
+      "label": {
+        "line": 31,
+        "text": "**Materiais:**"
+      },
+      "following_lines": [
+        {
+          "line": 32,
+          "text": "- **Quadro:** com a especificação do campo de idade."
+        },
+        {
+          "line": 33,
+          "text": "- **Folha:** com a tabela de particionamento."
+        },
+        {
+          "line": 34,
+          "text": ""
+        },
+        {
+          "line": 35,
+          "text": "**Atividade:**"
+        },
+        {
+          "line": 36,
+          "text": "- O professor divide a turma em grupos de 3 a 4 alunos."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-011:c1:r1",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 75,
+        "text": "**Avaliação:**"
+      },
+      "following_lines": [
+        {
+          "line": 76,
+          "text": "- Classificação das classes: válidas e inválidas."
+        },
+        {
+          "line": 77,
+          "text": "- Seleção de entradas de teste: cobrindo classes válidas e inválidas."
+        },
+        {
+          "line": 78,
+          "text": ""
+        },
+        {
+          "line": 79,
+          "text": "**Resultado Esperado:**"
+        },
+        {
+          "line": 80,
+          "text": "- Os alunos devem identificar as classes válidas (0 a 120) e inválidas (<0 ou >120)."
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-011:c1:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 112,
+        "text": "## **6. Estratégia de Avaliação:**"
+      },
+      "following_lines": [
+        {
+          "line": 113,
+          "text": "- **Classificação das Partições:** Verificar se os alunos identificaram as classes válidas e inválidas corretamente.  "
+        },
+        {
+          "line": 114,
+          "text": "- **Seleção de Entradas:** Verificar se os alunos selecionaram entradas que cobrem as classes identificadas.  "
+        },
+        {
+          "line": 115,
+          "text": "- **Participação em Discussão:** Avaliar a participação e a compreensão do grupo.  "
+        },
+        {
+          "line": 116,
+          "text": ""
+        },
+        {
+          "line": 117,
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-011:c1:r3",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 60,
+        "text": "**Estratégia de Avaliação:**  "
+      },
+      "following_lines": [
+        {
+          "line": 61,
+          "text": "- **Classificação das Partições:**  "
+        },
+        {
+          "line": 62,
+          "text": "  - Válidas: 0 a 120  "
+        },
+        {
+          "line": 63,
+          "text": "  - Inválidas: menores que 0 ou maiores que 120  "
+        },
+        {
+          "line": 64,
+          "text": ""
+        },
+        {
+          "line": 65,
+          "text": "- **Entradas de Teste:**  "
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-012:c0:r2",
+      "requirement": "duration_minutes",
+      "observation": "empty",
+      "label": {
+        "line": 21,
+        "text": "### **2. Duração da Aula**"
+      },
+      "following_lines": [
+        {
+          "line": 22,
+          "text": "- **Tempo total:** 90 minutos"
+        },
+        {
+          "line": 23,
+          "text": "- **Divisão:**"
+        },
+        {
+          "line": 24,
+          "text": "  - Introdução (15 min)"
+        },
+        {
+          "line": 25,
+          "text": "  - Teoria (20 min)"
+        },
+        {
+          "line": 26,
+          "text": "  - Exemplo prático (30 min)"
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-012:c0:r3",
+      "requirement": "duration_minutes",
+      "observation": "empty",
+      "label": {
+        "line": 21,
+        "text": "### **2. Duração da Aula**"
+      },
+      "following_lines": [
+        {
+          "line": 22,
+          "text": "- **Tempo total:** 90 minutos"
+        },
+        {
+          "line": 23,
+          "text": "- **Divisão:**"
+        },
+        {
+          "line": 24,
+          "text": "  - Introdução (15 min)"
+        },
+        {
+          "line": 25,
+          "text": "  - Teoria (20 min)"
+        },
+        {
+          "line": 26,
+          "text": "  - Exemplo prático (30 min)"
+        }
+      ]
+    },
+    {
+      "job_id": "qwen3:task-012:c1:r2",
+      "requirement": "assessment_strategy",
+      "observation": "empty",
+      "label": {
+        "line": 93,
+        "text": "**Avaliação:**"
+      },
+      "following_lines": [
+        {
+          "line": 94,
+          "text": "- **Matriz de rastreabilidade:** 10 pontos."
+        },
+        {
+          "line": 95,
+          "text": "- **Proposta de teste para requisito sem cobertura:** 10 pontos."
+        },
+        {
+          "line": 96,
+          "text": "- **Justificativa da escolha do teste:** 10 pontos."
+        },
+        {
+          "line": 97,
+          "text": "- **Participação e colaboração:** 10 pontos."
+        },
+        {
+          "line": 98,
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

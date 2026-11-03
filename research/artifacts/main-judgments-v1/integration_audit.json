@@ -1,0 +1,26 @@
+{
+  "prepared_on": "2026-10-27",
+  "api_calls": 0,
+  "source_sha256": {
+    "experiments/main_config.json": "b0ec9b311a388756ec4fe9591654b8a6c975795fdc8986a210e9e994f173abc3",
+    "artifacts/main-study-v1/generations.jsonl": "70969e6fe4df45f92d7dd9605eb68cb90b6dfa9eaa6d0346bb2f1f1a4b5b4135",
+    "artifacts/main-study-v1/automatic_summary.v1.json": "b527cf944130998e339f6230f427c13f2ea50077c8fe569de06fff073b79c898",
+    "artifacts/main-judgments-v1/judgments.v2.jsonl": "d975021750a36abb3adf0feefa3271991a08c97c0628e51cc3f76f8bb1f29cc3",
+    "artifacts/main-judgments-v1/results_tables.json": "5d9d81177d7cc07756e9a56f29ea9586e5d3dba34be86dd1954ea89550d53295",
+    "artifacts/main-judgments-v1/case-audit/cases.json": "651c612d0433b46998cec6d5e7ce1f2d630359a76ea7133a27aa61e456ecc08d"
+  },
+  "draft_sha256": "8177e60ae60d80027d57f69385c791f0704b2bde9fd277c40877ec5d2690f513",
+  "eligible_plans": 215,
+  "valid_judgments": 624,
+  "complete_triplets": 196,
+  "generation_latency_and_tokens_available": 215,
+  "judge_usage_available": 639,
+  "judge_input_tokens": 2305277,
+  "judge_output_tokens": 1377030,
+  "judge_total_tokens": 3682307,
+  "pilot_data_included": false,
+  "source_hashes_verified": true,
+  "revision_on": "2026-10-28",
+  "revision_note": "Added separate post-hoc paired complete-case sensitivity; primary data and protocol unchanged.",
+  "sensitivity_analysis_sha256": "047fcc8d226e235f89f19d500664374b18e71f924228a5bec9075459dbe2f7c4"
+}

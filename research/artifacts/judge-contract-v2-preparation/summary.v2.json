@@ -1,0 +1,1816 @@
+{
+  "protocol": "requirement-judgments-v2",
+  "completed": 81,
+  "statuses": {
+    "api_error": 2,
+    "success": 78,
+    "validation_error": 1
+  },
+  "responses": [
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            2,
+            3,
+            2
+          ],
+          "median": 2
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "valid": 2,
+      "complete_triplet": false,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4
+          ],
+          "median": null
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            3
+          ],
+          "median": null
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "valid": 2,
+      "complete_triplet": false,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4
+          ],
+          "median": null
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            3
+          ],
+          "median": null
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "median": 3
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            2,
+            3
+          ],
+          "median": 3
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "valid": 2,
+      "complete_triplet": false,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 2
+          },
+          "exact_agreement": null
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4
+          ],
+          "median": null
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4
+          ],
+          "median": null
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "median": 2
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            3,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "median": 2
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "partial": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            3
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "median": 2
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            3,
+            4
+          ],
+          "median": 3
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            3,
+            3,
+            4
+          ],
+          "median": 3
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    }
+  ],
+  "interpretation": "Nominal frequencies, not a composite score. Incomplete triplets have no median or agreement.",
+  "planned": 81
+}

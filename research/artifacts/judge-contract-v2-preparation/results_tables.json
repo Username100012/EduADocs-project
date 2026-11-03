@@ -1,0 +1,1166 @@
+{
+  "by_task_requirements": [
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 9,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 3,
+      "partial": 6,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 6,
+      "partial": 3,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 9,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 9,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 8,
+      "supported": 8,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 8,
+      "supported": 8,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 8,
+      "supported": 8,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 8,
+      "supported": 5,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 3,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 8,
+      "supported": 8,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 8,
+      "supported": 8,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 8,
+      "supported": 8,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    }
+  ],
+  "operational": [
+    {
+      "condition": "c0",
+      "planned_judgments": 27,
+      "completed": 27,
+      "valid": 27,
+      "statuses": {
+        "success": 27
+      },
+      "planned_responses": 9,
+      "complete_triplets": 9,
+      "unique_generated_texts": 6
+    },
+    {
+      "condition": "c1",
+      "planned_judgments": 27,
+      "completed": 27,
+      "valid": 26,
+      "statuses": {
+        "success": 26,
+        "validation_error": 1
+      },
+      "planned_responses": 9,
+      "complete_triplets": 8,
+      "unique_generated_texts": 7
+    },
+    {
+      "condition": "c2",
+      "planned_judgments": 27,
+      "completed": 27,
+      "valid": 27,
+      "statuses": {
+        "success": 27
+      },
+      "planned_responses": 9,
+      "complete_triplets": 9,
+      "unique_generated_texts": 5
+    }
+  ],
+  "requirements": [
+    {
+      "condition": "c0",
+      "requirement": "topic",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c0",
+      "requirement": "grade_level",
+      "valid_judgments": 27,
+      "supported": 9,
+      "partial": 18,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "valid_judgments": 27,
+      "supported": 6,
+      "partial": 21,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "valid_judgments": 27,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 27,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c0",
+      "requirement": "methodology",
+      "valid_judgments": 27,
+      "supported": 12,
+      "partial": 15,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c0",
+      "requirement": "materials",
+      "valid_judgments": 27,
+      "supported": 0,
+      "partial": 27,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 27,
+      "supported": 0,
+      "partial": 27,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 26,
+      "supported": 26,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 26,
+      "supported": 26,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 26,
+      "supported": 26,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 26,
+      "supported": 23,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 3,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 26,
+      "supported": 26,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 26,
+      "supported": 26,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 26,
+      "supported": 26,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 8,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 27,
+      "supported": 27,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0,
+      "complete_triplets": 9,
+      "exact_agreement_triplets": 9
+    }
+  ],
+  "secondary_scores": [
+    {
+      "condition": "c0",
+      "criterion": "instructional_alignment",
+      "complete_triplets": 9,
+      "median_of_response_medians": 3,
+      "response_medians": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "task_medians": {
+        "pilot-001": 3,
+        "pilot-002": 3,
+        "pilot-003": 4
+      },
+      "median_of_task_medians": 3,
+      "exact_agreement_triplets": 7
+    },
+    {
+      "condition": "c0",
+      "criterion": "textual_coherence",
+      "complete_triplets": 9,
+      "median_of_response_medians": 4,
+      "response_medians": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "task_medians": {
+        "pilot-001": 4,
+        "pilot-002": 4,
+        "pilot-003": 2
+      },
+      "median_of_task_medians": 4,
+      "exact_agreement_triplets": 9
+    },
+    {
+      "condition": "c1",
+      "criterion": "instructional_alignment",
+      "complete_triplets": 8,
+      "median_of_response_medians": 4.0,
+      "response_medians": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "task_medians": {
+        "pilot-001": 3.5,
+        "pilot-002": 4,
+        "pilot-003": 4
+      },
+      "median_of_task_medians": 4,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c1",
+      "criterion": "textual_coherence",
+      "complete_triplets": 8,
+      "median_of_response_medians": 4.0,
+      "response_medians": [
+        2,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "task_medians": {
+        "pilot-001": 3.0,
+        "pilot-002": 4,
+        "pilot-003": 4
+      },
+      "median_of_task_medians": 4,
+      "exact_agreement_triplets": 6
+    },
+    {
+      "condition": "c2",
+      "criterion": "instructional_alignment",
+      "complete_triplets": 9,
+      "median_of_response_medians": 4,
+      "response_medians": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "task_medians": {
+        "pilot-001": 4,
+        "pilot-002": 4,
+        "pilot-003": 4
+      },
+      "median_of_task_medians": 4,
+      "exact_agreement_triplets": 8
+    },
+    {
+      "condition": "c2",
+      "criterion": "textual_coherence",
+      "complete_triplets": 9,
+      "median_of_response_medians": 3,
+      "response_medians": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "task_medians": {
+        "pilot-001": 3,
+        "pilot-002": 4,
+        "pilot-003": 3
+      },
+      "median_of_task_medians": 3,
+      "exact_agreement_triplets": 7
+    }
+  ],
+  "source_log_sha256": "c423c4044265371b974ed24f68a8917d985a2942cec9d4a307898d8c0bbd315c",
+  "planned_judgments": 81,
+  "completed": 81,
+  "operational_attempts": 83,
+  "attempt_statuses": {
+    "api_error": 2,
+    "success": 80,
+    "validation_error": 1
+  },
+  "recovery_log_sha256": "5568c82736360f0030fd1871fed76fc70703f15280e519bffcccd2a0c558f5f2",
+  "usage": {
+    "input_tokens": {
+      "reported_attempts": 81,
+      "sum": 299416
+    },
+    "output_tokens": {
+      "reported_attempts": 81,
+      "sum": 156340
+    },
+    "total_tokens": {
+      "reported_attempts": 81,
+      "sum": 455756
+    }
+  },
+  "source_generation_log_sha256": "8742de0ce3846f0b59af70e9227fa43f4c14a43ea5cf77df0361478752321e45",
+  "configuration_hash": "de679b331f86e6499e9935868f7c2962bc8811c94ddc522ffa31e6534e4e2026",
+  "tasks": {
+    "pilot-002": "Consultas SQL com SELECT e WHERE em uma tabela",
+    "pilot-001": "Busca linear em vetores",
+    "pilot-003": "Requisitos funcionais e não funcionais de um sistema de biblioteca"
+  },
+  "interpretation": "Pilot, three tasks, one local generator. Dependent repetitions. No composite score, statistical significance, causal or pedagogical efficacy claim. Syntax and semantic estimates remain distinct."
+}

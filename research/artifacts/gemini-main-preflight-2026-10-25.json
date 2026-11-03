@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-25T10:58:22.086315+00:00",
+  "credential_source": "[REDACTED]",
+  "configured_model": "gemini-3.8-flash",
+  "experimental_data": false,
+  "configuration_path": "experiments\\main_config.json",
+  "billing_and_project_limits": "Not accessible from model inference credentials alone; inspect AI Studio usage and billing.",
+  "models": [],
+  "model_list_skipped": true,
+  "configured_model_listed": null,
+  "model_get": {
+    "name": "models/gemini-3.8-flash",
+    "display_name": "Gemini 3.8 Flash",
+    "description": "Gemini 3.8 Flash",
+    "version": "3.0",
+    "tuned_model_info": {},
+    "input_token_limit": 1048576,
+    "output_token_limit": 65536,
+    "supported_actions": [
+      "generateContent",
+      "countTokens",
+      "createCachedContent",
+      "batchGenerateContent"
+    ],
+    "temperature": 1.0,
+    "max_temperature": 2.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "thinking": true
+  },
+  "generation_error": {
+    "type": "ClientError",
+    "code": 402,
+    "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",
+    "details": {
+      "error": {
+        "code": 402,
+        "message": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ",
+        "status": "RESOURCE_EXHAUSTED"
+      }
+    }
+  }
+}

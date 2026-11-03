@@ -1,0 +1,3163 @@
+{
+  "analysis_type": "exploratory_post_pilot",
+  "source_log_sha256": "8742de0ce3846f0b59af70e9227fa43f4c14a43ea5cf77df0361478752321e45",
+  "config_hash": "a6874556655d57cef69976fe52fbf4962c9029e87b24bb105f322b664891c81e",
+  "metrics_version": "eduadocs-textual-proxies-v2",
+  "code_and_schema_hashes": {
+    "src/experiment/automatic_metrics.py": "689e219c1b120cea4f25905b2c518f2c349677e5699d0026c9367c948efa9927",
+    "src/experiment/automatic_metrics_v2.py": "b26f8a22b8529bdbf9dfc906df7b189043c5401adb388ee995467a05029baae6",
+    "scripts/evaluate_pilot.py": "f3474992caa53ec8823a76bcb2dc93dd839c1b27420a1868920a757a38add44b",
+    "scripts/summarize_local_pilot.py": "cb3e766a78002d060166f09c2b3f0ac71d1840d2f8ba30a027d6fe2f313da04b",
+    "src/experiment/judge_prompt.py": "5c22362cb584928c7c2f866bb6c543bdb2226bf200d41d8da9c54062ae978105",
+    "experiments/llm_judge_response.schema.json": "6eadfbe2bcf67f267aa7cc28fdea0a93561075efa624b06da7e92a3700c3b85c"
+  },
+  "changed_cells": 50,
+  "total_cells": 189,
+  "operational": [
+    {
+      "condition": "c0",
+      "n": 9,
+      "statuses": {
+        "success": 9
+      },
+      "latency_median_seconds": 22.451156099996297,
+      "output_tokens": 9903,
+      "cost": null
+    },
+    {
+      "condition": "c1",
+      "n": 9,
+      "statuses": {
+        "success": 9
+      },
+      "latency_median_seconds": 28.106052200004342,
+      "output_tokens": 12413,
+      "cost": null
+    },
+    {
+      "condition": "c2",
+      "n": 9,
+      "statuses": {
+        "success": 9
+      },
+      "latency_median_seconds": 23.471031099994434,
+      "output_tokens": 10452,
+      "cost": null
+    }
+  ],
+  "stability": [
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "n": 3,
+      "distinct_texts": 3
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "n": 3,
+      "distinct_texts": 2
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "n": 3,
+      "distinct_texts": 1
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "n": 3,
+      "distinct_texts": 3
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "n": 3,
+      "distinct_texts": 2
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "n": 3,
+      "distinct_texts": 2
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "n": 3,
+      "distinct_texts": 1
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "n": 3,
+      "distinct_texts": 2
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "n": 3,
+      "distinct_texts": 2
+    }
+  ],
+  "by_task_condition": [
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "matched": 1,
+        "undetermined": 2
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "undetermined": 2,
+        "not_matched": 1
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "not_matched": 1,
+        "undetermined": 2
+      },
+      "v2": {
+        "not_matched": 1,
+        "undetermined": 2
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "not_matched": 2,
+        "undetermined": 1
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "matched": 2,
+        "undetermined": 1
+      },
+      "v2": {
+        "matched": 2,
+        "undetermined": 1
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 2,
+        "matched": 1
+      },
+      "v2": {
+        "undetermined": 2,
+        "matched": 1
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "undetermined": 2,
+        "not_matched": 1
+      },
+      "v2": {
+        "undetermined": 1,
+        "not_matched": 2
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "undetermined": 2,
+        "not_matched": 1
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "not_matched": 2,
+        "undetermined": 1
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "not_matched": 3
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "undetermined": 1,
+        "matched": 2
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "not_matched": 1,
+        "undetermined": 2
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 1,
+        "undetermined": 2
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "not_matched": 3
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "undetermined": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "not_matched": 3
+      },
+      "v2": {
+        "not_matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "undetermined": 2,
+        "matched": 1
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "matched": 2,
+        "undetermined": 1
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "topic",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "n": 3,
+      "v1": {
+        "matched": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "n": 3,
+      "v1": {
+        "undetermined": 1,
+        "matched": 2
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "n": 3,
+      "v1": {
+        "matched": 1,
+        "undetermined": 2
+      },
+      "v2": {
+        "matched": 3
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "methodology",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 1,
+        "undetermined": 2
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "materials",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 1,
+        "undetermined": 2
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "n": 3,
+      "v1": {
+        "undetermined": 3
+      },
+      "v2": {
+        "matched": 3
+      }
+    }
+  ],
+  "cells": [
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 1,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "not_matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "matched",
+      "changed": true
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "grade_level",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "learning_objectives",
+      "target_in_prompt": false,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "duration_minutes",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "methodology",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "materials",
+      "target_in_prompt": false,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "repetition": 3,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": false,
+      "v1": "not_matched",
+      "v2": "not_matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "topic",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "grade_level",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "learning_objectives",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "duration_minutes",
+      "target_in_prompt": true,
+      "v1": "matched",
+      "v2": "matched",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "methodology",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "materials",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "repetition": 2,
+      "requirement": "assessment_strategy",
+      "target_in_prompt": true,
+      "v1": "undetermined",
+      "v2": "undetermined",
+      "changed": false
+    }
+  ],
+  "semantic_judgments_executed": 0,
+  "limitations": [
+    "Post-pilot changes are exploratory, not independent metric validation.",
+    "Lexical evidence is not semantic compliance or educational efficacy.",
+    "C0 did not receive the six requirements beyond topic.",
+    "Fixed-seed repetitions are not independent. No significance tests or composite scores.",
+    "No cloud-versus-local comparison and no factual validation."
+  ],
+  "remaining_c1_c2_checks_for_review": 24
+}

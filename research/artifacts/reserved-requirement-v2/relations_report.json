@@ -1,0 +1,56 @@
+{
+  "planned_judgments": 18,
+  "completed": 18,
+  "statuses": {
+    "success": 18
+  },
+  "checks": [
+    {
+      "case": "base",
+      "relation": {
+        "all_requirements": "supported"
+      },
+      "result": "satisfied"
+    },
+    {
+      "case": "formatting",
+      "relation": {
+        "same_as": "base"
+      },
+      "result": "satisfied"
+    },
+    {
+      "case": "verbosity",
+      "relation": {
+        "same_as": "base"
+      },
+      "result": "satisfied"
+    },
+    {
+      "case": "omission",
+      "relation": {
+        "materials": "not_addressed"
+      },
+      "result": "satisfied"
+    },
+    {
+      "case": "misalignment",
+      "relation": {
+        "assessment_strategy": "contradicted"
+      },
+      "result": "satisfied"
+    },
+    {
+      "case": "duration_contradiction",
+      "relation": {
+        "duration_minutes": "contradicted"
+      },
+      "result": "satisfied"
+    }
+  ],
+  "check_counts": {
+    "satisfied": 6
+  },
+  "scope": "Authorial synthetic software/behavior diagnostic; one new topic, no human validation, no accuracy/general reliability claim.",
+  "decision_policy": "One round, no tuning or repeated collection. Report every mismatch. Any technical failure blocks pilot continuation. Semantic mismatches restrict conclusions and are not repaired by changing the rubric."
+}

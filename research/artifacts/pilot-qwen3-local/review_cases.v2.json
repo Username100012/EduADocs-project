@@ -1,0 +1,3754 @@
+{
+  "source_log_sha256": "8742de0ce3846f0b59af70e9227fa43f4c14a43ea5cf77df0361478752321e45",
+  "count": 24,
+  "cases": [
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "requirement": "methodology",
+      "state": "not_matched",
+      "evidence": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "- Desenvolver habilidades de **resolução colaborativa de problemas**.",
+                "alias": "resolução colaborativa de problemas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Desenvolver habilidades de **resolução colaborativa de problemas**.",
+                "alias": "resolucao colaborativa de problemas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "produtos"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 28,
+                "text": "- **Quadro:** Com a tabela de produtos (código, nome, preço).",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 42,
+                "text": "  - Pincel para escrever no quadro.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  - Peça aos alunos que observem a tabela de produtos no quadro e respondam:  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 29,
+                "text": "- **Folha com tabela de produtos** (com dados fictícios, como:  ",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "  - Folhas de papel para anotações.  ",
+                "alias": "folhas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "produtos"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos.  ",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 22,
+                "text": "  - Objetivo da aula: usar `SELECT` e `WHERE` para filtrar dados de uma tabela de produtos.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 28,
+                "text": "- **Quadro:** Com a tabela de produtos (código, nome, preço).",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- **Folha com tabela de produtos** (com dados fictícios, como:  ",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  - Peça aos alunos que observem a tabela de produtos no quadro e respondam:  ",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "  - Exemplo 1: `SELECT * FROM produtos WHERE codigo = 3;`  ",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 64,
+                "text": "  - Exemplo 2: `SELECT * FROM produtos WHERE preco < 1000;`  ",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 79,
+                "text": "    - Escrever uma consulta SQL que retorne os produtos com preço **menor que 1000**.  ",
+                "alias": "produtos",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 58,
+                "text": "- Quadro para anotações.",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 131,
+                "text": "- Quadro de anotações",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 59,
+                "text": "- Folhas com vetores de inteiros para testes de mesa.",
+                "alias": "folhas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 132,
+                "text": "- Folhas com vetores de inteiros",
+                "alias": "folhas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "requirement": "assessment_strategy",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- Implementar a busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 8,
+                "text": "- Implementar a busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 22,
+                "text": "  - Implementar o algoritmo em pseudocódigo.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 22,
+                "text": "  - Implementar o algoritmo em pseudocódigo.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 38,
+                "text": "- **Exemplo de pseudocódigo:**",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 38,
+                "text": "- **Exemplo de pseudocódigo:**",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 40,
+                "text": "```pseudocódigo",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 40,
+                "text": "```pseudocódigo",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- **Explicação de cada parte do pseudocódigo.**",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- **Explicação de cada parte do pseudocódigo.**",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 67,
+                "text": "   - Implementar o pseudocódigo de busca linear.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 67,
+                "text": "   - Implementar o pseudocódigo de busca linear.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 94,
+                "text": "- **Cada grupo apresenta o pseudocódigo e os resultados de testes de mesa.**",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 94,
+                "text": "- **Cada grupo apresenta o pseudocódigo e os resultados de testes de mesa.**",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 107,
+                "text": "  - Correção do pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 107,
+                "text": "  - Correção do pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 118,
+                "text": "  - O pseudocódigo foi implementado com base em lógica sequencial.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 118,
+                "text": "  - O pseudocódigo foi implementado com base em lógica sequencial.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 134,
+                "text": "- Pseudocódigo como base para implementação",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 134,
+                "text": "- Pseudocódigo como base para implementação",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 59,
+                "text": "- Folhas com vetores de inteiros para testes de mesa.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 68,
+                "text": "   - Realizar testes de mesa com o vetor fornecido.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 94,
+                "text": "- **Cada grupo apresenta o pseudocódigo e os resultados de testes de mesa.**",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 105,
+                "text": "- **Avaliação por meio de testes de mesa realizados pelos grupos.**",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 108,
+                "text": "  - Correção dos testes de mesa.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 119,
+                "text": "  - Testes de mesa ajudam a validar a corretude do algoritmo.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 138,
+                "text": "**Nota:** Este plano de aula é adaptado para uma aula prática, com ênfase em resolução colaborativa e testes de mesa, para reforçar a compreensão teórica de algoritmos básicos em estruturas de dados.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 36,
+                "text": "    3. Se o laço terminar sem encontrar, retornar -1 ou \"não encontrado\".",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              },
+              {
+                "line": 69,
+                "text": "   - Anotar a posição do elemento encontrado ou a mensagem de ausência.",
+                "alias": "encontrado",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 36,
+                "text": "    3. Se o laço terminar sem encontrar, retornar -1 ou \"não encontrado\".",
+                "alias": "não encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "requirement": "assessment_strategy",
+      "state": "not_matched",
+      "evidence": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado.",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- Implementar o algoritmo de **busca linear** em pseudocódigo sobre um vetor de inteiros.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 8,
+                "text": "- Implementar o algoritmo de **busca linear** em pseudocódigo sobre um vetor de inteiros.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Produzir **pseudocódigo** e realizar **testes de mesa**, justificando os resultados como estratégia de avaliação.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Produzir **pseudocódigo** e realizar **testes de mesa**, justificando os resultados como estratégia de avaliação.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pergunta: \"Como você acharia o elemento 30 no vetor? Como isso seria implementado em pseudocódigo?\"",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pergunta: \"Como você acharia o elemento 30 no vetor? Como isso seria implementado em pseudocódigo?\"",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 39,
+                "text": "- Pseudocódigo básico de busca linear:",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 39,
+                "text": "- Pseudocódigo básico de busca linear:",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 40,
+                "text": "```pseudocódigo",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 40,
+                "text": "```pseudocódigo",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 48,
+                "text": "- Explicação de cada parte do pseudocódigo:",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 48,
+                "text": "- Explicação de cada parte do pseudocódigo:",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 56,
+                "text": "- Professor explica o pseudocódigo com exemplos.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 56,
+                "text": "- Professor explica o pseudocódigo com exemplos.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 75,
+                "text": "  1. Escrever o pseudocódigo da busca linear.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 75,
+                "text": "  1. Escrever o pseudocódigo da busca linear.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 100,
+                "text": "- Revisão do pseudocódigo e sua lógica.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 100,
+                "text": "- Revisão do pseudocódigo e sua lógica.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 118,
+                "text": "- Correto uso do pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 118,
+                "text": "- Correto uso do pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 133,
+                "text": "- Pseudocódigo em papel.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 133,
+                "text": "- Pseudocódigo em papel.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 146,
+                "text": "**Nota:** Este plano de aula pode ser adaptado para diferentes níveis de dificuldade, incluindo o uso de ferramentas digitais (como editores de pseudocódigo online ou simulações de algoritmos).",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 146,
+                "text": "**Nota:** Este plano de aula pode ser adaptado para diferentes níveis de dificuldade, incluindo o uso de ferramentas digitais (como editores de pseudocódigo online ou simulações de algoritmos).",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- Utilizar **quadro e folha com vetores de inteiros** para testes de mesa.  ",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Produzir **pseudocódigo** e realizar **testes de mesa**, justificando os resultados como estratégia de avaliação.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 67,
+                "text": "- Folhas com os mesmos vetores para testes de mesa.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 77,
+                "text": "  3. Realizar o teste de mesa, mostrando os passos da busca.",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 81,
+                "text": "**Exemplo de teste de mesa:**",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado.",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 119,
+                "text": "- Correto teste de mesa com justificativa.",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 131,
+                "text": "- Folhas com vetores para testes de mesa.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 45,
+                "text": "    RETORNAR -1  // elemento não encontrado",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              },
+              {
+                "line": 53,
+                "text": "  - `RETORNAR`: valor da posição ou -1 se não encontrado.",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 45,
+                "text": "    RETORNAR -1  // elemento não encontrado",
+                "alias": "não encontrado",
+                "ambiguous_context": false
+              },
+              {
+                "line": 53,
+                "text": "  - `RETORNAR`: valor da posição ou -1 se não encontrado.",
+                "alias": "não encontrado",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "requirement": "assessment_strategy",
+      "state": "not_matched",
+      "evidence": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pseudocódigo",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pseudocódigo",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "- Explicar o objetivo da aula: implementar e testar um algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "- Explicar o objetivo da aula: implementar e testar um algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- Apresentar o pseudocódigo com exemplo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- Apresentar o pseudocódigo com exemplo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 58,
+                "text": "  - Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 58,
+                "text": "  - Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "- Cada grupo apresenta seu pseudocódigo e resultado.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "- Cada grupo apresenta seu pseudocódigo e resultado.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 30,
+                "text": "- Testes de mesa",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 82,
+                "text": "- Folhas com vetores de inteiros para testes de mesa",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 123,
+                "text": "- O uso de testes de mesa ajuda a consolidar a compreensão prática do algoritmo.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente).",
+                "alias": "presente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  4. Se não houver correspondência após a iteração, retornar \"não encontrado\".",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente).",
+                "alias": "ausente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  4. Se não houver correspondência após a iteração, retornar \"não encontrado\".",
+                "alias": "não encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "produtos"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 48,
+                "text": "- **Material 1:** Quadro com a tabela de produtos (código, nome, preço)",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 70,
+                "text": "2. Cada grupo recebe o quadro e a folha com a tabela de produtos.",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 121,
+                "text": "- Quadro com tabela de produtos",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 49,
+                "text": "- **Material 2:** Folha com a tabela de produtos (código, nome, preço)",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 70,
+                "text": "2. Cada grupo recebe o quadro e a folha com a tabela de produtos.",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 115,
+                "text": "- O professor pode realizar uma pequena avaliação escrita (em folha de rosto) para verificar o entendimento de alguns conceitos.",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 122,
+                "text": "- Folha com tabela de produtos",
+                "alias": "folha",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "produtos"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 18,
+                "text": "- Apresentar a importância de manipular dados em tabelas de produtos.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 36,
+                "text": "  SELECT * FROM produtos WHERE preco = 100;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 39,
+                "text": "  SELECT * FROM produtos WHERE preco > 50;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 46,
+                "text": "**Objetivo:** Familiarizar os alunos com a tabela de produtos que será utilizada durante a aula.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 48,
+                "text": "- **Material 1:** Quadro com a tabela de produtos (código, nome, preço)",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 49,
+                "text": "- **Material 2:** Folha com a tabela de produtos (código, nome, preço)",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "**Exemplo da Tabela de Produtos:**",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 70,
+                "text": "2. Cada grupo recebe o quadro e a folha com a tabela de produtos.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 72,
+                "text": "   - **Consulta 1 (Igualdade):** Encontre todos os produtos cujo preço é igual a 3.00.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 80,
+                "text": "  SELECT * FROM produtos WHERE preco = 3.00;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "  SELECT * FROM produtos WHERE preco > 5.00;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 121,
+                "text": "- Quadro com tabela de produtos",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 122,
+                "text": "- Folha com tabela de produtos",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 133,
+                "text": "  SELECT * FROM produtos WHERE preco = 3.00 OR preco = 4.50;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "requirement": "assessment_strategy",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "consulta",
+              "consultas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "igualdade"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "comparação",
+              "comparacao"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "resultado",
+              "resultados"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "consulta",
+              "consultas"
+            ],
+            "evidence": [
+              {
+                "line": 1,
+                "text": "**Plano de Aula: Consultas SQL com SELECT e WHERE**",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 16,
+                "text": "**Objetivo:** Estabelecer o contexto e a relevância das consultas SQL para extração de dados em bancos de dados.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 20,
+                "text": "- Mostrar a estrutura básica de uma consulta SQL:",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 71,
+                "text": "3. Cada grupo deve resolver as duas consultas:",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 72,
+                "text": "   - **Consulta 1 (Igualdade):** Encontre todos os produtos cujo preço é igual a 3.00.",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 74,
+                "text": "4. Os grupos devem escrever as consultas SQL e mostrar os resultados esperados.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 76,
+                "text": "**Exemplo de Consultas:**",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "- Consulta 1 (Igualdade):",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 88,
+                "text": "- Consulta 2 (Comparação numérica):",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 104,
+                "text": "- Cada grupo apresenta a consulta SQL e o resultado esperado.",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 114,
+                "text": "- A avaliação será feita com base na capacidade dos alunos de escrever consultas corretas com `SELECT` e `WHERE`.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 140,
+                "text": "- Consultas com `WHERE` e `ORDER BY`",
+                "alias": "consultas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "igualdade"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 31,
+                "text": "- **Igualdade:** `=`, `==`, `=` (em SQL, apenas `=` é válido)",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 72,
+                "text": "   - **Consulta 1 (Igualdade):** Encontre todos os produtos cujo preço é igual a 3.00.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "- Consulta 1 (Igualdade):",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "comparação",
+              "comparacao"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 32,
+                "text": "- **Comparação numérica:** `>`, `<`, `>=`, `<=`, `!=`, `<>`",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 32,
+                "text": "- **Comparação numérica:** `>`, `<`, `>=`, `<=`, `!=`, `<>`",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 88,
+                "text": "- Consulta 2 (Comparação numérica):",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 88,
+                "text": "- Consulta 2 (Comparação numérica):",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 141,
+                "text": "- Operadores lógicos e comparação de strings",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 141,
+                "text": "- Operadores lógicos e comparação de strings",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "resultado",
+              "resultados"
+            ],
+            "evidence": [
+              {
+                "line": 19,
+                "text": "- Introduzir os conceitos de `SELECT` e `WHERE` como ferramentas essenciais para filtrar resultados.",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 74,
+                "text": "4. Os grupos devem escrever as consultas SQL e mostrar os resultados esperados.",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 82,
+                "text": "  **Resultado esperado:**",
+                "alias": "resultado",
+                "ambiguous_context": false
+              },
+              {
+                "line": 92,
+                "text": "  **Resultado esperado:**",
+                "alias": "resultado",
+                "ambiguous_context": false
+              },
+              {
+                "line": 100,
+                "text": "### **5. Apresentação dos Resultados (5 minutos)**",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos.",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 104,
+                "text": "- Cada grupo apresenta a consulta SQL e o resultado esperado.",
+                "alias": "resultado",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "requirement": "assessment_strategy",
+      "state": "not_matched",
+      "evidence": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pseudocódigo",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pseudocódigo",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "- Explicar o objetivo da aula: implementar e testar um algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "- Explicar o objetivo da aula: implementar e testar um algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- Apresentar o pseudocódigo com exemplo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- Apresentar o pseudocódigo com exemplo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 58,
+                "text": "  - Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 58,
+                "text": "  - Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "- Cada grupo apresenta seu pseudocódigo e resultado.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "- Cada grupo apresenta seu pseudocódigo e resultado.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 30,
+                "text": "- Testes de mesa",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 82,
+                "text": "- Folhas com vetores de inteiros para testes de mesa",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 123,
+                "text": "- O uso de testes de mesa ajuda a consolidar a compreensão prática do algoritmo.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente).",
+                "alias": "presente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  4. Se não houver correspondência após a iteração, retornar \"não encontrado\".",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente).",
+                "alias": "ausente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  4. Se não houver correspondência após a iteração, retornar \"não encontrado\".",
+                "alias": "não encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "biblioteca"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 101,
+                "text": "- Quadro de whiteboard",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 59,
+                "text": "- O professor apresenta uma **folha com uma descrição simplificada de um sistema de empréstimo de biblioteca**.",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "- Folha com descrição de um sistema de empréstimo de biblioteca",
+                "alias": "folha",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "biblioteca"
+            ],
+            "evidence": [
+              {
+                "line": 1,
+                "text": "**Plano de Aula: Requisitos Funcionais e Não Funcionais de um Sistema de Biblioteca**",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 20,
+                "text": "- Identificar e especificar **dois requisitos funcionais** de um sistema de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 21,
+                "text": "- Identificar e especificar **dois requisitos não funcionais** de um sistema de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Tema:** Requisitos funcionais e não funcionais de um sistema de biblioteca",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 45,
+                "text": "- Mostrar exemplos de requisitos funcionais e não funcionais em sistemas de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 48,
+                "text": "- Professor apresenta um exemplo de sistema de empréstimo de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 55,
+                "text": "**Objetivo:** Identificar e classificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 59,
+                "text": "- O professor apresenta uma **folha com uma descrição simplificada de um sistema de empréstimo de biblioteca**.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "- Folha com descrição de um sistema de empréstimo de biblioteca",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- Aplicar a metodologia de resolução colaborativa de problemas.  ",
+                "alias": "resolução colaborativa de problemas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 10,
+                "text": "- Aplicar a metodologia de resolução colaborativa de problemas.  ",
+                "alias": "resolucao colaborativa de problemas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 163,
+                "text": "**Nota:** Este plano de aula foi elaborado com base na metodologia de **resolução colaborativa de problemas**, que estimula a participação ativa, a comunicação e a aplicação prática dos conceitos teóricos.",
+                "alias": "resolução colaborativa de problemas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 163,
+                "text": "**Nota:** Este plano de aula foi elaborado com base na metodologia de **resolução colaborativa de problemas**, que estimula a participação ativa, a comunicação e a aplicação prática dos conceitos teóricos.",
+                "alias": "resolucao colaborativa de problemas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- Utilizar o quadro e folha com vetores de inteiros para testes de mesa.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 26,
+                "text": "- Quadro de quadriculação para anotações.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 60,
+                "text": "- Quadro com pseudocódigo escrito.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 75,
+                "text": "   - Cada grupo deve anotar o vetor no quadro.",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "   - Cada grupo deve escrever o pseudocódigo de busca linear no quadro, adaptando-o para seu vetor.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 92,
+                "text": "- Quadro para anotações.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 113,
+                "text": "- Perguntas escritas no quadro.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 132,
+                "text": "- Quadro com resumo da aula.  ",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- Utilizar o quadro e folha com vetores de inteiros para testes de mesa.  ",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 27,
+                "text": "- Folhas de papel com vetores de inteiros para testes.  ",
+                "alias": "folhas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 61,
+                "text": "- Folhas com exemplos de vetores.  ",
+                "alias": "folhas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 91,
+                "text": "- Folhas com vetores de inteiros.  ",
+                "alias": "folhas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 114,
+                "text": "- Folhas com respostas esperadas.  ",
+                "alias": "folhas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 133,
+                "text": "- Folhas com resumo para os alunos.  ",
+                "alias": "folhas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "requirement": "assessment_strategy",
+      "state": "not_matched",
+      "evidence": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 108,
+                "text": "  - **Testes de mesa:** Os alunos devem apresentar os resultados obtidos com base no pseudocódigo.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 108,
+                "text": "  - **Testes de mesa:** Os alunos devem apresentar os resultados obtidos com base no pseudocódigo.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 108,
+                "text": "  - **Testes de mesa:** Os alunos devem apresentar os resultados obtidos com base no pseudocódigo.  ",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "- Implementar pseudocódigo para a busca linear em um vetor de inteiros.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 7,
+                "text": "- Implementar pseudocódigo para a busca linear em um vetor de inteiros.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Produzir pseudocódigo e realizar testes de mesa, justificando os resultados.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Produzir pseudocódigo e realizar testes de mesa, justificando os resultados.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar a lógica do algoritmo de busca linear e apresentar o pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar a lógica do algoritmo de busca linear e apresentar o pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 43,
+                "text": "**Pseudocódigo:**",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 43,
+                "text": "**Pseudocódigo:**",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 60,
+                "text": "- Quadro com pseudocódigo escrito.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 60,
+                "text": "- Quadro com pseudocódigo escrito.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 67,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para implementar e testar o pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 67,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para implementar e testar o pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 77,
+                "text": "2. **Implementar o pseudocódigo:**  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 77,
+                "text": "2. **Implementar o pseudocódigo:**  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "   - Cada grupo deve escrever o pseudocódigo de busca linear no quadro, adaptando-o para seu vetor.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "   - Cada grupo deve escrever o pseudocódigo de busca linear no quadro, adaptando-o para seu vetor.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 79,
+                "text": "   - Alguém do grupo deve liderar a escrita do pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 79,
+                "text": "   - Alguém do grupo deve liderar a escrita do pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 108,
+                "text": "  - **Testes de mesa:** Os alunos devem apresentar os resultados obtidos com base no pseudocódigo.  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 108,
+                "text": "  - **Testes de mesa:** Os alunos devem apresentar os resultados obtidos com base no pseudocódigo.  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 125,
+                "text": "  - O pseudocódigo é claro e fácil de implementar.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 125,
+                "text": "  - O pseudocódigo é claro e fácil de implementar.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 142,
+                "text": "2. **Exemplo de pseudocódigo com comentários:**  ",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 142,
+                "text": "2. **Exemplo de pseudocódigo com comentários:**  ",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- Utilizar o quadro e folha com vetores de inteiros para testes de mesa.  ",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 12,
+                "text": "- Produzir pseudocódigo e realizar testes de mesa, justificando os resultados.  ",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 85,
+                "text": "   - Os grupos devem realizar os testes de mesa e anotar os resultados.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 108,
+                "text": "  - **Testes de mesa:** Os alunos devem apresentar os resultados obtidos com base no pseudocódigo.  ",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 151,
+                "text": "3. **Exemplo de teste de mesa (caso de presença):**  ",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 156,
+                "text": "4. **Exemplo de teste de mesa (caso de ausência):**  ",
+                "alias": "teste de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 23,
+                "text": "- **Aprendizagem esperada:** Entender a lógica de percorrer um vetor e verificar se um elemento está presente.",
+                "alias": "presente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 57,
+                "text": "- O algoritmo retorna a posição do elemento se encontrado, caso contrário, retorna -1.",
+                "alias": "encontrado",
+                "ambiguous_context": false
+              },
+              {
+                "line": 159,
+                "text": "   - Resultado: -1 (não encontrado)",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 159,
+                "text": "   - Resultado: -1 (não encontrado)",
+                "alias": "não encontrado",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "biblioteca"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 101,
+                "text": "- Quadro de whiteboard",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 59,
+                "text": "- O professor apresenta uma **folha com uma descrição simplificada de um sistema de empréstimo de biblioteca**.",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "- Folha com descrição de um sistema de empréstimo de biblioteca",
+                "alias": "folha",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "biblioteca"
+            ],
+            "evidence": [
+              {
+                "line": 1,
+                "text": "**Plano de Aula: Requisitos Funcionais e Não Funcionais de um Sistema de Biblioteca**",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 20,
+                "text": "- Identificar e especificar **dois requisitos funcionais** de um sistema de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 21,
+                "text": "- Identificar e especificar **dois requisitos não funcionais** de um sistema de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Tema:** Requisitos funcionais e não funcionais de um sistema de biblioteca",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 45,
+                "text": "- Mostrar exemplos de requisitos funcionais e não funcionais em sistemas de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 48,
+                "text": "- Professor apresenta um exemplo de sistema de empréstimo de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 55,
+                "text": "**Objetivo:** Identificar e classificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 59,
+                "text": "- O professor apresenta uma **folha com uma descrição simplificada de um sistema de empréstimo de biblioteca**.",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "- Folha com descrição de um sistema de empréstimo de biblioteca",
+                "alias": "biblioteca",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "requirement": "assessment_strategy",
+      "state": "not_matched",
+      "evidence": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "pseudocódigo",
+              "pseudocodigo"
+            ],
+            "evidence": [
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pseudocódigo",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "- Pseudocódigo",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "- Explicar o objetivo da aula: implementar e testar um algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 41,
+                "text": "- Explicar o objetivo da aula: implementar e testar um algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- Apresentar o pseudocódigo com exemplo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "- Apresentar o pseudocódigo com exemplo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 58,
+                "text": "  - Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 58,
+                "text": "  - Implementar o algoritmo de busca linear em pseudocódigo.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "- Cada grupo apresenta seu pseudocódigo e resultado.",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 62,
+                "text": "- Cada grupo apresenta seu pseudocódigo e resultado.",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocódigo",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total",
+                "alias": "pseudocodigo",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            "evidence": [
+              {
+                "line": 30,
+                "text": "- Testes de mesa",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 82,
+                "text": "- Folhas com vetores de inteiros para testes de mesa",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              },
+              {
+                "line": 123,
+                "text": "- O uso de testes de mesa ajuda a consolidar a compreensão prática do algoritmo.",
+                "alias": "testes de mesa",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "presente",
+              "encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente).",
+                "alias": "presente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  4. Se não houver correspondência após a iteração, retornar \"não encontrado\".",
+                "alias": "encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "ausente",
+              "não encontrado"
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente).",
+                "alias": "ausente",
+                "ambiguous_context": false
+              },
+              {
+                "line": 50,
+                "text": "  4. Se não houver correspondência após a iteração, retornar \"não encontrado\".",
+                "alias": "não encontrado",
+                "ambiguous_context": true
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "requirement": "methodology",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "methodology",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": false,
+        "groups": [
+          {
+            "aliases": [
+              "resolução colaborativa de problemas",
+              "resolucao colaborativa de problemas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "requirement": "materials",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "produtos"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "materials",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "quadro",
+              "lousa"
+            ],
+            "evidence": [
+              {
+                "line": 48,
+                "text": "- **Material 1:** Quadro com a tabela de produtos (código, nome, preço)",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 70,
+                "text": "2. Cada grupo recebe o quadro e a folha com a tabela de produtos.",
+                "alias": "quadro",
+                "ambiguous_context": false
+              },
+              {
+                "line": 121,
+                "text": "- Quadro com tabela de produtos",
+                "alias": "quadro",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "folha",
+              "folhas",
+              "material impresso"
+            ],
+            "evidence": [
+              {
+                "line": 49,
+                "text": "- **Material 2:** Folha com a tabela de produtos (código, nome, preço)",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 70,
+                "text": "2. Cada grupo recebe o quadro e a folha com a tabela de produtos.",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 115,
+                "text": "- O professor pode realizar uma pequena avaliação escrita (em folha de rosto) para verificar o entendimento de alguns conceitos.",
+                "alias": "folha",
+                "ambiguous_context": false
+              },
+              {
+                "line": 122,
+                "text": "- Folha com tabela de produtos",
+                "alias": "folha",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "produtos"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 18,
+                "text": "- Apresentar a importância de manipular dados em tabelas de produtos.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 36,
+                "text": "  SELECT * FROM produtos WHERE preco = 100;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 39,
+                "text": "  SELECT * FROM produtos WHERE preco > 50;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 46,
+                "text": "**Objetivo:** Familiarizar os alunos com a tabela de produtos que será utilizada durante a aula.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 48,
+                "text": "- **Material 1:** Quadro com a tabela de produtos (código, nome, preço)",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 49,
+                "text": "- **Material 2:** Folha com a tabela de produtos (código, nome, preço)",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 51,
+                "text": "**Exemplo da Tabela de Produtos:**",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 70,
+                "text": "2. Cada grupo recebe o quadro e a folha com a tabela de produtos.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 72,
+                "text": "   - **Consulta 1 (Igualdade):** Encontre todos os produtos cujo preço é igual a 3.00.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 80,
+                "text": "  SELECT * FROM produtos WHERE preco = 3.00;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 90,
+                "text": "  SELECT * FROM produtos WHERE preco > 5.00;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 121,
+                "text": "- Quadro com tabela de produtos",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 122,
+                "text": "- Folha com tabela de produtos",
+                "alias": "produtos",
+                "ambiguous_context": false
+              },
+              {
+                "line": 133,
+                "text": "  SELECT * FROM produtos WHERE preco = 3.00 OR preco = 4.50;",
+                "alias": "produtos",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "requirement": "assessment_strategy",
+      "state": "undetermined",
+      "evidence": {
+        "present": null,
+        "groups": [
+          {
+            "aliases": [
+              "consulta",
+              "consultas"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "igualdade"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "comparação",
+              "comparacao"
+            ],
+            "evidence": [],
+            "positive_match": false
+          },
+          {
+            "aliases": [
+              "resultado",
+              "resultados"
+            ],
+            "evidence": [],
+            "positive_match": false
+          }
+        ],
+        "section_required": "assessment",
+        "interpretation": "explicit_textual_evidence_only"
+      },
+      "whole_text_diagnostic_only": {
+        "present": true,
+        "groups": [
+          {
+            "aliases": [
+              "consulta",
+              "consultas"
+            ],
+            "evidence": [
+              {
+                "line": 1,
+                "text": "**Plano de Aula: Consultas SQL com SELECT e WHERE**",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 16,
+                "text": "**Objetivo:** Estabelecer o contexto e a relevância das consultas SQL para extração de dados em bancos de dados.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 20,
+                "text": "- Mostrar a estrutura básica de uma consulta SQL:",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 71,
+                "text": "3. Cada grupo deve resolver as duas consultas:",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 72,
+                "text": "   - **Consulta 1 (Igualdade):** Encontre todos os produtos cujo preço é igual a 3.00.",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 74,
+                "text": "4. Os grupos devem escrever as consultas SQL e mostrar os resultados esperados.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 76,
+                "text": "**Exemplo de Consultas:**",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "- Consulta 1 (Igualdade):",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 88,
+                "text": "- Consulta 2 (Comparação numérica):",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 104,
+                "text": "- Cada grupo apresenta a consulta SQL e o resultado esperado.",
+                "alias": "consulta",
+                "ambiguous_context": false
+              },
+              {
+                "line": 114,
+                "text": "- A avaliação será feita com base na capacidade dos alunos de escrever consultas corretas com `SELECT` e `WHERE`.",
+                "alias": "consultas",
+                "ambiguous_context": false
+              },
+              {
+                "line": 140,
+                "text": "- Consultas com `WHERE` e `ORDER BY`",
+                "alias": "consultas",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "igualdade"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 31,
+                "text": "- **Igualdade:** `=`, `==`, `=` (em SQL, apenas `=` é válido)",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 72,
+                "text": "   - **Consulta 1 (Igualdade):** Encontre todos os produtos cujo preço é igual a 3.00.",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              },
+              {
+                "line": 78,
+                "text": "- Consulta 1 (Igualdade):",
+                "alias": "igualdade",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "comparação",
+              "comparacao"
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 32,
+                "text": "- **Comparação numérica:** `>`, `<`, `>=`, `<=`, `!=`, `<>`",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 32,
+                "text": "- **Comparação numérica:** `>`, `<`, `>=`, `<=`, `!=`, `<>`",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 73,
+                "text": "   - **Consulta 2 (Comparação numérica):** Encontre todos os produtos cujo preço é maior que 5.00.",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 88,
+                "text": "- Consulta 2 (Comparação numérica):",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 88,
+                "text": "- Consulta 2 (Comparação numérica):",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              },
+              {
+                "line": 141,
+                "text": "- Operadores lógicos e comparação de strings",
+                "alias": "comparação",
+                "ambiguous_context": false
+              },
+              {
+                "line": 141,
+                "text": "- Operadores lógicos e comparação de strings",
+                "alias": "comparacao",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          },
+          {
+            "aliases": [
+              "resultado",
+              "resultados"
+            ],
+            "evidence": [
+              {
+                "line": 19,
+                "text": "- Introduzir os conceitos de `SELECT` e `WHERE` como ferramentas essenciais para filtrar resultados.",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 74,
+                "text": "4. Os grupos devem escrever as consultas SQL e mostrar os resultados esperados.",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 82,
+                "text": "  **Resultado esperado:**",
+                "alias": "resultado",
+                "ambiguous_context": false
+              },
+              {
+                "line": 92,
+                "text": "  **Resultado esperado:**",
+                "alias": "resultado",
+                "ambiguous_context": false
+              },
+              {
+                "line": 100,
+                "text": "### **5. Apresentação dos Resultados (5 minutos)**",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos.",
+                "alias": "resultados",
+                "ambiguous_context": false
+              },
+              {
+                "line": 104,
+                "text": "- Cada grupo apresenta a consulta SQL e o resultado esperado.",
+                "alias": "resultado",
+                "ambiguous_context": false
+              }
+            ],
+            "positive_match": true
+          }
+        ],
+        "section_required": null,
+        "interpretation": "explicit_textual_evidence_only"
+      }
+    }
+  ],
+  "note": "C1/C2 unresolved or unmatched lexical checks; not confirmed omissions. Whole-text diagnostic does not replace section-scoped results."
+}

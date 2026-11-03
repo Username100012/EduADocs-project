@@ -208,6 +208,6 @@ cython_debug/
 .agents/
 .codex/
 .aws/
-artifacts/
+/artifacts/
 *.zip
 *.lock

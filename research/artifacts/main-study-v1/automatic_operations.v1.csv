@@ -1,0 +1,337 @@
+﻿task_id,subject,generator_id,condition,measure,aggregation,available,median,minimum,maximum,iqr
+,,gemini,c0,latency_ms,response_distribution,36,18129.20430000304,14696.47100000293,1679071.4355000018,2607.8783000048134
+,,gemini,c0,input_tokens,response_distribution,36,23.0,19,27,4.25
+,,gemini,c0,output_tokens,response_distribution,36,1586.0,1347,1844,143.25
+,,gemini,c0,word_count,response_distribution,36,740.0,630,901,66.75
+,,gemini,c0,latency_ms,equal_task_medians,12,18083.936350005388,15664.532700000564,185495.42820000352,2128.4905250013253
+,,gemini,c0,input_tokens,equal_task_medians,12,23.0,19,27,4.25
+,,gemini,c0,output_tokens,equal_task_medians,12,1568.5,1374,1753,118.25
+,,gemini,c0,word_count,equal_task_medians,12,737.0,663,869,46.25
+,,gemini,c1,latency_ms,response_distribution,35,15823.003400000744,10177.135700010695,186772.79850000195,2627.469499995641
+,,gemini,c1,input_tokens,response_distribution,35,136,123,155,5.5
+,,gemini,c1,output_tokens,response_distribution,35,1335,1015,1578,142.0
+,,gemini,c1,word_count,response_distribution,35,664,506,776,76.5
+,,gemini,c1,latency_ms,equal_task_medians,12,15958.392399996228,13418.36389999662,184317.78569999733,2620.1104749961814
+,,gemini,c1,input_tokens,equal_task_medians,12,135.5,123,155,4.25
+,,gemini,c1,output_tokens,equal_task_medians,12,1335.5,1089,1437,119.0
+,,gemini,c1,word_count,equal_task_medians,12,642.5,578,725,73.5
+,,gemini,c2,latency_ms,response_distribution,36,14490.165200004412,12043.67660000571,184119.4914000007,2809.2914750013733
+,,gemini,c2,input_tokens,response_distribution,36,189.5,177,209,4.25
+,,gemini,c2,output_tokens,response_distribution,36,1174.5,909,1509,247.25
+,,gemini,c2,word_count,response_distribution,36,573.0,448,724,115.25
+,,gemini,c2,latency_ms,equal_task_medians,12,14891.331099999661,12626.104299997678,179765.54359999864,1979.149899985714
+,,gemini,c2,input_tokens,equal_task_medians,12,189.5,177,209,4.25
+,,gemini,c2,output_tokens,equal_task_medians,12,1149.0,929,1414,114.25
+,,gemini,c2,word_count,equal_task_medians,12,563.5,474,659,74.5
+,,qwen3,c0,latency_ms,response_distribution,36,23607.999450003263,17709.85759999894,30951.138100004755,5863.24209999475
+,,qwen3,c0,input_tokens,response_distribution,36,40.0,36,46,5.0
+,,qwen3,c0,output_tokens,response_distribution,36,1161.5,794,1544,206.0
+,,qwen3,c0,word_count,response_distribution,36,530.0,362,751,117.75
+,,qwen3,c0,latency_ms,equal_task_medians,12,23020.425949998753,18863.343200006057,28603.956700011622,3747.8868249945663
+,,qwen3,c0,input_tokens,equal_task_medians,12,40.0,36,46,5.0
+,,qwen3,c0,output_tokens,equal_task_medians,12,1146.0,876,1490,184.75
+,,qwen3,c0,word_count,equal_task_medians,12,530.0,410,706,91.0
+,,qwen3,c1,latency_ms,response_distribution,36,28148.247399993124,23588.392299992847,33800.94960000133,3880.588225001702
+,,qwen3,c1,input_tokens,response_distribution,36,177.0,163,190,10.0
+,,qwen3,c1,output_tokens,response_distribution,36,1356.0,1087,1628,155.25
+,,qwen3,c1,word_count,response_distribution,36,624.0,524,757,94.5
+,,qwen3,c1,latency_ms,equal_task_medians,12,28190.993649994198,25299.58869999973,30803.414399997564,3049.6337249969656
+,,qwen3,c1,input_tokens,equal_task_medians,12,177.0,163,190,10.0
+,,qwen3,c1,output_tokens,equal_task_medians,12,1360.0,1259,1628,122.5
+,,qwen3,c1,word_count,equal_task_medians,12,624.0,525,725,93.5
+,,qwen3,c2,latency_ms,response_distribution,36,23738.011950004875,19865.441299996746,32657.612100010738,4113.876100002017
+,,qwen3,c2,input_tokens,response_distribution,36,235.0,221,248,10.0
+,,qwen3,c2,output_tokens,response_distribution,36,1175.5,987,1460,166.5
+,,qwen3,c2,word_count,response_distribution,36,572.0,460,652,79.25
+,,qwen3,c2,latency_ms,equal_task_medians,12,23377.148899999156,20988.60359999526,27606.89260000072,3442.9487500019604
+,,qwen3,c2,input_tokens,equal_task_medians,12,235.0,221,248,10.0
+,,qwen3,c2,output_tokens,equal_task_medians,12,1133.5,987,1407,200.5
+,,qwen3,c2,word_count,equal_task_medians,12,546.0,476,647,92.0
+task-001,Algoritmos e Programação,gemini,c0,latency_ms,response_distribution,3,19166.829900001176,17328.556099993875,1679071.4355000018,830871.439700004
+task-001,Algoritmos e Programação,gemini,c0,input_tokens,response_distribution,3,21,21,21,0.0
+task-001,Algoritmos e Programação,gemini,c0,output_tokens,response_distribution,3,1485,1421,1527,53.0
+task-001,Algoritmos e Programação,gemini,c0,word_count,response_distribution,3,743,697,761,32.0
+task-001,Algoritmos e Programação,gemini,c1,latency_ms,response_distribution,3,184317.78569999733,15986.856200004695,186772.79850000195,85392.97114999863
+task-001,Algoritmos e Programação,gemini,c1,input_tokens,response_distribution,3,136,136,136,0.0
+task-001,Algoritmos e Programação,gemini,c1,output_tokens,response_distribution,3,1399,1392,1556,82.0
+task-001,Algoritmos e Programação,gemini,c1,word_count,response_distribution,3,664,658,676,9.0
+task-001,Algoritmos e Programação,gemini,c2,latency_ms,response_distribution,3,13706.99869999953,12320.144899989828,15184.021399996709,1431.9382500034408
+task-001,Algoritmos e Programação,gemini,c2,input_tokens,response_distribution,3,190,190,190,0.0
+task-001,Algoritmos e Programação,gemini,c2,output_tokens,response_distribution,3,1174,986,1322,168.0
+task-001,Algoritmos e Programação,gemini,c2,word_count,response_distribution,3,573,479,631,76.0
+task-001,Algoritmos e Programação,qwen3,c0,latency_ms,response_distribution,3,19760.792600005516,19633.451200003037,30226.271399995312,5296.410099996137
+task-001,Algoritmos e Programação,qwen3,c0,input_tokens,response_distribution,3,38,38,38,0.0
+task-001,Algoritmos e Programação,qwen3,c0,output_tokens,response_distribution,3,958,929,1407,239.0
+task-001,Algoritmos e Programação,qwen3,c0,word_count,response_distribution,3,471,448,680,116.0
+task-001,Algoritmos e Programação,qwen3,c1,latency_ms,response_distribution,3,26805.968800006667,24406.783499987796,27086.14889999444,1339.6827000033227
+task-001,Algoritmos e Programação,qwen3,c1,input_tokens,response_distribution,3,174,174,174,0.0
+task-001,Algoritmos e Programação,qwen3,c1,output_tokens,response_distribution,3,1259,1259,1259,0.0
+task-001,Algoritmos e Programação,qwen3,c1,word_count,response_distribution,3,525,525,525,0.0
+task-001,Algoritmos e Programação,qwen3,c2,latency_ms,response_distribution,3,22607.083599999896,20799.57469999499,23165.070700008073,1182.7480000065407
+task-001,Algoritmos e Programação,qwen3,c2,input_tokens,response_distribution,3,232,232,232,0.0
+task-001,Algoritmos e Programação,qwen3,c2,output_tokens,response_distribution,3,1103,1103,1164,30.5
+task-001,Algoritmos e Programação,qwen3,c2,word_count,response_distribution,3,511,511,578,33.5
+task-002,Algoritmos e Programação,gemini,c0,latency_ms,response_distribution,3,185495.42820000352,15678.15619999601,188328.15290000144,86324.99835000272
+task-002,Algoritmos e Programação,gemini,c0,input_tokens,response_distribution,3,21,21,21,0.0
+task-002,Algoritmos e Programação,gemini,c0,output_tokens,response_distribution,3,1383,1347,1532,92.5
+task-002,Algoritmos e Programação,gemini,c0,word_count,response_distribution,3,676,630,685,27.5
+task-002,Algoritmos e Programação,gemini,c1,latency_ms,response_distribution,2,99160.70549999858,15415.795699998853,182905.61529999832,83744.90979999973
+task-002,Algoritmos e Programação,gemini,c1,input_tokens,response_distribution,2,135.0,135,135,0.0
+task-002,Algoritmos e Programação,gemini,c1,output_tokens,response_distribution,2,1343.5,1333,1354,10.5
+task-002,Algoritmos e Programação,gemini,c1,word_count,response_distribution,2,678.5,676,681,2.5
+task-002,Algoritmos e Programação,gemini,c2,latency_ms,response_distribution,3,16344.375999993645,16172.927999999956,184119.4914000007,83973.28170000037
+task-002,Algoritmos e Programação,gemini,c2,input_tokens,response_distribution,3,189,189,189,0.0
+task-002,Algoritmos e Programação,gemini,c2,output_tokens,response_distribution,3,1322,1258,1335,38.5
+task-002,Algoritmos e Programação,gemini,c2,word_count,response_distribution,3,659,644,669,12.5
+task-002,Algoritmos e Programação,qwen3,c0,latency_ms,response_distribution,3,23043.570800000452,21910.0494000013,30951.138100004755,4520.544350001728
+task-002,Algoritmos e Programação,qwen3,c0,input_tokens,response_distribution,3,38,38,38,0.0
+task-002,Algoritmos e Programação,qwen3,c0,output_tokens,response_distribution,3,1059,1036,1544,254.0
+task-002,Algoritmos e Programação,qwen3,c0,word_count,response_distribution,3,504,482,751,134.5
+task-002,Algoritmos e Programação,qwen3,c1,latency_ms,response_distribution,3,29746.68150000798,29128.851600005873,31401.321900004405,1136.2351499992656
+task-002,Algoritmos e Programação,qwen3,c1,input_tokens,response_distribution,3,174,174,174,0.0
+task-002,Algoritmos e Programação,qwen3,c1,output_tokens,response_distribution,3,1500,1382,1500,59.0
+task-002,Algoritmos e Programação,qwen3,c1,word_count,response_distribution,3,724,649,724,37.5
+task-002,Algoritmos e Programação,qwen3,c2,latency_ms,response_distribution,3,20988.60359999526,19865.441299996746,22650.442099999054,1392.500400001154
+task-002,Algoritmos e Programação,qwen3,c2,input_tokens,response_distribution,3,232,232,232,0.0
+task-002,Algoritmos e Programação,qwen3,c2,output_tokens,response_distribution,3,1048,1005,1108,51.5
+task-002,Algoritmos e Programação,qwen3,c2,word_count,response_distribution,3,496,491,514,11.5
+task-003,Algoritmos e Programação,gemini,c0,latency_ms,response_distribution,3,17967.023300006986,17665.179200004786,18983.24689999572,659.0338499954669
+task-003,Algoritmos e Programação,gemini,c0,input_tokens,response_distribution,3,27,27,27,0.0
+task-003,Algoritmos e Programação,gemini,c0,output_tokens,response_distribution,3,1514,1466,1655,94.5
+task-003,Algoritmos e Programação,gemini,c0,word_count,response_distribution,3,709,705,757,26.0
+task-003,Algoritmos e Programação,gemini,c1,latency_ms,response_distribution,3,17078.433799993945,15823.003400000744,184039.90859999612,84108.45259999769
+task-003,Algoritmos e Programação,gemini,c1,input_tokens,response_distribution,3,133,133,133,0.0
+task-003,Algoritmos e Programação,gemini,c1,output_tokens,response_distribution,3,1381,1267,1475,104.0
+task-003,Algoritmos e Programação,gemini,c1,word_count,response_distribution,3,725,650,760,55.0
+task-003,Algoritmos e Programação,gemini,c2,latency_ms,response_distribution,3,15113.255199990817,12468.273099992075,15460.757699998794,1496.2423000033596
+task-003,Algoritmos e Programação,gemini,c2,input_tokens,response_distribution,3,187,187,187,0.0
+task-003,Algoritmos e Programação,gemini,c2,output_tokens,response_distribution,3,1239,1108,1344,118.0
+task-003,Algoritmos e Programação,gemini,c2,word_count,response_distribution,3,631,585,676,45.5
+task-003,Algoritmos e Programação,qwen3,c0,latency_ms,response_distribution,3,23641.4700000023,21489.704200001142,29734.120299995993,4122.208049997425
+task-003,Algoritmos e Programação,qwen3,c0,input_tokens,response_distribution,3,43,43,43,0.0
+task-003,Algoritmos e Programação,qwen3,c0,output_tokens,response_distribution,3,1196,1136,1482,173.0
+task-003,Algoritmos e Programação,qwen3,c0,word_count,response_distribution,3,545,545,667,61.0
+task-003,Algoritmos e Programação,qwen3,c1,latency_ms,response_distribution,3,28568.42979999783,25110.2863000051,32165.756700007478,3527.735200001189
+task-003,Algoritmos e Programação,qwen3,c1,input_tokens,response_distribution,3,171,171,171,0.0
+task-003,Algoritmos e Programação,qwen3,c1,output_tokens,response_distribution,3,1397,1351,1522,85.5
+task-003,Algoritmos e Programação,qwen3,c1,word_count,response_distribution,3,672,622,757,67.5
+task-003,Algoritmos e Programação,qwen3,c2,latency_ms,response_distribution,3,23011.437999994087,22071.920400005183,24426.366300001973,1177.222949998395
+task-003,Algoritmos e Programação,qwen3,c2,input_tokens,response_distribution,3,229,229,229,0.0
+task-003,Algoritmos e Programação,qwen3,c2,output_tokens,response_distribution,3,1148,1119,1190,35.5
+task-003,Algoritmos e Programação,qwen3,c2,word_count,response_distribution,3,566,561,581,10.0
+task-004,Algoritmos e Programação,gemini,c0,latency_ms,response_distribution,3,18200.84940000379,17328.15760000085,18609.858700001496,640.850550000323
+task-004,Algoritmos e Programação,gemini,c0,input_tokens,response_distribution,3,21,21,21,0.0
+task-004,Algoritmos e Programação,gemini,c0,output_tokens,response_distribution,3,1526,1496,1614,59.0
+task-004,Algoritmos e Programação,gemini,c0,word_count,response_distribution,3,701,685,706,10.5
+task-004,Algoritmos e Programação,gemini,c1,latency_ms,response_distribution,3,13418.36389999662,10177.135700010695,16414.274800001294,3118.5695499953
+task-004,Algoritmos e Programação,gemini,c1,input_tokens,response_distribution,3,134,134,134,0.0
+task-004,Algoritmos e Programação,gemini,c1,output_tokens,response_distribution,3,1273,1125,1392,133.5
+task-004,Algoritmos e Programação,gemini,c1,word_count,response_distribution,3,591,561,690,64.5
+task-004,Algoritmos e Programação,gemini,c2,latency_ms,response_distribution,3,15488.830100002815,12043.67660000571,16720.892600002117,2338.607999998203
+task-004,Algoritmos e Programação,gemini,c2,input_tokens,response_distribution,3,188,188,188,0.0
+task-004,Algoritmos e Programação,gemini,c2,output_tokens,response_distribution,3,1181,1065,1299,117.0
+task-004,Algoritmos e Programação,gemini,c2,word_count,response_distribution,3,573,516,625,54.5
+task-004,Algoritmos e Programação,qwen3,c0,latency_ms,response_distribution,3,28603.956700011622,27740.474199992605,29107.327100005932,683.4264500066638
+task-004,Algoritmos e Programação,qwen3,c0,input_tokens,response_distribution,3,38,38,38,0.0
+task-004,Algoritmos e Programação,qwen3,c0,output_tokens,response_distribution,3,1434,1434,1434,0.0
+task-004,Algoritmos e Programação,qwen3,c0,word_count,response_distribution,3,602,602,602,0.0
+task-004,Algoritmos e Programação,qwen3,c1,latency_ms,response_distribution,3,25299.58869999973,25053.82319999626,28637.011200000416,1791.5940000020782
+task-004,Algoritmos e Programação,qwen3,c1,input_tokens,response_distribution,3,179,179,179,0.0
+task-004,Algoritmos e Programação,qwen3,c1,output_tokens,response_distribution,3,1299,1252,1374,61.0
+task-004,Algoritmos e Programação,qwen3,c1,word_count,response_distribution,3,625,524,638,57.0
+task-004,Algoritmos e Programação,qwen3,c2,latency_ms,response_distribution,3,25064.039000004414,24108.507400000235,26253.768800001126,1072.6307000004454
+task-004,Algoritmos e Programação,qwen3,c2,input_tokens,response_distribution,3,237,237,237,0.0
+task-004,Algoritmos e Programação,qwen3,c2,output_tokens,response_distribution,3,1223,1223,1223,0.0
+task-004,Algoritmos e Programação,qwen3,c2,word_count,response_distribution,3,592,592,592,0.0
+task-005,Banco de Dados,gemini,c0,latency_ms,response_distribution,3,17664.851699999417,16893.687300005695,18057.559200002288,581.9359499982966
+task-005,Banco de Dados,gemini,c0,input_tokens,response_distribution,3,25,25,25,0.0
+task-005,Banco de Dados,gemini,c0,output_tokens,response_distribution,3,1643,1603,1652,24.5
+task-005,Banco de Dados,gemini,c0,word_count,response_distribution,3,742,736,760,12.0
+task-005,Banco de Dados,gemini,c1,latency_ms,response_distribution,3,14855.54210000555,14418.873100003111,17488.959000009345,1535.0429500031169
+task-005,Banco de Dados,gemini,c1,input_tokens,response_distribution,3,135,135,135,0.0
+task-005,Banco de Dados,gemini,c1,output_tokens,response_distribution,3,1328,1243,1381,69.0
+task-005,Banco de Dados,gemini,c1,word_count,response_distribution,3,606,550,677,63.5
+task-005,Banco de Dados,gemini,c2,latency_ms,response_distribution,3,179765.54359999864,14267.542300003697,181198.4203000029,83465.4389999996
+task-005,Banco de Dados,gemini,c2,input_tokens,response_distribution,3,189,189,189,0.0
+task-005,Banco de Dados,gemini,c2,output_tokens,response_distribution,3,1083,995,1183,94.0
+task-005,Banco de Dados,gemini,c2,word_count,response_distribution,3,506,505,536,15.5
+task-005,Banco de Dados,qwen3,c0,latency_ms,response_distribution,3,23980.18929999671,23574.528900004225,28368.18360000325,2396.827349999512
+task-005,Banco de Dados,qwen3,c0,input_tokens,response_distribution,3,43,43,43,0.0
+task-005,Banco de Dados,qwen3,c0,output_tokens,response_distribution,3,1165,1123,1204,40.5
+task-005,Banco de Dados,qwen3,c0,word_count,response_distribution,3,531,525,560,17.5
+task-005,Banco de Dados,qwen3,c1,latency_ms,response_distribution,3,26381.729700005963,23588.392299992847,29730.32190000231,3070.964800004731
+task-005,Banco de Dados,qwen3,c1,input_tokens,response_distribution,3,175,175,175,0.0
+task-005,Banco de Dados,qwen3,c1,output_tokens,response_distribution,3,1334,1087,1334,123.5
+task-005,Banco de Dados,qwen3,c1,word_count,response_distribution,3,552,526,552,13.0
+task-005,Banco de Dados,qwen3,c2,latency_ms,response_distribution,3,21810.43630000204,20227.738399989903,24668.749500007834,2220.5055500089657
+task-005,Banco de Dados,qwen3,c2,input_tokens,response_distribution,3,233,233,233,0.0
+task-005,Banco de Dados,qwen3,c2,output_tokens,response_distribution,3,1012,1012,1187,87.5
+task-005,Banco de Dados,qwen3,c2,word_count,response_distribution,3,476,476,578,51.0
+task-006,Banco de Dados,gemini,c0,latency_ms,response_distribution,3,16679.293599998346,16298.758199998701,183961.66050000465,83831.45115000298
+task-006,Banco de Dados,gemini,c0,input_tokens,response_distribution,3,19,19,19,0.0
+task-006,Banco de Dados,gemini,c0,output_tokens,response_distribution,3,1566,1539,1601,31.0
+task-006,Banco de Dados,gemini,c0,word_count,response_distribution,3,733,713,746,16.5
+task-006,Banco de Dados,gemini,c1,latency_ms,response_distribution,3,16022.486200003186,15638.163299998268,16880.752499986556,621.2945999941439
+task-006,Banco de Dados,gemini,c1,input_tokens,response_distribution,3,123,123,123,0.0
+task-006,Banco de Dados,gemini,c1,output_tokens,response_distribution,3,1437,1257,1471,107.0
+task-006,Banco de Dados,gemini,c1,word_count,response_distribution,3,680,671,703,16.0
+task-006,Banco de Dados,gemini,c2,latency_ms,response_distribution,3,13516.643999995722,12800.990799994906,15323.887299993658,1261.4482499993755
+task-006,Banco de Dados,gemini,c2,input_tokens,response_distribution,3,177,177,177,0.0
+task-006,Banco de Dados,gemini,c2,output_tokens,response_distribution,3,1145,1034,1321,143.5
+task-006,Banco de Dados,gemini,c2,word_count,response_distribution,3,543,515,644,64.5
+task-006,Banco de Dados,qwen3,c0,latency_ms,response_distribution,3,18863.343200006057,17709.85759999894,21561.323599999014,1925.7330000000366
+task-006,Banco de Dados,qwen3,c0,input_tokens,response_distribution,3,36,36,36,0.0
+task-006,Banco de Dados,qwen3,c0,output_tokens,response_distribution,3,876,794,988,97.0
+task-006,Banco de Dados,qwen3,c0,word_count,response_distribution,3,444,362,471,54.5
+task-006,Banco de Dados,qwen3,c1,latency_ms,response_distribution,3,29237.365299995872,27933.540099998936,29495.86470000213,781.162300001597
+task-006,Banco de Dados,qwen3,c1,input_tokens,response_distribution,3,163,163,163,0.0
+task-006,Banco de Dados,qwen3,c1,output_tokens,response_distribution,3,1374,1362,1450,44.0
+task-006,Banco de Dados,qwen3,c1,word_count,response_distribution,3,623,611,697,43.0
+task-006,Banco de Dados,qwen3,c2,latency_ms,response_distribution,3,21507.806900001015,20808.428899996215,26711.95839998836,2951.764749996073
+task-006,Banco de Dados,qwen3,c2,input_tokens,response_distribution,3,221,221,221,0.0
+task-006,Banco de Dados,qwen3,c2,output_tokens,response_distribution,3,987,987,1255,134.0
+task-006,Banco de Dados,qwen3,c2,word_count,response_distribution,3,477,477,558,40.5
+task-007,Banco de Dados,gemini,c0,latency_ms,response_distribution,3,15664.532700000564,15654.11609999137,17733.222800001386,1039.5533500050078
+task-007,Banco de Dados,gemini,c0,input_tokens,response_distribution,3,22,22,22,0.0
+task-007,Banco de Dados,gemini,c0,output_tokens,response_distribution,3,1374,1372,1644,136.0
+task-007,Banco de Dados,gemini,c0,word_count,response_distribution,3,663,653,794,70.5
+task-007,Banco de Dados,gemini,c1,latency_ms,response_distribution,3,15896.976799995173,15534.365200001048,18726.092199998675,1595.8634999988135
+task-007,Banco de Dados,gemini,c1,input_tokens,response_distribution,3,135,135,135,0.0
+task-007,Banco de Dados,gemini,c1,output_tokens,response_distribution,3,1343,1339,1482,71.5
+task-007,Banco de Dados,gemini,c1,word_count,response_distribution,3,690,654,721,33.5
+task-007,Banco de Dados,gemini,c2,latency_ms,response_distribution,3,15787.995999999112,12850.876399999834,15987.79359999753,1568.4585999988485
+task-007,Banco de Dados,gemini,c2,input_tokens,response_distribution,3,189,189,189,0.0
+task-007,Banco de Dados,gemini,c2,output_tokens,response_distribution,3,1414,1404,1509,52.5
+task-007,Banco de Dados,gemini,c2,word_count,response_distribution,3,615,596,724,64.0
+task-007,Banco de Dados,qwen3,c0,latency_ms,response_distribution,3,20854.30620000261,19977.224500005832,23828.452999994624,1925.6142499943962
+task-007,Banco de Dados,qwen3,c0,input_tokens,response_distribution,3,38,38,38,0.0
+task-007,Banco de Dados,qwen3,c0,output_tokens,response_distribution,3,1072,1002,1225,111.5
+task-007,Banco de Dados,qwen3,c0,word_count,response_distribution,3,475,464,527,31.5
+task-007,Banco de Dados,qwen3,c1,latency_ms,response_distribution,3,29788.22420000506,25056.18489999324,30660.25059999083,2802.0328499987954
+task-007,Banco de Dados,qwen3,c1,input_tokens,response_distribution,3,172,172,172,0.0
+task-007,Banco de Dados,qwen3,c1,output_tokens,response_distribution,3,1414,1227,1503,138.0
+task-007,Banco de Dados,qwen3,c1,word_count,response_distribution,3,578,577,628,25.5
+task-007,Banco de Dados,qwen3,c2,latency_ms,response_distribution,3,23742.859800004226,21454.147799995553,26454.801800005953,2500.3270000052
+task-007,Banco de Dados,qwen3,c2,input_tokens,response_distribution,3,230,230,230,0.0
+task-007,Banco de Dados,qwen3,c2,output_tokens,response_distribution,3,1250,1145,1250,52.5
+task-007,Banco de Dados,qwen3,c2,word_count,response_distribution,3,647,586,647,30.5
+task-008,Banco de Dados,gemini,c0,latency_ms,response_distribution,3,19541.36709999875,17833.703800002695,186745.38510000275,84455.84065000003
+task-008,Banco de Dados,gemini,c0,input_tokens,response_distribution,3,21,21,21,0.0
+task-008,Banco de Dados,gemini,c0,output_tokens,response_distribution,3,1572,1525,1600,37.5
+task-008,Banco de Dados,gemini,c0,word_count,response_distribution,3,704,681,739,29.0
+task-008,Banco de Dados,gemini,c1,latency_ms,response_distribution,3,16019.807999997283,12510.60320000397,186474.05540000182,86981.72609999892
+task-008,Banco de Dados,gemini,c1,input_tokens,response_distribution,3,136,136,136,0.0
+task-008,Banco de Dados,gemini,c1,output_tokens,response_distribution,3,1228,1015,1335,160.0
+task-008,Banco de Dados,gemini,c1,word_count,response_distribution,3,620,506,670,82.0
+task-008,Banco de Dados,gemini,c2,latency_ms,response_distribution,3,12626.104299997678,12054.676299987477,14465.416100007133,1205.3699000098277
+task-008,Banco de Dados,gemini,c2,input_tokens,response_distribution,3,190,190,190,0.0
+task-008,Banco de Dados,gemini,c2,output_tokens,response_distribution,3,929,909,1175,133.0
+task-008,Banco de Dados,gemini,c2,word_count,response_distribution,3,474,448,567,59.5
+task-008,Banco de Dados,qwen3,c0,latency_ms,response_distribution,3,19151.104000004125,18764.384499998414,25982.883900011075,3609.2497000063304
+task-008,Banco de Dados,qwen3,c0,input_tokens,response_distribution,3,40,40,40,0.0
+task-008,Banco de Dados,qwen3,c0,output_tokens,response_distribution,3,971,971,1227,128.0
+task-008,Banco de Dados,qwen3,c0,word_count,response_distribution,3,410,410,497,43.5
+task-008,Banco de Dados,qwen3,c1,latency_ms,response_distribution,3,28475.477299987688,25993.141699989792,29223.511899996083,1615.1851000031456
+task-008,Banco de Dados,qwen3,c1,input_tokens,response_distribution,3,183,183,183,0.0
+task-008,Banco de Dados,qwen3,c1,output_tokens,response_distribution,3,1437,1311,1520,104.5
+task-008,Banco de Dados,qwen3,c1,word_count,response_distribution,3,622,591,647,28.0
+task-008,Banco de Dados,qwen3,c2,latency_ms,response_distribution,3,23975.862999999663,22944.937299995217,24196.643900002528,625.853300003655
+task-008,Banco de Dados,qwen3,c2,input_tokens,response_distribution,3,241,241,241,0.0
+task-008,Banco de Dados,qwen3,c2,output_tokens,response_distribution,3,1119,1119,1203,42.0
+task-008,Banco de Dados,qwen3,c2,word_count,response_distribution,3,516,460,516,28.0
+task-009,Engenharia de Software,gemini,c0,latency_ms,response_distribution,3,17060.911400003533,14696.47100000293,19260.26589999674,2281.8974499969045
+task-009,Engenharia de Software,gemini,c0,input_tokens,response_distribution,3,24,24,24,0.0
+task-009,Engenharia de Software,gemini,c0,output_tokens,response_distribution,3,1571,1452,1658,103.0
+task-009,Engenharia de Software,gemini,c0,word_count,response_distribution,3,741,680,800,60.0
+task-009,Engenharia de Software,gemini,c1,latency_ms,response_distribution,3,13703.401599996141,12979.169799989904,16920.657599999686,1970.7439000048907
+task-009,Engenharia de Software,gemini,c1,input_tokens,response_distribution,3,146,146,146,0.0
+task-009,Engenharia de Software,gemini,c1,output_tokens,response_distribution,3,1089,1051,1413,181.0
+task-009,Engenharia de Software,gemini,c1,word_count,response_distribution,3,578,541,701,80.0
+task-009,Engenharia de Software,gemini,c2,latency_ms,response_distribution,3,13087.913099996513,12692.87689999328,14042.085599998245,674.6043500024825
+task-009,Engenharia de Software,gemini,c2,input_tokens,response_distribution,3,200,200,200,0.0
+task-009,Engenharia de Software,gemini,c2,output_tokens,response_distribution,3,1103,997,1203,103.0
+task-009,Engenharia de Software,gemini,c2,word_count,response_distribution,3,554,511,608,48.5
+task-009,Engenharia de Software,qwen3,c0,latency_ms,response_distribution,3,22683.00970000564,22656.867199999397,23843.03689999797,593.0848499992862
+task-009,Engenharia de Software,qwen3,c0,input_tokens,response_distribution,3,42,42,42,0.0
+task-009,Engenharia de Software,qwen3,c0,output_tokens,response_distribution,3,1127,1127,1127,0.0
+task-009,Engenharia de Software,qwen3,c0,word_count,response_distribution,3,529,529,529,0.0
+task-009,Engenharia de Software,qwen3,c1,latency_ms,response_distribution,3,26115.053399989847,25140.631999995094,30496.56519999553,2677.966600000218
+task-009,Engenharia de Software,qwen3,c1,input_tokens,response_distribution,3,185,185,185,0.0
+task-009,Engenharia de Software,qwen3,c1,output_tokens,response_distribution,3,1292,1292,1415,61.5
+task-009,Engenharia de Software,qwen3,c1,word_count,response_distribution,3,634,634,679,22.5
+task-009,Engenharia de Software,qwen3,c2,latency_ms,response_distribution,3,21335.019200007082,20806.60550000175,21425.834199995734,309.6143499969912
+task-009,Engenharia de Software,qwen3,c2,input_tokens,response_distribution,3,243,243,243,0.0
+task-009,Engenharia de Software,qwen3,c2,output_tokens,response_distribution,3,1055,1055,1055,0.0
+task-009,Engenharia de Software,qwen3,c2,word_count,response_distribution,3,526,526,526,0.0
+task-010,Engenharia de Software,gemini,c0,latency_ms,response_distribution,3,19913.801899994723,19838.017700007185,20016.436300007626,89.20930000022054
+task-010,Engenharia de Software,gemini,c0,input_tokens,response_distribution,3,26,26,26,0.0
+task-010,Engenharia de Software,gemini,c0,output_tokens,response_distribution,3,1753,1726,1844,59.0
+task-010,Engenharia de Software,gemini,c0,word_count,response_distribution,3,869,841,901,30.0
+task-010,Engenharia de Software,gemini,c1,latency_ms,response_distribution,3,17023.11870000267,15521.340499995858,183689.9326999992,84084.29610000167
+task-010,Engenharia de Software,gemini,c1,input_tokens,response_distribution,3,142,142,142,0.0
+task-010,Engenharia de Software,gemini,c1,output_tokens,response_distribution,3,1376,1328,1578,125.0
+task-010,Engenharia de Software,gemini,c1,word_count,response_distribution,3,687,679,776,48.5
+task-010,Engenharia de Software,gemini,c2,latency_ms,response_distribution,3,15558.536599986837,13352.8484999988,180736.0439999975,83691.59774999935
+task-010,Engenharia de Software,gemini,c2,input_tokens,response_distribution,3,196,196,196,0.0
+task-010,Engenharia de Software,gemini,c2,output_tokens,response_distribution,3,1076,1005,1437,216.0
+task-010,Engenharia de Software,gemini,c2,word_count,response_distribution,3,541,521,718,98.5
+task-010,Engenharia de Software,qwen3,c0,latency_ms,response_distribution,3,25374.690600001486,23199.302100008936,27062.44599999627,1931.5719499936677
+task-010,Engenharia de Software,qwen3,c0,input_tokens,response_distribution,3,45,45,45,0.0
+task-010,Engenharia de Software,qwen3,c0,output_tokens,response_distribution,3,1219,1219,1244,12.5
+task-010,Engenharia de Software,qwen3,c0,word_count,response_distribution,3,598,585,598,6.5
+task-010,Engenharia de Software,qwen3,c1,latency_ms,response_distribution,3,30803.414399997564,27909.344400002738,33800.94960000133,2945.802599999297
+task-010,Engenharia de Software,qwen3,c1,input_tokens,response_distribution,3,186,186,186,0.0
+task-010,Engenharia de Software,qwen3,c1,output_tokens,response_distribution,3,1628,1361,1628,133.5
+task-010,Engenharia de Software,qwen3,c1,word_count,response_distribution,3,725,606,725,59.5
+task-010,Engenharia de Software,qwen3,c2,latency_ms,response_distribution,3,27606.89260000072,25260.05769999756,27844.32750000269,1292.1349000025657
+task-010,Engenharia de Software,qwen3,c2,input_tokens,response_distribution,3,244,244,244,0.0
+task-010,Engenharia de Software,qwen3,c2,output_tokens,response_distribution,3,1407,1278,1407,64.5
+task-010,Engenharia de Software,qwen3,c2,word_count,response_distribution,3,621,594,621,13.5
+task-011,Engenharia de Software,gemini,c0,latency_ms,response_distribution,3,19317.587300000014,18766.403700006776,20015.247000003,624.4216499981121
+task-011,Engenharia de Software,gemini,c0,input_tokens,response_distribution,3,24,24,24,0.0
+task-011,Engenharia de Software,gemini,c0,output_tokens,response_distribution,3,1714,1661,1804,71.5
+task-011,Engenharia de Software,gemini,c0,word_count,response_distribution,3,782,766,826,30.0
+task-011,Engenharia de Software,gemini,c1,latency_ms,response_distribution,3,14427.740400002222,14259.011200003442,15268.084600000293,504.5366999984253
+task-011,Engenharia de Software,gemini,c1,input_tokens,response_distribution,3,155,155,155,0.0
+task-011,Engenharia de Software,gemini,c1,output_tokens,response_distribution,3,1265,1166,1351,92.5
+task-011,Engenharia de Software,gemini,c1,word_count,response_distribution,3,621,552,642,45.0
+task-011,Engenharia de Software,gemini,c2,latency_ms,response_distribution,3,13676.787400007015,12704.454599996097,14514.914300001692,905.2298500027973
+task-011,Engenharia de Software,gemini,c2,input_tokens,response_distribution,3,209,209,209,0.0
+task-011,Engenharia de Software,gemini,c2,output_tokens,response_distribution,3,1064,990,1305,157.5
+task-011,Engenharia de Software,gemini,c2,word_count,response_distribution,3,492,459,580,60.5
+task-011,Engenharia de Software,qwen3,c0,latency_ms,response_distribution,3,22997.281099997053,19915.53019999992,25950.468700000783,3017.469250000431
+task-011,Engenharia de Software,qwen3,c0,input_tokens,response_distribution,3,40,40,40,0.0
+task-011,Engenharia de Software,qwen3,c0,output_tokens,response_distribution,3,1230,980,1230,125.0
+task-011,Engenharia de Software,qwen3,c0,word_count,response_distribution,3,554,500,573,36.5
+task-011,Engenharia de Software,qwen3,c1,latency_ms,response_distribution,3,25752.641300001414,25437.639199997648,29276.828999994905,1919.5948999986285
+task-011,Engenharia de Software,qwen3,c1,input_tokens,response_distribution,3,190,190,190,0.0
+task-011,Engenharia de Software,qwen3,c1,output_tokens,response_distribution,3,1264,1213,1458,122.5
+task-011,Engenharia de Software,qwen3,c1,word_count,response_distribution,3,579,571,642,35.5
+task-011,Engenharia de Software,qwen3,c2,latency_ms,response_distribution,3,25518.79380000173,23733.164100005524,32657.612100010738,4462.224000002607
+task-011,Engenharia de Software,qwen3,c2,input_tokens,response_distribution,3,248,248,248,0.0
+task-011,Engenharia de Software,qwen3,c2,output_tokens,response_distribution,3,1265,1265,1460,97.5
+task-011,Engenharia de Software,qwen3,c2,word_count,response_distribution,3,582,582,617,17.5
+task-012,Engenharia de Software,gemini,c0,latency_ms,response_distribution,3,17306.418499996653,17077.086300007068,187310.6870000047,85116.80034999881
+task-012,Engenharia de Software,gemini,c0,input_tokens,response_distribution,3,26,26,26,0.0
+task-012,Engenharia de Software,gemini,c0,output_tokens,response_distribution,3,1619,1608,1693,42.5
+task-012,Engenharia de Software,gemini,c0,word_count,response_distribution,3,769,764,817,26.5
+task-012,Engenharia de Software,gemini,c1,latency_ms,response_distribution,3,14384.126800010563,12990.698900001007,15671.614200007753,1340.4576500033727
+task-012,Engenharia de Software,gemini,c1,input_tokens,response_distribution,3,138,138,138,0.0
+task-012,Engenharia de Software,gemini,c1,output_tokens,response_distribution,3,1238,1192,1325,66.5
+task-012,Engenharia de Software,gemini,c1,word_count,response_distribution,3,609,577,660,41.5
+task-012,Engenharia de Software,gemini,c2,latency_ms,response_distribution,3,14669.407000008505,14360.067799992976,182636.8197999982,84138.37600000261
+task-012,Engenharia de Software,gemini,c2,input_tokens,response_distribution,3,192,192,192,0.0
+task-012,Engenharia de Software,gemini,c2,output_tokens,response_distribution,3,1153,1055,1272,108.5
+task-012,Engenharia de Software,gemini,c2,word_count,response_distribution,3,604,538,655,58.5
+task-012,Engenharia de Software,qwen3,c0,latency_ms,response_distribution,3,27589.049199996225,23700.490900009754,29032.19309999986,2665.851099995052
+task-012,Engenharia de Software,qwen3,c0,input_tokens,response_distribution,3,46,46,46,0.0
+task-012,Engenharia de Software,qwen3,c0,output_tokens,response_distribution,3,1490,1158,1490,166.0
+task-012,Engenharia de Software,qwen3,c0,word_count,response_distribution,3,706,580,706,63.0
+task-012,Engenharia de Software,qwen3,c1,latency_ms,response_distribution,3,27906.510000000708,25218.987400003243,28362.954699987313,1571.9836499920348
+task-012,Engenharia de Software,qwen3,c1,input_tokens,response_distribution,3,183,183,183,0.0
+task-012,Engenharia de Software,qwen3,c1,output_tokens,response_distribution,3,1346,1242,1346,52.0
+task-012,Engenharia de Software,qwen3,c1,word_count,response_distribution,3,673,595,673,39.0
+task-012,Engenharia de Software,qwen3,c2,latency_ms,response_distribution,3,26513.068300002487,25876.69150000147,28125.938700002735,1124.623600000632
+task-012,Engenharia de Software,qwen3,c2,input_tokens,response_distribution,3,241,241,241,0.0
+task-012,Engenharia de Software,qwen3,c2,output_tokens,response_distribution,3,1311,1311,1359,24.0
+task-012,Engenharia de Software,qwen3,c2,word_count,response_distribution,3,638,638,652,7.0

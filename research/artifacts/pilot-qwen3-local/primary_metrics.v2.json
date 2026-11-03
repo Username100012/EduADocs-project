@@ -1,0 +1,1716 @@
+{
+  "metrics_version": "eduadocs-textual-proxies-v2",
+  "source_log_sha256": "8742de0ce3846f0b59af70e9227fa43f4c14a43ea5cf77df0361478752321e45",
+  "source_metrics_sha256": "f59226aa5db4d573e011293ac53defc86de5825f5e5588f659c523f1903b5924",
+  "simulated": false,
+  "analysis_code_sha256": "3cd7759dc72ca96c67684b65b96a7974509f7ceb88bf7e0398727038db74e95f",
+  "quartile_method": "statistics.quantiles inclusive; IQR null with fewer than two measurements",
+  "groups": [
+    {
+      "task_id": null,
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "planned": 9,
+      "started": 9,
+      "completed": 9,
+      "analyzable_texts": 9,
+      "statuses": {
+        "success": 9
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "learning_objectives": {
+          "denominator": 9,
+          "counts": {
+            "matched": 6,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.6666666666666666,
+            "not_matched": 0.3333333333333333,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "duration_minutes": {
+          "denominator": 9,
+          "counts": {
+            "matched": 0,
+            "not_matched": 9,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "methodology": {
+          "denominator": 9,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 9
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": false
+        },
+        "materials": {
+          "denominator": 9,
+          "counts": {
+            "matched": 0,
+            "not_matched": 1,
+            "undetermined": 8
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.1111111111111111,
+            "undetermined": 0.8888888888888888
+          },
+          "target_in_prompt": false
+        },
+        "assessment_strategy": {
+          "denominator": 9,
+          "counts": {
+            "matched": 0,
+            "not_matched": 9,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 9,
+          "median": 22451.156099996297,
+          "minimum": 21009.356900001876,
+          "maximum": 26059.16000000434,
+          "iqr": 652.7058000065153
+        },
+        "input_tokens": {
+          "available": 9,
+          "median": 39,
+          "minimum": 35,
+          "maximum": 44,
+          "iqr": 9.0
+        },
+        "output_tokens": {
+          "available": 9,
+          "median": 1074,
+          "minimum": 972,
+          "maximum": 1242,
+          "iqr": 63.0
+        },
+        "word_count": {
+          "available": 9,
+          "median": 515,
+          "minimum": 445,
+          "maximum": 611,
+          "iqr": 33.0
+        }
+      }
+    },
+    {
+      "task_id": null,
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "planned": 9,
+      "started": 9,
+      "completed": 9,
+      "analyzable_texts": 9,
+      "statuses": {
+        "success": 9
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 9,
+          "counts": {
+            "matched": 5,
+            "not_matched": 1,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.5555555555555556,
+            "not_matched": 0.1111111111111111,
+            "undetermined": 0.3333333333333333
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 9,
+          "counts": {
+            "matched": 4,
+            "not_matched": 0,
+            "undetermined": 5
+          },
+          "proportions": {
+            "matched": 0.4444444444444444,
+            "not_matched": 0.0,
+            "undetermined": 0.5555555555555556
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 9,
+          "counts": {
+            "matched": 4,
+            "not_matched": 2,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.4444444444444444,
+            "not_matched": 0.2222222222222222,
+            "undetermined": 0.3333333333333333
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 9,
+          "median": 28106.052200004342,
+          "minimum": 24048.73389999557,
+          "maximum": 34484.75970000436,
+          "iqr": 3664.2231000005268
+        },
+        "input_tokens": {
+          "available": 9,
+          "median": 184,
+          "minimum": 178,
+          "maximum": 191,
+          "iqr": 13.0
+        },
+        "output_tokens": {
+          "available": 9,
+          "median": 1383,
+          "minimum": 1202,
+          "maximum": 1639,
+          "iqr": 112.0
+        },
+        "word_count": {
+          "available": 9,
+          "median": 599,
+          "minimum": 557,
+          "maximum": 768,
+          "iqr": 107.0
+        }
+      }
+    },
+    {
+      "task_id": null,
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "planned": 9,
+      "started": 9,
+      "completed": 9,
+      "analyzable_texts": 9,
+      "statuses": {
+        "success": 9
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 9,
+          "counts": {
+            "matched": 9,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 9,
+          "counts": {
+            "matched": 4,
+            "not_matched": 0,
+            "undetermined": 5
+          },
+          "proportions": {
+            "matched": 0.4444444444444444,
+            "not_matched": 0.0,
+            "undetermined": 0.5555555555555556
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 9,
+          "counts": {
+            "matched": 7,
+            "not_matched": 0,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.7777777777777778,
+            "not_matched": 0.0,
+            "undetermined": 0.2222222222222222
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 9,
+          "counts": {
+            "matched": 6,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.6666666666666666,
+            "not_matched": 0.3333333333333333,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 9,
+          "median": 23471.031099994434,
+          "minimum": 20612.364999993588,
+          "maximum": 29302.791699999943,
+          "iqr": 1055.1963000034448
+        },
+        "input_tokens": {
+          "available": 9,
+          "median": 242,
+          "minimum": 236,
+          "maximum": 249,
+          "iqr": 13.0
+        },
+        "output_tokens": {
+          "available": 9,
+          "median": 1137,
+          "minimum": 978,
+          "maximum": 1442,
+          "iqr": 49.0
+        },
+        "word_count": {
+          "available": 9,
+          "median": 551,
+          "minimum": 457,
+          "maximum": 647,
+          "iqr": 32.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": false
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 1,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.3333333333333333,
+            "undetermined": 0.6666666666666666
+          },
+          "target_in_prompt": false
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 25390.609299996868,
+          "minimum": 21009.356900001876,
+          "maximum": 26059.16000000434,
+          "iqr": 2524.901550001232
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 35,
+          "minimum": 35,
+          "maximum": 35,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1239,
+          "minimum": 972,
+          "maximum": 1242,
+          "iqr": 135.0
+        },
+        "word_count": {
+          "available": 3,
+          "median": 522,
+          "minimum": 489,
+          "maximum": 611,
+          "iqr": 61.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 2,
+            "not_matched": 0,
+            "undetermined": 1
+          },
+          "proportions": {
+            "matched": 0.6666666666666666,
+            "not_matched": 0.0,
+            "undetermined": 0.3333333333333333
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 1,
+            "not_matched": 0,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.3333333333333333,
+            "not_matched": 0.0,
+            "undetermined": 0.6666666666666666
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 2,
+            "undetermined": 1
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.6666666666666666,
+            "undetermined": 0.3333333333333333
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 30747.02389999584,
+          "minimum": 24048.73389999557,
+          "maximum": 34484.75970000436,
+          "iqr": 5218.012900004396
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 178,
+          "minimum": 178,
+          "maximum": 178,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1494,
+          "minimum": 1202,
+          "maximum": 1639,
+          "iqr": 218.5
+        },
+        "word_count": {
+          "available": 3,
+          "median": 682,
+          "minimum": 557,
+          "maximum": 768,
+          "iqr": 105.5
+        }
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 23471.031099994434,
+          "minimum": 23379.402699996717,
+          "maximum": 23974.427599998307,
+          "iqr": 297.51245000079507
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 236,
+          "minimum": 236,
+          "maximum": 236,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1132,
+          "minimum": 1132,
+          "maximum": 1132,
+          "iqr": 0.0
+        },
+        "word_count": {
+          "available": 3,
+          "median": 551,
+          "minimum": 551,
+          "maximum": 551,
+          "iqr": 0.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": false
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": false
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 22489.626299997326,
+          "minimum": 21905.473400009214,
+          "maximum": 22979.885000007926,
+          "iqr": 537.2057999993558
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 39,
+          "minimum": 39,
+          "maximum": 39,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1055,
+          "minimum": 1055,
+          "maximum": 1118,
+          "iqr": 31.5
+        },
+        "word_count": {
+          "available": 3,
+          "median": 445,
+          "minimum": 445,
+          "maximum": 529,
+          "iqr": 42.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 1,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.3333333333333333,
+            "undetermined": 0.6666666666666666
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 1,
+            "not_matched": 0,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.3333333333333333,
+            "not_matched": 0.0,
+            "undetermined": 0.6666666666666666
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 27082.80079999531,
+          "minimum": 26596.28330000851,
+          "maximum": 32651.39420000196,
+          "iqr": 3027.5554499967257
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 184,
+          "minimum": 184,
+          "maximum": 184,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1286,
+          "minimum": 1286,
+          "maximum": 1398,
+          "iqr": 56.0
+        },
+        "word_count": {
+          "available": 3,
+          "median": 570,
+          "minimum": 570,
+          "maximum": 578,
+          "iqr": 4.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 23386.88340000226,
+          "minimum": 22434.857999993255,
+          "maximum": 29302.791699999943,
+          "iqr": 3433.966850003344
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 242,
+          "minimum": 242,
+          "maximum": 242,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1137,
+          "minimum": 1137,
+          "maximum": 1442,
+          "iqr": 152.5
+        },
+        "word_count": {
+          "available": 3,
+          "median": 522,
+          "minimum": 522,
+          "maximum": 647,
+          "iqr": 62.5
+        }
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": false
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 0,
+            "undetermined": 3
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 0.0,
+            "undetermined": 1.0
+          },
+          "target_in_prompt": false
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 0,
+            "not_matched": 3,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 0.0,
+            "not_matched": 1.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": false
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 22347.167300002184,
+          "minimum": 22327.17920000141,
+          "maximum": 22451.156099996297,
+          "iqr": 61.98844999744324
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 44,
+          "minimum": 44,
+          "maximum": 44,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1074,
+          "minimum": 1074,
+          "maximum": 1074,
+          "iqr": 0.0
+        },
+        "word_count": {
+          "available": 3,
+          "median": 515,
+          "minimum": 515,
+          "maximum": 515,
+          "iqr": 0.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 28106.052200004342,
+          "minimum": 27829.137799999444,
+          "maximum": 28410.93539999565,
+          "iqr": 290.89879999810364
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 191,
+          "minimum": 191,
+          "maximum": 191,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1383,
+          "minimum": 1342,
+          "maximum": 1383,
+          "iqr": 20.5
+        },
+        "word_count": {
+          "available": 3,
+          "median": 677,
+          "minimum": 599,
+          "maximum": 677,
+          "iqr": 39.0
+        }
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "planned": 3,
+      "started": 3,
+      "completed": 3,
+      "analyzable_texts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "requirements": {
+        "topic": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "grade_level": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "learning_objectives": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "duration_minutes": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        },
+        "methodology": {
+          "denominator": 3,
+          "counts": {
+            "matched": 1,
+            "not_matched": 0,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.3333333333333333,
+            "not_matched": 0.0,
+            "undetermined": 0.6666666666666666
+          },
+          "target_in_prompt": true
+        },
+        "materials": {
+          "denominator": 3,
+          "counts": {
+            "matched": 1,
+            "not_matched": 0,
+            "undetermined": 2
+          },
+          "proportions": {
+            "matched": 0.3333333333333333,
+            "not_matched": 0.0,
+            "undetermined": 0.6666666666666666
+          },
+          "target_in_prompt": true
+        },
+        "assessment_strategy": {
+          "denominator": 3,
+          "counts": {
+            "matched": 3,
+            "not_matched": 0,
+            "undetermined": 0
+          },
+          "proportions": {
+            "matched": 1.0,
+            "not_matched": 0.0,
+            "undetermined": 0.0
+          },
+          "target_in_prompt": true
+        }
+      },
+      "operational": {
+        "latency_ms": {
+          "available": 3,
+          "median": 24434.599000000162,
+          "minimum": 20612.364999993588,
+          "maximum": 25538.65869999572,
+          "iqr": 2463.146850001067
+        },
+        "input_tokens": {
+          "available": 3,
+          "median": 249,
+          "minimum": 249,
+          "maximum": 249,
+          "iqr": 0.0
+        },
+        "output_tokens": {
+          "available": 3,
+          "median": 1181,
+          "minimum": 978,
+          "maximum": 1181,
+          "iqr": 101.5
+        },
+        "word_count": {
+          "available": 3,
+          "median": 554,
+          "minimum": 457,
+          "maximum": 554,
+          "iqr": 48.5
+        }
+      }
+    }
+  ],
+  "composite_score": null,
+  "interpretation": "Lexical states use all analyzable texts as denominator, including undetermined. Technical failures remain separately counted; C0 lacks six target requirements. No semantic compliance or pedagogical quality claim."
+}

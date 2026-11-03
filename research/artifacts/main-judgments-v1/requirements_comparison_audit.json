@@ -1,0 +1,11 @@
+{
+  "api_calls": 0,
+  "source_tables_sha256": "5d9d81177d7cc07756e9a56f29ea9586e5d3dba34be86dd1954ea89550d53295",
+  "source_judgment_log_sha256": "d975021750a36abb3adf0feefa3271991a08c97c0628e51cc3f76f8bb1f29cc3",
+  "condition_requirement_rows_verified": 42,
+  "task_requirement_rows_verified": 504,
+  "paired_task_requirement_rows": 168,
+  "nominal_counts_preserved": true,
+  "task_totals_match_condition_totals": true,
+  "no_hypothesis_tests_or_composite_scores": true
+}

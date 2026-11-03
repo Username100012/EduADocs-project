@@ -1,0 +1,8 @@
+{
+  "api_calls": 0,
+  "all_72_planned_pairs_checked_against_raw_log": true,
+  "nominal_counts_independently_recomputed": true,
+  "ordinal_scores_independently_recomputed": true,
+  "all_tasks_preserved": true,
+  "source_hashes_unchanged": true
+}

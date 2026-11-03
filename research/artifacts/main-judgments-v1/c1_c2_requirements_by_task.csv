@@ -1,0 +1,169 @@
+﻿generator_id,task_id,topic,requirement,c1_valid_judgments,c1_supported,c1_partial,c1_not_addressed,c1_contradicted,c1_uncertain,c2_valid_judgments,c2_supported,c2_partial,c2_not_addressed,c2_contradicted,c2_uncertain
+gemini,task-001,Maior elemento de um vetor não vazio,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-001,Maior elemento de um vetor não vazio,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-001,Maior elemento de um vetor não vazio,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-001,Maior elemento de um vetor não vazio,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-001,Maior elemento de um vetor não vazio,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-001,Maior elemento de um vetor não vazio,materials,9,8,1,0,0,0,9,9,0,0,0,0
+gemini,task-001,Maior elemento de um vetor não vazio,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,topic,6,6,0,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,grade_level,6,6,0,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,learning_objectives,6,6,0,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,duration_minutes,6,6,0,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,methodology,6,6,0,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,materials,6,3,3,0,0,0,9,9,0,0,0,0
+gemini,task-002,Contagem de números pares em um vetor,assessment_strategy,6,6,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-004,Operações de pilha com política LIFO,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-005,Chaves primária e estrangeira em tabelas de pedidos,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,topic,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,grade_level,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,learning_objectives,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,duration_minutes,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,methodology,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,materials,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-006,INNER JOIN entre clientes e pedidos,assessment_strategy,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-007,Agrupamento SQL com GROUP BY e COUNT,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-008,Primeira forma normal e atributos multivalorados,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-009,Caso de uso de reserva de uma quadra esportiva,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,topic,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,grade_level,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,learning_objectives,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,duration_minutes,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,methodology,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,materials,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-010,Critérios de aceitação de aplicação de cupom em uma compra,assessment_strategy,9,9,0,0,0,0,8,8,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,topic,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,materials,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-011,Particionamento de equivalência para validação de idade,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,topic,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,grade_level,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,learning_objectives,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,duration_minutes,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,methodology,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,materials,7,7,0,0,0,0,8,8,0,0,0,0
+gemini,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,assessment_strategy,7,7,0,0,0,0,8,8,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,materials,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-001,Maior elemento de um vetor não vazio,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-002,Contagem de números pares em um vetor,topic,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-002,Contagem de números pares em um vetor,grade_level,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-002,Contagem de números pares em um vetor,learning_objectives,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-002,Contagem de números pares em um vetor,duration_minutes,9,9,0,0,0,0,8,0,0,0,4,4
+qwen3,task-002,Contagem de números pares em um vetor,methodology,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-002,Contagem de números pares em um vetor,materials,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-002,Contagem de números pares em um vetor,assessment_strategy,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,duration_minutes,9,3,0,0,6,0,9,9,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,materials,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-003,Uma passagem de trocas adjacentes em ordenação por bolha,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,topic,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,grade_level,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,learning_objectives,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,duration_minutes,8,6,0,0,2,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,methodology,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,materials,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-004,Operações de pilha com política LIFO,assessment_strategy,8,7,1,0,0,0,9,9,0,0,0,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,topic,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,grade_level,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,learning_objectives,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,duration_minutes,9,9,0,0,0,0,8,2,0,0,6,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,methodology,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,materials,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-005,Chaves primária e estrangeira em tabelas de pedidos,assessment_strategy,9,9,0,0,0,0,8,8,0,0,0,0
+qwen3,task-006,INNER JOIN entre clientes e pedidos,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-006,INNER JOIN entre clientes e pedidos,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-006,INNER JOIN entre clientes e pedidos,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-006,INNER JOIN entre clientes e pedidos,duration_minutes,9,5,0,0,4,0,9,0,0,0,2,7
+qwen3,task-006,INNER JOIN entre clientes e pedidos,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-006,INNER JOIN entre clientes e pedidos,materials,9,5,4,0,0,0,9,9,0,0,0,0
+qwen3,task-006,INNER JOIN entre clientes e pedidos,assessment_strategy,9,3,6,0,0,0,9,9,0,0,0,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,learning_objectives,9,9,0,0,0,0,9,0,9,0,0,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,duration_minutes,9,9,0,0,0,0,9,3,0,0,6,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,materials,9,0,9,0,0,0,9,9,0,0,0,0
+qwen3,task-007,Agrupamento SQL com GROUP BY e COUNT,assessment_strategy,9,6,3,0,0,0,9,4,5,0,0,0
+qwen3,task-008,Primeira forma normal e atributos multivalorados,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-008,Primeira forma normal e atributos multivalorados,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-008,Primeira forma normal e atributos multivalorados,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-008,Primeira forma normal e atributos multivalorados,duration_minutes,9,3,0,0,6,0,9,0,0,0,3,6
+qwen3,task-008,Primeira forma normal e atributos multivalorados,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-008,Primeira forma normal e atributos multivalorados,materials,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-008,Primeira forma normal e atributos multivalorados,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,duration_minutes,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,materials,9,3,1,0,0,5,9,9,0,0,0,0
+qwen3,task-009,Caso de uso de reserva de uma quadra esportiva,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,topic,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,grade_level,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,learning_objectives,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,duration_minutes,8,3,0,0,5,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,methodology,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,materials,8,3,5,0,0,0,9,9,0,0,0,0
+qwen3,task-010,Critérios de aceitação de aplicação de cupom em uma compra,assessment_strategy,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,topic,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,grade_level,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,learning_objectives,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,duration_minutes,9,6,0,0,3,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,methodology,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,materials,9,6,3,0,0,0,9,9,0,0,0,0
+qwen3,task-011,Particionamento de equivalência para validação de idade,assessment_strategy,9,9,0,0,0,0,9,9,0,0,0,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,topic,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,grade_level,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,learning_objectives,8,2,0,0,6,0,9,8,0,0,1,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,duration_minutes,8,6,0,0,2,0,9,9,0,0,0,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,methodology,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,materials,8,8,0,0,0,0,9,9,0,0,0,0
+qwen3,task-012,Rastreabilidade entre requisitos e testes de um aplicativo de entregas,assessment_strategy,8,8,0,0,0,0,9,9,0,0,0,0

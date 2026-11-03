@@ -1,0 +1,90 @@
+{
+  "definition": {
+    "version": "reserved-requirement-diagnostic-v1",
+    "repetitions": 3,
+    "payload": {
+      "topic": "Fila FIFO e ordem de atendimento",
+      "grade_level": "Ensino superior introdutório em Computação",
+      "learning_objectives": "Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento",
+      "duration_minutes": 50,
+      "methodology": "Resolução colaborativa de problemas",
+      "materials": "Cartões numerados e quadro",
+      "assessment_strategy": "Simular uma sequência de inserções e remoções e justificar a ordem FIFO"
+    },
+    "cases": {
+      "base": "Tema: Fila FIFO e ordem de atendimento.\nNível: Ensino superior introdutório em Computação.\nObjetivos: Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento.\nDuração total: 50 minutos.\nMateriais: Cartões numerados e quadro.\nMetodologia: Resolução colaborativa de problemas. Em duplas, os estudantes ordenam cartões por chegada, inserem ao final da fila e removem do início, registrando cada estado no quadro.\nEtapas: apresentação do problema (10 minutos), simulação em duplas (25 minutos), avaliação (15 minutos).\nAvaliação: Simular uma sequência de inserções e remoções e justificar a ordem FIFO. Cada dupla registra a fila após cada operação; a justificativa deve indicar que o primeiro a entrar é o primeiro a sair.",
+      "formatting": "**Tema:** Fila FIFO e ordem de atendimento.\n**Nível:** Ensino superior introdutório em Computação.\n**Objetivos:** Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento.\n**Duração total:** 50 minutos.\n**Materiais:** Cartões numerados e quadro.\n**Metodologia:** Resolução colaborativa de problemas. Em duplas, os estudantes ordenam cartões por chegada, inserem ao final da fila e removem do início, registrando cada estado no quadro.\n**Etapas:** apresentação do problema (10 minutos), simulação em duplas (25 minutos), avaliação (15 minutos).\n**Avaliação:** Simular uma sequência de inserções e remoções e justificar a ordem FIFO. Cada dupla registra a fila após cada operação; a justificativa deve indicar que o primeiro a entrar é o primeiro a sair.",
+      "verbosity": "Tema: Fila FIFO e ordem de atendimento.\nNível: Ensino superior introdutório em Computação.\nObjetivos: Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento.\nDuração total: 50 minutos.\nMateriais: Cartões numerados e quadro.\nMetodologia: Resolução colaborativa de problemas. Em duplas, os estudantes ordenam cartões por chegada, inserem ao final da fila e removem do início, registrando cada estado no quadro.\nEtapas: apresentação do problema (10 minutos), simulação em duplas (25 minutos), avaliação (15 minutos).\nAvaliação: Simular uma sequência de inserções e remoções e justificar a ordem FIFO. Cada dupla registra a fila após cada operação; a justificativa deve indicar que o primeiro a entrar é o primeiro a sair.\nReforço: os estudantes retomam a explicação já apresentada e repetem a mesma sequência; este trecho apenas repete as instruções, sem adicionar recursos, etapas ou objetivos.",
+      "omission": "Tema: Fila FIFO e ordem de atendimento.\nNível: Ensino superior introdutório em Computação.\nObjetivos: Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento.\nDuração total: 50 minutos.\nMetodologia: Resolução colaborativa de problemas. Em duplas, os estudantes ordenam elementos por chegada, inserem ao final da fila e removem do início, registrando cada estado na sequência.\nEtapas: apresentação do problema (10 minutos), simulação em duplas (25 minutos), avaliação (15 minutos).\nAvaliação: Simular uma sequência de inserções e remoções e justificar a ordem FIFO. Cada dupla registra a fila após cada operação; a justificativa deve indicar que o primeiro a entrar é o primeiro a sair.",
+      "misalignment": "Tema: Fila FIFO e ordem de atendimento.\nNível: Ensino superior introdutório em Computação.\nObjetivos: Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento.\nDuração total: 50 minutos.\nMateriais: Cartões numerados e quadro.\nMetodologia: Resolução colaborativa de problemas. Em duplas, os estudantes ordenam cartões por chegada, inserem ao final da fila e removem do início, registrando cada estado no quadro.\nEtapas: apresentação do problema (10 minutos), simulação em duplas (25 minutos), avaliação (15 minutos).\nAvaliação: Listar capitais de países. A nota depende somente da grafia das capitais, sem considerar filas ou operações FIFO.",
+      "duration_contradiction": "Tema: Fila FIFO e ordem de atendimento.\nNível: Ensino superior introdutório em Computação.\nObjetivos: Simular inserção e remoção em uma fila FIFO e identificar a ordem de atendimento.\nDuração total: 50 minutos.\nMateriais: Cartões numerados e quadro.\nMetodologia: Resolução colaborativa de problemas. Em duplas, os estudantes ordenam cartões por chegada, inserem ao final da fila e removem do início, registrando cada estado no quadro.\nEtapas: apresentação do problema (10 minutos), simulação em duplas (25 minutos), avaliação (35 minutos).\nAvaliação: Simular uma sequência de inserções e remoções e justificar a ordem FIFO. Cada dupla registra a fila após cada operação; a justificativa deve indicar que o primeiro a entrar é o primeiro a sair."
+    },
+    "expected_relations": {
+      "base": {
+        "all_requirements": "supported"
+      },
+      "formatting": {
+        "same_as": "base"
+      },
+      "verbosity": {
+        "same_as": "base"
+      },
+      "omission": {
+        "materials": "not_addressed"
+      },
+      "misalignment": {
+        "assessment_strategy": "contradicted"
+      },
+      "duration_contradiction": {
+        "duration_minutes": "contradicted"
+      }
+    },
+    "scope": "Authorial synthetic software/behavior diagnostic; one new topic, no human validation, no accuracy/general reliability claim.",
+    "decision_policy": "One round, no tuning or repeated collection. Report every mismatch. Any technical failure blocks pilot continuation. Semantic mismatches restrict conclusions and are not repaired by changing the rubric."
+  },
+  "definition_hash": "dfbb1e3fd0c2ba88c1b598d72fb7c0e6e3b0ff8d8430ffc1d396cb0242460aab",
+  "configuration_hash": "de679b331f86e6499e9935868f7c2962bc8811c94ddc522ffa31e6534e4e2026",
+  "configuration": {
+    "provider": "openai",
+    "model": "gpt-6.1-sol",
+    "model_version": "gpt-6.1-sol",
+    "temperature": null,
+    "seed": null,
+    "max_output_tokens": 4096,
+    "response_format": "json_schema",
+    "provider_parameters": {
+      "api": "responses",
+      "reasoning_effort": "low",
+      "top_p": null,
+      "store": false,
+      "service_tier": "standard",
+      "strict_schema": true
+    }
+  },
+  "contract": {
+    "status": "closed_for_local_implementation_not_empirically_validated",
+    "schema_version": "eduadocs-requirement-judge-response-v2.0.0",
+    "rubric_version": "eduadocs-requirement-judge-v2.0.0",
+    "requirement_states": [
+      "supported",
+      "partial",
+      "not_addressed",
+      "contradicted",
+      "uncertain"
+    ],
+    "secondary_criteria": [
+      "instructional_alignment",
+      "textual_coherence"
+    ],
+    "evidence_policy": "exact complete source lines, 1-based inclusive; empty evidence required for not_addressed",
+    "no_composite_score": true,
+    "nominal_aggregation": "report all state frequencies and exact agreement; no numeric encoding, median or automatic majority verdict",
+    "ordinal_aggregation": "median only for the two separate 1-4 authorial criteria with three valid judgments",
+    "scientific_status": "authorial operationalization informed by literature; not a validated pedagogical scale",
+    "artifact_sha256": {
+      "src/experiment/judge_contract_v2.py": "33331319404a83bfa70123402cba62be309ddc44070e2f5a41874fead19d0c07",
+      "experiments/judge_response.v2.schema.json": "c4408e51531ba17d307c9f4f96a0ecac30f592b6e7538a7a2e14465b959ddf95",
+      "src/experiment/requirement_measurement.py": "901c3f191fea8128f815818b46583afe09e6f1db3b76c85028bcbabadd186293"
+    }
+  }
+}

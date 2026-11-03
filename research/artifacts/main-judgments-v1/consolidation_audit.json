@@ -1,0 +1,15 @@
+{
+  "audited_on": "2026-10-27",
+  "api_calls": 0,
+  "response_revalidation": {
+    "successes_reparsed_identically": 624,
+    "validation_errors_reproduced": 15,
+    "preserved_api_errors": 6
+  },
+  "complete_triplets": 196,
+  "eligible_plans": 215,
+  "all_12_tasks_represented_in_each_score_stratum": true,
+  "nominal_denominators_verified": true,
+  "ordinal_aggregation_independently_recomputed": true,
+  "source_log_sha256": "d975021750a36abb3adf0feefa3271991a08c97c0628e51cc3f76f8bb1f29cc3"
+}

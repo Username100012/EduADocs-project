@@ -1,0 +1,859 @@
+{
+  "groups": {
+    "consistency": {
+      "planned_pairs": 3,
+      "complete_pairs": 3,
+      "incomplete_pairs": 0,
+      "satisfied_pairs": 3,
+      "satisfaction_rate": 1.0,
+      "criterion_direction_counts": {
+        "tie": 12
+      }
+    },
+    "misalignment": {
+      "planned_pairs": 3,
+      "complete_pairs": 3,
+      "incomplete_pairs": 0,
+      "satisfied_pairs": 3,
+      "satisfaction_rate": 1.0,
+      "criterion_direction_counts": {
+        "decrease": 3
+      }
+    },
+    "omission": {
+      "planned_pairs": 3,
+      "complete_pairs": 3,
+      "incomplete_pairs": 0,
+      "satisfied_pairs": 3,
+      "satisfaction_rate": 1.0,
+      "criterion_direction_counts": {
+        "decrease": 3
+      }
+    },
+    "verbosity": {
+      "planned_pairs": 3,
+      "complete_pairs": 3,
+      "incomplete_pairs": 0,
+      "satisfied_pairs": 3,
+      "satisfaction_rate": 1.0,
+      "criterion_direction_counts": {
+        "tie": 12
+      }
+    }
+  },
+  "pairs": [
+    {
+      "case_id": "science-consistency",
+      "kind": "consistency",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "tie",
+        "instructional_alignment": "tie",
+        "grade_appropriateness": "tie",
+        "coherence_feasibility": "tie"
+      }
+    },
+    {
+      "case_id": "science-verbosity",
+      "kind": "verbosity",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "tie",
+        "instructional_alignment": "tie",
+        "grade_appropriateness": "tie",
+        "coherence_feasibility": "tie"
+      }
+    },
+    {
+      "case_id": "science-omission",
+      "kind": "omission",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 2,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": -1
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "decrease"
+      }
+    },
+    {
+      "case_id": "science-misalignment",
+      "kind": "misalignment",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 2,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "instructional_alignment": -1
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "instructional_alignment": "decrease"
+      }
+    },
+    {
+      "case_id": "math-consistency",
+      "kind": "consistency",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "tie",
+        "instructional_alignment": "tie",
+        "grade_appropriateness": "tie",
+        "coherence_feasibility": "tie"
+      }
+    },
+    {
+      "case_id": "math-verbosity",
+      "kind": "verbosity",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "tie",
+        "instructional_alignment": "tie",
+        "grade_appropriateness": "tie",
+        "coherence_feasibility": "tie"
+      }
+    },
+    {
+      "case_id": "math-omission",
+      "kind": "omission",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 2,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": -1
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "decrease"
+      }
+    },
+    {
+      "case_id": "math-misalignment",
+      "kind": "misalignment",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 2,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "instructional_alignment": -1
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "instructional_alignment": "decrease"
+      }
+    },
+    {
+      "case_id": "language-consistency",
+      "kind": "consistency",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "tie",
+        "instructional_alignment": "tie",
+        "grade_appropriateness": "tie",
+        "coherence_feasibility": "tie"
+      }
+    },
+    {
+      "case_id": "language-verbosity",
+      "kind": "verbosity",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "tie",
+        "instructional_alignment": "tie",
+        "grade_appropriateness": "tie",
+        "coherence_feasibility": "tie"
+      }
+    },
+    {
+      "case_id": "language-omission",
+      "kind": "omission",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 2,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "semantic_fidelity": -1
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "semantic_fidelity": "decrease"
+      }
+    },
+    {
+      "case_id": "language-misalignment",
+      "kind": "misalignment",
+      "medians": {
+        "baseline": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 3,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        },
+        "variant": {
+          "semantic_fidelity": 3,
+          "instructional_alignment": 2,
+          "grade_appropriateness": 3,
+          "coherence_feasibility": 3
+        }
+      },
+      "repetition_stability": {
+        "baseline": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        },
+        "variant": {
+          "semantic_fidelity": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "instructional_alignment": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "grade_appropriateness": {
+            "range": 0,
+            "exact_agreement": true
+          },
+          "coherence_feasibility": {
+            "range": 0,
+            "exact_agreement": true
+          }
+        }
+      },
+      "complete": true,
+      "deltas": {
+        "instructional_alignment": -1
+      },
+      "relation_satisfied": true,
+      "directions": {
+        "instructional_alignment": "decrease"
+      }
+    }
+  ],
+  "interpretation": "SIMULAÇÃO: verifica software; não mede confiabilidade de uma LLM.",
+  "simulated": true,
+  "run_id": "simulation-bd55f674a1255287abb9c84ecf734dbe",
+  "scenario": "expected",
+  "seed": 42,
+  "suite_hash": "206a9d5e6cde91b5289aab96bac2945425ba0120d3ced7fc5cde8c2036376394",
+  "planned_judgments": 72,
+  "attempts": 72,
+  "failed_attempts": 0
+}

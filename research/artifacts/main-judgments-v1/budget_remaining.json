@@ -1,0 +1,39 @@
+{
+  "model": "gpt-6.1-sol",
+  "checked_on": "2026-10-26",
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "cache_source": "https://developers.openai.com/api/docs/guides/prompt-caching#cache-lifetime",
+  "remaining_unattempted": 573,
+  "sample_responses_with_usage": 66,
+  "sample_input_tokens": 231722,
+  "sample_output_tokens_including_reasoning": 144581,
+  "sample_cache_write_tokens": 231524,
+  "sample_cached_read_tokens": 0,
+  "rates_per_million_usd": {
+    "input": 2,
+    "cached_read": 0.1,
+    "write_30m": 2.5,
+    "write_12h": 5,
+    "output": 10
+  },
+  "scenarios": {
+    "default_30m": {
+      "estimated_remaining_at_observed_average_usd": "17.58",
+      "output_cap_with_observed_average_input_usd": "28.50"
+    },
+    "conservative_12h": {
+      "estimated_remaining_at_observed_average_usd": "22.61",
+      "output_cap_with_observed_average_input_usd": "33.53"
+    }
+  },
+  "recommended_top_up_usd": 40,
+  "brl_planning_conversion_only": 6,
+  "reference_top_up_brl": 240,
+  "limits": [
+    "66 responses include the schema-invalid response, because generation tokens can be billed regardless of local validation.",
+    "Output-cap scenario retains observed average input, so it is not a guaranteed absolute upper bound.",
+    "No discounts from future cache hits assumed; cache writes replace ordinary input pricing and are not added twice.",
+    "BRL conversion is a planning reference, not a live exchange quote; checkout fees/taxes and other account activity are excluded.",
+    "No API calls or account top-ups performed. Six existing quota failures remain preserved under the frozen protocol."
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "audit_type": "offline_computational_exploratory",
+  "source_judgments_sha256": "802d270c8bca3a9426459fbe450321c305dc5751b031a67ddb4ca4825bbc4ddd",
+  "source_summary_sha256": "a6324be1fd9ecc3c30f4e94c50e5248b984e0fe30b700d96c8960d7e806dee68",
+  "distributions": [
+    {
+      "condition": "c0",
+      "criterion": "semantic_fidelity",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 27,
+        "3": 0,
+        "4": 0
+      },
+      "maximum_score_count": 0,
+      "maximum_score_percent": 0.0
+    },
+    {
+      "condition": "c0",
+      "criterion": "instructional_alignment",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 27,
+        "3": 0,
+        "4": 0
+      },
+      "maximum_score_count": 0,
+      "maximum_score_percent": 0.0
+    },
+    {
+      "condition": "c0",
+      "criterion": "grade_appropriateness",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 15,
+        "3": 12,
+        "4": 0
+      },
+      "maximum_score_count": 0,
+      "maximum_score_percent": 0.0
+    },
+    {
+      "condition": "c0",
+      "criterion": "coherence_feasibility",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 11,
+        "3": 16,
+        "4": 0
+      },
+      "maximum_score_count": 0,
+      "maximum_score_percent": 0.0
+    },
+    {
+      "condition": "c1",
+      "criterion": "semantic_fidelity",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 27
+      },
+      "maximum_score_count": 27,
+      "maximum_score_percent": 100.0
+    },
+    {
+      "condition": "c1",
+      "criterion": "instructional_alignment",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 27
+      },
+      "maximum_score_count": 27,
+      "maximum_score_percent": 100.0
+    },
+    {
+      "condition": "c1",
+      "criterion": "grade_appropriateness",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 24
+      },
+      "maximum_score_count": 24,
+      "maximum_score_percent": 88.88888888888889
+    },
+    {
+      "condition": "c1",
+      "criterion": "coherence_feasibility",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 24
+      },
+      "maximum_score_count": 24,
+      "maximum_score_percent": 88.88888888888889
+    },
+    {
+      "condition": "c2",
+      "criterion": "semantic_fidelity",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 5,
+        "4": 22
+      },
+      "maximum_score_count": 22,
+      "maximum_score_percent": 81.48148148148148
+    },
+    {
+      "condition": "c2",
+      "criterion": "instructional_alignment",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 27
+      },
+      "maximum_score_count": 27,
+      "maximum_score_percent": 100.0
+    },
+    {
+      "condition": "c2",
+      "criterion": "grade_appropriateness",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 27
+      },
+      "maximum_score_count": 27,
+      "maximum_score_percent": 100.0
+    },
+    {
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "n": 27,
+      "counts": {
+        "1": 0,
+        "2": 1,
+        "3": 10,
+        "4": 16
+      },
+      "maximum_score_count": 16,
+      "maximum_score_percent": 59.25925925925926
+    }
+  ],
+  "task_comparisons": [
+    {
+      "task_id": "pilot-001",
+      "criterion": "semantic_fidelity",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "criterion": "instructional_alignment",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "criterion": "grade_appropriateness",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          3
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "criterion": "coherence_feasibility",
+      "c1": 4,
+      "c2": 3,
+      "c2_minus_c1": -1,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          3
+        ],
+        "c2": [
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "criterion": "semantic_fidelity",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "criterion": "instructional_alignment",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "criterion": "grade_appropriateness",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "criterion": "coherence_feasibility",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "criterion": "semantic_fidelity",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "criterion": "instructional_alignment",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "criterion": "grade_appropriateness",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "criterion": "coherence_feasibility",
+      "c1": 4,
+      "c2": 4,
+      "c2_minus_c1": 0,
+      "response_medians": {
+        "c1": [
+          4,
+          4,
+          4
+        ],
+        "c2": [
+          4,
+          4,
+          3
+        ]
+      }
+    }
+  ],
+  "arithmetic_errors": [
+    {
+      "evaluation_id": "eval-a21206d625ea52d5ba01de0f2ddd5476",
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "O plano é executável e coerente, mas há pequena inconsistência temporal: a soma das etapas (5+35+10) excede a duração declarada de 50 minutos.",
+      "type": "false_explicit_arithmetic_claim",
+      "expression": "5+35+10",
+      "computed_sum": 50,
+      "declared_minutes": 50
+    }
+  ],
+  "maximum_score_caveat_candidates": [],
+  "nonmaximum_c1_c2_justifications": [
+    {
+      "evaluation_id": "eval-0852bc224ffc59b43a23c5f5b5e56aff",
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 1,
+      "score": 2,
+      "justification": "A sequência geral é executável, mas há um trecho corrompido/incompatível em 4.2 ('会被') e a distribuição de tempo soma 50 minutos, porém com pequenas lacunas operacionais na execução dos grupos."
+    },
+    {
+      "evaluation_id": "eval-0a0f747606d2e713029902df4b242685",
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "semantic_fidelity",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "Atende aos requisitos centrais: busca linear em pseudocódigo, testes de mesa para elemento presente e ausente e justificativa. Há pequenas omissões/ruídos, como a inserção de conteúdo não solicitado e um trecho corrompido ('会被')."
+    },
+    {
+      "evaluation_id": "eval-0a0f747606d2e713029902df4b242685",
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, com etapas e tempos definidos. Há apenas uma pequena lacuna/ruído textual no passo da explicação teórica, mas sem comprometer a execução geral."
+    },
+    {
+      "evaluation_id": "eval-111212467f0c5cb10026c74105bfa51b",
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "semantic_fidelity",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "Atende aos requisitos centrais: busca linear em pseudocódigo, testes de mesa para casos presente/ausente e justificativa. Há pequenas omissões/ruídos, como a inclusão de itens não pedidos e um trecho corrompido ('会被')."
+    },
+    {
+      "evaluation_id": "eval-111212467f0c5cb10026c74105bfa51b",
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "O plano tem sequência clara e executável com 50 minutos e materiais simples. Há pequena lacuna/ruído textual e alguns elementos acessórios, mas sem comprometer a execução geral."
+    },
+    {
+      "evaluation_id": "eval-1b2c42b98ae7d43f7e63a568da3ebd6c",
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "semantic_fidelity",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "Atende aos requisitos centrais: pseudocódigo de busca linear, testes de mesa para elemento presente e ausente e justificativa. Há pequenas omissões/ruídos, como a ausência de um exemplo explícito de teste de mesa detalhado e um trecho corrompido ('会被')."
+    },
+    {
+      "evaluation_id": "eval-1b2c42b98ae7d43f7e63a568da3ebd6c",
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, com etapas e tempos definidos. Há apenas uma pequena lacuna/ruído textual no passo da explicação teórica, mas sem comprometer a execução geral."
+    },
+    {
+      "evaluation_id": "eval-328fb69e07e1df179f24297b3ee1b67b",
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "criterion": "grade_appropriateness",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "É majoritariamente compatível com graduação introdutória, mas inclui linguagem e detalhes um pouco genéricos/elementares e um item de material claramente inadequado/errado ('Pizzaria ou caneta')."
+    },
+    {
+      "evaluation_id": "eval-328fb69e07e1df179f24297b3ee1b67b",
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, porém há pequenas inconsistências e ruídos internos, como materiais incoerentes e repetição de objetivos em seções diferentes."
+    },
+    {
+      "evaluation_id": "eval-4f6395b4298dd00ed78924d15ded9ad9",
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, mas há pequena inconsistência temporal: 5+35+10 minutos soma 50, porém a conclusão está dentro da atividade total sem explicitar transição, e há duplicação de recursos em seções diferentes."
+    },
+    {
+      "evaluation_id": "eval-580924456de5ed1886e16ad40701c184",
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "criterion": "grade_appropriateness",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "É compatível com graduação introdutória, mas inclui linguagem e conteúdos um pouco além do mínimo pedido, como complexidade O(n) e comparação com busca binária."
+    },
+    {
+      "evaluation_id": "eval-580924456de5ed1886e16ad40701c184",
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "A sequência é executável e organizada por tempo, porém há pequenas inconsistências e ruídos de materiais, como \"Pizzaria ou caneta\" e \"quadro de quadriculação\", que não comprometem totalmente a execução."
+    },
+    {
+      "evaluation_id": "eval-a21206d625ea52d5ba01de0f2ddd5476",
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "O plano é executável e coerente, mas há pequena inconsistência temporal: a soma das etapas (5+35+10) excede a duração declarada de 50 minutos."
+    },
+    {
+      "evaluation_id": "eval-a3c1e0fcf34510adf9534625ae57aeb2",
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, mas há uma inserção espúria de texto ('会被') na explicação teórica e a distribuição de tempo fica um pouco apertada para implementação, testes e apresentações."
+    },
+    {
+      "evaluation_id": "eval-a7cb724bb737c8586eeb16e849c3c091",
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "A sequência é executável e coerente, mas há pequenas falhas formais, como o trecho estranho '会被' e a ausência de um pseudocódigo efetivamente apresentado no texto."
+    },
+    {
+      "evaluation_id": "eval-aadcb6b2bd9df4bfa3d114bd4dc7a801",
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "criterion": "grade_appropriateness",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "Em geral compatível com graduação introdutória, mas há linguagem e detalhes pouco ajustados, como a menção a complexidade O(n) e comparação com busca binária sem necessidade explícita na tarefa."
+    },
+    {
+      "evaluation_id": "eval-aadcb6b2bd9df4bfa3d114bd4dc7a801",
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 1,
+      "score": 3,
+      "justification": "A sequência é executável e organizada, porém há pequenas inconsistências e ruídos de material, como 'Pizzaria ou caneta' e 'quadro de quadriculação', que não comprometem totalmente a execução."
+    },
+    {
+      "evaluation_id": "eval-d107366ac07d0578cabbf788a3fb0f78",
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "semantic_fidelity",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "Atende aos requisitos centrais: busca linear em pseudocódigo, testes de mesa para casos presente/ausente e justificativa. Há pequenas omissões/ruídos, como a inclusão de itens não pedidos e um trecho corrompido ('会被')."
+    },
+    {
+      "evaluation_id": "eval-d107366ac07d0578cabbf788a3fb0f78",
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, com etapas e recursos definidos. Há apenas uma pequena lacuna/ruído textual no passo teórico, mas sem comprometer o plano."
+    },
+    {
+      "evaluation_id": "eval-dee72f3948a7590d5402adbaa73ece4f",
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "semantic_fidelity",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "Atende aos requisitos centrais: busca linear em pseudocódigo, testes de mesa para elemento presente e ausente, e justificativa. Há pequenas omissões/ruídos, como a inclusão de conteúdos extras e um trecho corrompido ('会被')."
+    },
+    {
+      "evaluation_id": "eval-dee72f3948a7590d5402adbaa73ece4f",
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 2,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, com etapas e recursos definidos. Há apenas uma pequena lacuna/ruído textual no passo a passo e alguma sobrecarga de itens opcionais."
+    },
+    {
+      "evaluation_id": "eval-f66471de36854f3f09a96b0219941e48",
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "criterion": "coherence_feasibility",
+      "judge_repetition": 3,
+      "score": 3,
+      "justification": "A sequência é clara e executável em 50 minutos, mas há pequenas falhas de forma, como o trecho estranho \"会被\" e a ausência de detalhamento operacional dos testes de mesa."
+    }
+  ],
+  "identical_text_median_variation": [
+    {
+      "content_sha256": "9590a68cabde8a0e9ccf544b4a587889015412b3c9f538d394a0cca46b78780b",
+      "criterion": "semantic_fidelity",
+      "responses": [
+        {
+          "job_id": "qwen3:pilot-001:c2:r1",
+          "median": 4
+        },
+        {
+          "job_id": "qwen3:pilot-001:c2:r2",
+          "median": 4
+        },
+        {
+          "job_id": "qwen3:pilot-001:c2:r3",
+          "median": 3
+        }
+      ]
+    },
+    {
+      "content_sha256": "a12a1100c91a02498c715dc936de354b9fa486bef82f1a92dd1f3a2fc651e1bf",
+      "criterion": "coherence_feasibility",
+      "responses": [
+        {
+          "job_id": "qwen3:pilot-003:c0:r1",
+          "median": 2
+        },
+        {
+          "job_id": "qwen3:pilot-003:c0:r2",
+          "median": 2
+        },
+        {
+          "job_id": "qwen3:pilot-003:c0:r3",
+          "median": 3
+        }
+      ]
+    },
+    {
+      "content_sha256": "a12a1100c91a02498c715dc936de354b9fa486bef82f1a92dd1f3a2fc651e1bf",
+      "criterion": "grade_appropriateness",
+      "responses": [
+        {
+          "job_id": "qwen3:pilot-003:c0:r1",
+          "median": 3
+        },
+        {
+          "job_id": "qwen3:pilot-003:c0:r2",
+          "median": 2
+        },
+        {
+          "job_id": "qwen3:pilot-003:c0:r3",
+          "median": 2
+        }
+      ]
+    }
+  ],
+  "criteria_not_validated": [
+    "No blinded expert review or independent judge added.",
+    "Automatic caveat detection is a heuristic, not a contradiction label.",
+    "Arithmetic checking covers only explicit additions and exceeds claims.",
+    "Task-level differences are descriptive; no significance tests or composite scores."
+  ],
+  "source_scores_changed": false,
+  "api_calls": 0
+}

@@ -1,0 +1,209 @@
+{
+  "same_texts_payloads_prompts_rubric_and_schema_verified": true,
+  "configuration_confound": "Sol uses reasoning low, omits temperature/top_p, and caps output at 4096 including reasoning; Mini used none, temperature 0, top_p 1, cap 1200. Not a pure model-only causal comparison.",
+  "version_limitation": "Sol's published model identifier has no dated snapshot in the consulted model page. Preserve returned metadata; do not claim immutable version.",
+  "pricing": {
+    "reference_date": "2026-10-19",
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "standard_usd_per_million": {
+      "gpt-5.4-mini-2026-03-17": {
+        "input": 0.75,
+        "cached_input": 0.075,
+        "cache_write": null,
+        "output": 4.5
+      },
+      "gpt-6.1-sol": {
+        "input": 2.0,
+        "cached_input": 0.1,
+        "cache_write": 2.5,
+        "output": 10.0
+      }
+    }
+  },
+  "pricing_note": "Estimates at reference-day standard rates, not historical invoices; no taxes, currency conversion or promotional credits. Input accounting treats cache reads/writes as disjoint subsets.",
+  "sources": {
+    "mini_log_sha256": "684d657488aa628fa7dd8ae844ed84358a1d646115946ac1451151df1f087756",
+    "sol_log_sha256": "bbea3b800fa29e06e2fdeaee4df6942ae12983123fefde5c63be6dc260303216"
+  },
+  "rows": [
+    {
+      "task_id": "pilot-001",
+      "kind": "omission",
+      "criterion": "semantic_fidelity",
+      "mini_base": 4,
+      "mini_variant": 4,
+      "mini_outcome": "tie",
+      "sol_base": 4,
+      "sol_variant": 3,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "misalignment",
+      "criterion": "instructional_alignment",
+      "mini_base": 4,
+      "mini_variant": 1,
+      "mini_outcome": "decrease",
+      "sol_base": 4,
+      "sol_variant": 2,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "time_contradiction",
+      "criterion": "coherence_feasibility",
+      "mini_base": 4,
+      "mini_variant": 1,
+      "mini_outcome": "decrease",
+      "sol_base": 4,
+      "sol_variant": 2,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "omission",
+      "criterion": "semantic_fidelity",
+      "mini_base": 4,
+      "mini_variant": 4,
+      "mini_outcome": "tie",
+      "sol_base": 4,
+      "sol_variant": 3,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "misalignment",
+      "criterion": "instructional_alignment",
+      "mini_base": 4,
+      "mini_variant": 1,
+      "mini_outcome": "decrease",
+      "sol_base": 4,
+      "sol_variant": 2,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "time_contradiction",
+      "criterion": "coherence_feasibility",
+      "mini_base": 4,
+      "mini_variant": 1,
+      "mini_outcome": "decrease",
+      "sol_base": 4,
+      "sol_variant": 2,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "omission",
+      "criterion": "semantic_fidelity",
+      "mini_base": 4,
+      "mini_variant": 4,
+      "mini_outcome": "tie",
+      "sol_base": 4,
+      "sol_variant": 3,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "misalignment",
+      "criterion": "instructional_alignment",
+      "mini_base": 4,
+      "mini_variant": 1,
+      "mini_outcome": "decrease",
+      "sol_base": 4,
+      "sol_variant": 2,
+      "sol_outcome": "decrease"
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "time_contradiction",
+      "criterion": "coherence_feasibility",
+      "mini_base": 4,
+      "mini_variant": 1,
+      "mini_outcome": "decrease",
+      "sol_base": 4,
+      "sol_variant": 2,
+      "sol_outcome": "decrease"
+    }
+  ],
+  "operational": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "configuration": {
+        "provider": "openai",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "model_version": "gpt-5.4-mini-2026-03-17",
+        "temperature": 0,
+        "seed": null,
+        "max_output_tokens": 1200,
+        "response_format": "json_schema",
+        "provider_parameters": {
+          "api": "responses",
+          "reasoning_effort": "none",
+          "top_p": 1,
+          "store": false,
+          "service_tier": "standard",
+          "strict_schema": true
+        }
+      },
+      "usage": {
+        "input_tokens": 42766,
+        "output_tokens": 10051,
+        "total_tokens": 52817
+      },
+      "estimated_usd": 0.077304,
+      "cached_input_tokens": 0,
+      "cache_write_tokens": 0,
+      "reasoning_tokens": 0,
+      "median_latency_seconds": 2.297824653999669,
+      "exact_agreement_triplets": 40,
+      "complete_triplets": 48
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "configuration": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "model_version": "gpt-6.1-sol",
+        "temperature": null,
+        "seed": null,
+        "max_output_tokens": 4096,
+        "response_format": "json_schema",
+        "provider_parameters": {
+          "api": "responses",
+          "reasoning_effort": "low",
+          "top_p": null,
+          "store": false,
+          "service_tier": "standard",
+          "strict_schema": true
+        }
+      },
+      "usage": {
+        "input_tokens": 42766,
+        "output_tokens": 11580,
+        "total_tokens": 54346
+      },
+      "estimated_usd": 0.222661,
+      "cached_input_tokens": 0,
+      "cache_write_tokens": 42658,
+      "reasoning_tokens": 0,
+      "median_latency_seconds": 7.993392573500046,
+      "exact_agreement_triplets": 44,
+      "complete_triplets": 48
+    }
+  ],
+  "outcomes": {
+    "mini": {
+      "tie": 3,
+      "decrease": 6
+    },
+    "sol": {
+      "decrease": 9
+    }
+  },
+  "limitations": [
+    "Three synthetic pilot-domain tasks and deliberately obvious defects; exploratory, not independent validation.",
+    "Shared controls and repetitions are dependent; no significance tests or overall quality score.",
+    "Choosing a model after these tests requires checking reserved cases before the main study."
+  ]
+}

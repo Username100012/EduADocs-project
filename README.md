@@ -119,3 +119,9 @@ If the environment already exists, reuse it. The application exports DOCX; the a
 ```
 
 This application update includes source code and focused offline tests. Research datasets, experimental runs and article drafts remain separate.
+
+## Reprodutibilidade do estudo computacional
+
+O pacote [research/](research/README.md) preserva a configuração e a versão experimental separadas da aplicação de produção. Inclui tarefas, prompts, scripts, respostas, falhas, julgamentos, rubricas e tabelas. Pilotos e simulações são identificados separadamente.
+
+É possível recalcular os resultados salvos sem chaves ou novas chamadas pagas. Consulte o ambiente e o comando em [research/README.md](research/README.md). Uma nova coleta com LLMs é uma operação distinta e pode produzir respostas diferentes.

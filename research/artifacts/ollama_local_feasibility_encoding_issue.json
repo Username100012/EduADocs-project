@@ -1,0 +1,142 @@
+﻿{
+    "experimental_data":  false,
+    "purpose":  "Local feasibility only; two observations, not a benchmark",
+    "checked_at":  "2026-10-15T22:04:11.2289641Z",
+    "ollama_version":  "0.17.1",
+    "model":  "llama3:latest",
+    "model_digest":  "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "details":  {
+                    "parent_model":  "",
+                    "format":  "gguf",
+                    "family":  "llama",
+                    "families":  [
+                                     "llama"
+                                 ],
+                    "parameter_size":  "8.0B",
+                    "quantization_level":  "Q4_0"
+                },
+    "options":  {
+                    "num_ctx":  4096,
+                    "seed":  42,
+                    "num_predict":  512,
+                    "temperature":  0.7
+                },
+    "prompt":  "Elabore um plano de aula sobre Busca linear em vetores para estudantes do nÃ­vel Graduação em Ciência da Computação, formação introdutória, com duraÃ§Ã£o de 50 minutos. O objetivo de aprendizagem Ã© Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência, e testar casos de presença e ausência. Utilize Resolução colaborativa de problemas como metodologia, considerando Quadro e folha com vetores de inteiros para testes de mesa como materiais e recursos disponÃ­veis e Produzir pseudocódigo de busca linear e realizar testes de mesa para elemento presente e ausente, justificando o resultado como estratÃ©gia de avaliaÃ§Ã£o.",
+    "measurements":  [
+                         {
+                             "phase":  "initial_load",
+                             "wall_ms":  26725.4889,
+                             "total_duration_ns":  26717704900,
+                             "load_duration_ns":  6313245100,
+                             "prompt_eval_count":  189,
+                             "prompt_eval_duration_ns":  270326500,
+                             "eval_count":  512,
+                             "eval_duration_ns":  19098705300,
+                             "output_tokens_per_second":  26.808099918689251,
+                             "done":  true,
+                             "done_reason":  "length",
+                             "loaded_models":  [
+                                                   {
+                                                       "name":  "llama3:latest",
+                                                       "model":  "llama3:latest",
+                                                       "size":  5605130240,
+                                                       "digest":  "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+                                                       "details":  {
+                                                                       "parent_model":  "",
+                                                                       "format":  "gguf",
+                                                                       "family":  "llama",
+                                                                       "families":  [
+                                                                                        "llama"
+                                                                                    ],
+                                                                       "parameter_size":  "8.0B",
+                                                                       "quantization_level":  "Q4_0"
+                                                                   },
+                                                       "expires_at":  "2026-10-15T19:13:49.9603239-03:00",
+                                                       "size_vram":  5174173696,
+                                                       "context_length":  4096
+                                                   }
+                                               ],
+                             "gpu_snapshot_after_call":  "NVIDIA GeForce RTX 2060, 6144, 5433, 534",
+                             "ollama_process_memory_after_call":  [
+                                                                      {
+                                                                          "ProcessName":  "ollama",
+                                                                          "WorkingSet64":  2267168768,
+                                                                          "PrivateMemorySize64":  7859658752
+                                                                      },
+                                                                      {
+                                                                          "ProcessName":  "ollama",
+                                                                          "WorkingSet64":  101371904,
+                                                                          "PrivateMemorySize64":  100831232
+                                                                      },
+                                                                      {
+                                                                          "ProcessName":  "ollama app",
+                                                                          "WorkingSet64":  42258432,
+                                                                          "PrivateMemorySize64":  27295744
+                                                                      }
+                                                                  ]
+                         },
+                         {
+                             "phase":  "warm",
+                             "wall_ms":  20986.5209,
+                             "total_duration_ns":  20982944100,
+                             "load_duration_ns":  311242500,
+                             "prompt_eval_count":  189,
+                             "prompt_eval_duration_ns":  40725300,
+                             "eval_count":  512,
+                             "eval_duration_ns":  19736110900,
+                             "output_tokens_per_second":  25.942294436539672,
+                             "done":  true,
+                             "done_reason":  "length",
+                             "loaded_models":  [
+                                                   {
+                                                       "name":  "llama3:latest",
+                                                       "model":  "llama3:latest",
+                                                       "size":  5605130240,
+                                                       "digest":  "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+                                                       "details":  {
+                                                                       "parent_model":  "",
+                                                                       "format":  "gguf",
+                                                                       "family":  "llama",
+                                                                       "families":  [
+                                                                                        "llama"
+                                                                                    ],
+                                                                       "parameter_size":  "8.0B",
+                                                                       "quantization_level":  "Q4_0"
+                                                                   },
+                                                       "expires_at":  "2026-10-15T19:14:11.1431018-03:00",
+                                                       "size_vram":  5174173696,
+                                                       "context_length":  4096
+                                                   }
+                                               ],
+                             "gpu_snapshot_after_call":  "NVIDIA GeForce RTX 2060, 6144, 5432, 535",
+                             "ollama_process_memory_after_call":  [
+                                                                      {
+                                                                          "ProcessName":  "ollama",
+                                                                          "WorkingSet64":  2270081024,
+                                                                          "PrivateMemorySize64":  7862444032
+                                                                      },
+                                                                      {
+                                                                          "ProcessName":  "ollama",
+                                                                          "WorkingSet64":  102916096,
+                                                                          "PrivateMemorySize64":  102334464
+                                                                      },
+                                                                      {
+                                                                          "ProcessName":  "ollama app",
+                                                                          "WorkingSet64":  42258432,
+                                                                          "PrivateMemorySize64":  27295744
+                                                                      }
+                                                                  ]
+                         }
+                     ],
+    "responses":  [
+                      {
+                          "phase":  "initial_load",
+                          "text":  "**Plano de Aula: Busca Linear em Vetores**\n\n**Duração:** 50 minutos\n\n**Objetivo de Aprendizagem:** Implementar busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência, e testar casos de presença e ausência.\n\n**Metodologia:** Resolução Colaborativa de Problemas\n\n**Materiais e Recursos Disponíveis:**\n\n* Quadro para anotações\n* Folha com vetores de inteiros para testes de mesa\n* Pseudocódigo de busca linear (fornecedor)\n\n**Estrutura da Aula:**\n\n1. **Introdução** (5 minutos)\n\t* Recapitulação do conceito de vetor e busca em estruturas de dados\n\t* Objetivo da aula: implementar busca linear em pseudocódigo sobre um vetor de inteiros\n2. **Implementação da Busca Linear** (15 minutos)\n\t* Distribuição dos materiais e recursos\n\t* Explicação do conceito de busca linear e sua implementação em pseudocódigo\n\t* Discussão em grupo: como o algoritmo funciona, quais são os passos para encontrar um elemento no vetor\n3. **Testes de Mesa** (15 minutos)\n\t* Distribuição dos vetores de inteiros para testes de mesa\n\t* Explicação do processo de testar a busca linear em diferentes casos:\n\t\t+ Elemento presente no vetor\n\t\t+ Elemento ausente no vetor\n\t* Discussão em grupo: resultados esperados e resultados obtidos, justificando as respostas\n4. **Conclusão** (5 minutos)\n\t* Recapitulação dos conceitos aprendidos\n\t* Reflexão sobre a importância da busca linear em programação\n\n**Estratégia de Avaliação:**\n\n* Observação das discussões em grupo e anotações no quadro\n* Entrega do pseudocódigo de busca linear implementado por cada estudante\n* Análise dos resultados obtidos nos testes de mesa para verificar a compreensão do conceito\n\n**Atividades Propostas:**\n\n1. **Implementação da Busca Linear**: Cada estudante deve implementar o algoritmo de busca linear em pseudocódigo e anotar os passos no quadro.\n2."
+                      },
+                      {
+                          "phase":  "warm",
+                          "text":  "**Plano de Aula: Busca Linear em Vetores**\n\n**Objetivo:** Implementar a busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.\n\n**Duração:** 50 minutos\n\n**Materiais e Recursos Disponíveis:**\n\n* Quadro\n* Folha com vetores de inteiros para testes de mesa\n* Computador com conexão à internet (opcional)\n\n**Estrutura da Aula:**\n\n1. Introdução (5 minutos):\n\t* Revisar o conceito de busca linear em vetores\n\t* Explicar que a busca linear é uma técnica de busca que procura um elemento específico em um vetor ordenado ou desordenado, começando do início e seguindo até o fim do vetor.\n2. Implementação da Busca Linear (15 minutos):\n\t* Distribuir a folha com vetores de inteiros para que os estudantes possam realizar testes de mesa\n\t* Explicar que a busca linear pode ser implementada em pseudocódigo como segue:\n```pseudocode\nfunction buscarLinear(vetor, elemento) {\n  for (i = 0; i \u003c vetor.length; i++) {\n    if (vetor[i] == elemento) {\n      return i;\n    }\n  }\n  return -1; // indicador de ausência\n}\n```\n3. Testes de Mesa (15 minutos):\n\t* Pedir que os estudantes realizem testes de mesa com diferentes vetores e elementos, usando o pseudocódigo implementado.\n\t* Exemplos de testes:\n\t\t+ Vetor: [1, 2, 3, 4, 5], elemento: 3\n\t\t+ Vetor: [10, 20, 30, 40], elemento: 25 (ausência)\n\t\t+ Vetor: [A, B, C, D, E], elemento: C\n\t* Pedir que os estudantes justifiquem o resultado obtido.\n4. Avaliação (5 minutos):\n\t* Revisar a implementação da busca linear e os resultados obtidos nos testes de mesa.\n\t* Avaliar a compreensão dos estudantes sobre a busca linear e sua capacidade de aplicá-la em diferentes situações.\n\n**Estratégia de Avaliação:**\n\n"
+                      }
+                  ],
+    "memory_measurement":  "Snapshots after each call; not peak memory. Process RAM includes shared/mapped pages and must not be summed as unique usage."
+}

@@ -1,0 +1,403 @@
+{
+  "suite": "judge-sensitivity-v1",
+  "synthetic": true,
+  "simulated": false,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "planned": 36,
+  "completed": 36,
+  "statuses": {
+    "success": 36
+  },
+  "pending_started": [],
+  "source_log_sha256": "684d657488aa628fa7dd8ae844ed84358a1d646115946ac1451151df1f087756",
+  "medians": [
+    {
+      "task_id": "pilot-001",
+      "kind": "baseline",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 4,
+        "instructional_alignment": 4,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 4
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "omission",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 4,
+        "instructional_alignment": 4,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 4
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "misalignment",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 2,
+        "instructional_alignment": 1,
+        "grade_appropriateness": 3,
+        "coherence_feasibility": 2
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 2,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "time_contradiction",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 2,
+        "instructional_alignment": 2,
+        "grade_appropriateness": 3,
+        "coherence_feasibility": 1
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 1,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "baseline",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 4,
+        "instructional_alignment": 4,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 4
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "omission",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 4,
+        "instructional_alignment": 4,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 4
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "misalignment",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 1,
+        "instructional_alignment": 1,
+        "grade_appropriateness": 1,
+        "coherence_feasibility": 1
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 2,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "time_contradiction",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 2,
+        "instructional_alignment": 2,
+        "grade_appropriateness": 3,
+        "coherence_feasibility": 1
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 1,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "baseline",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 4,
+        "instructional_alignment": 4,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 4
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "omission",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 4,
+        "instructional_alignment": 4,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 4
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 0,
+        "coherence_feasibility": 0
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "misalignment",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 2,
+        "instructional_alignment": 1,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 2
+      },
+      "score_ranges": {
+        "semantic_fidelity": 1,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 3,
+        "coherence_feasibility": 1
+      }
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "time_contradiction",
+      "valid_judgments": 3,
+      "medians": {
+        "semantic_fidelity": 2,
+        "instructional_alignment": 2,
+        "grade_appropriateness": 4,
+        "coherence_feasibility": 1
+      },
+      "score_ranges": {
+        "semantic_fidelity": 0,
+        "instructional_alignment": 0,
+        "grade_appropriateness": 1,
+        "coherence_feasibility": 0
+      }
+    }
+  ],
+  "relations": [
+    {
+      "task_id": "pilot-001",
+      "kind": "omission",
+      "criterion": "semantic_fidelity",
+      "baseline": 4,
+      "variant": 4,
+      "delta": 0,
+      "outcome": "tie",
+      "strict_decrease_detected": false
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "misalignment",
+      "criterion": "instructional_alignment",
+      "baseline": 4,
+      "variant": 1,
+      "delta": -3,
+      "outcome": "decrease",
+      "strict_decrease_detected": true
+    },
+    {
+      "task_id": "pilot-001",
+      "kind": "time_contradiction",
+      "criterion": "coherence_feasibility",
+      "baseline": 4,
+      "variant": 1,
+      "delta": -3,
+      "outcome": "decrease",
+      "strict_decrease_detected": true
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "omission",
+      "criterion": "semantic_fidelity",
+      "baseline": 4,
+      "variant": 4,
+      "delta": 0,
+      "outcome": "tie",
+      "strict_decrease_detected": false
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "misalignment",
+      "criterion": "instructional_alignment",
+      "baseline": 4,
+      "variant": 1,
+      "delta": -3,
+      "outcome": "decrease",
+      "strict_decrease_detected": true
+    },
+    {
+      "task_id": "pilot-002",
+      "kind": "time_contradiction",
+      "criterion": "coherence_feasibility",
+      "baseline": 4,
+      "variant": 1,
+      "delta": -3,
+      "outcome": "decrease",
+      "strict_decrease_detected": true
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "omission",
+      "criterion": "semantic_fidelity",
+      "baseline": 4,
+      "variant": 4,
+      "delta": 0,
+      "outcome": "tie",
+      "strict_decrease_detected": false
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "misalignment",
+      "criterion": "instructional_alignment",
+      "baseline": 4,
+      "variant": 1,
+      "delta": -3,
+      "outcome": "decrease",
+      "strict_decrease_detected": true
+    },
+    {
+      "task_id": "pilot-003",
+      "kind": "time_contradiction",
+      "criterion": "coherence_feasibility",
+      "baseline": 4,
+      "variant": 1,
+      "delta": -3,
+      "outcome": "decrease",
+      "strict_decrease_detected": true
+    }
+  ],
+  "outcomes": {
+    "tie": 3,
+    "decrease": 6
+  },
+  "omission_justifications": [
+    {
+      "task_id": "pilot-001",
+      "evaluation_id": "eval-c590547385e6e675c490edbfe7a5a023",
+      "repetition": 3,
+      "removed_materials": "Quadro e folha com vetores de inteiros para testes de mesa",
+      "score": 4,
+      "justification": "A resposta contempla todos os elementos da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de produzir pseudocódigo e testes de mesa para casos presente/ausente."
+    },
+    {
+      "task_id": "pilot-003",
+      "evaluation_id": "eval-1fed07fa15a91ee38ee9b5e6f444d8b5",
+      "repetition": 1,
+      "removed_materials": "Quadro e folha com descrição de um sistema de empréstimos de biblioteca",
+      "score": 4,
+      "justification": "Repete os requisitos centrais da tarefa: tópico, nível, objetivos, duração, metodologia e a entrega de 2 requisitos funcionais e 2 não funcionais com justificativa e condição de verificação."
+    },
+    {
+      "task_id": "pilot-003",
+      "evaluation_id": "eval-1d98a601e2b506fc9e77b6e8bf004bcc",
+      "repetition": 2,
+      "removed_materials": "Quadro e folha com descrição de um sistema de empréstimos de biblioteca",
+      "score": 4,
+      "justification": "Repete os requisitos centrais da tarefa: tópico, nível, objetivos, metodologia, duração e a entrega de 2 requisitos funcionais e 2 não funcionais com justificativa e condição de verificação."
+    },
+    {
+      "task_id": "pilot-002",
+      "evaluation_id": "eval-8306d84e88b940b648fcc5ff45604fca",
+      "repetition": 2,
+      "removed_materials": "Quadro e folha com tabela de produtos contendo código, nome e preço",
+      "score": 4,
+      "justification": "A resposta cobre todos os elementos da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de avaliação pedida ('duas consultas com SELECT e WHERE... e indicar os resultados esperados')."
+    },
+    {
+      "task_id": "pilot-003",
+      "evaluation_id": "eval-31973b565ba4c3f4da17f0259357261b",
+      "repetition": 3,
+      "removed_materials": "Quadro e folha com descrição de um sistema de empréstimos de biblioteca",
+      "score": 4,
+      "justification": "Repete os requisitos centrais da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de avaliação com dois requisitos funcionais, dois não funcionais, justificativa e condição de verificação."
+    },
+    {
+      "task_id": "pilot-001",
+      "evaluation_id": "eval-baf95125b224981b6d7e52469771d74d",
+      "repetition": 1,
+      "removed_materials": "Quadro e folha com vetores de inteiros para testes de mesa",
+      "score": 4,
+      "justification": "Repete todos os requisitos centrais da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de avaliação com pseudocódigo e testes de mesa para casos presente e ausente."
+    },
+    {
+      "task_id": "pilot-001",
+      "evaluation_id": "eval-78ce27e3ef5dec5658054b4700529677",
+      "repetition": 2,
+      "removed_materials": "Quadro e folha com vetores de inteiros para testes de mesa",
+      "score": 4,
+      "justification": "Repete todos os elementos centrais da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de avaliação com pseudocódigo e testes de mesa para casos presente/ausente."
+    },
+    {
+      "task_id": "pilot-002",
+      "evaluation_id": "eval-56a573e6b82a27a8e805cf45fc975162",
+      "repetition": 1,
+      "removed_materials": "Quadro e folha com tabela de produtos contendo código, nome e preço",
+      "score": 4,
+      "justification": "Repete os requisitos centrais da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de avaliação com duas consultas SELECT/WHERE e resultados esperados."
+    },
+    {
+      "task_id": "pilot-002",
+      "evaluation_id": "eval-111ea69c2a1f50eb6fd85a5efc25562f",
+      "repetition": 3,
+      "removed_materials": "Quadro e folha com tabela de produtos contendo código, nome e preço",
+      "score": 4,
+      "justification": "A resposta contempla todos os requisitos da tarefa: tópico, nível, objetivos, duração, metodologia e a estratégia de avaliação com duas consultas SELECT/WHERE, uma por igualdade e outra por comparação numérica, além dos resultados esperados."
+    }
+  ],
+  "usage": {
+    "input_tokens": 42766,
+    "output_tokens": 10051,
+    "total_tokens": 52817
+  },
+  "limitations": [
+    "Constructed perturbations are diagnostic expectations, not validated gold-standard scores.",
+    "Three synthetic tasks reuse pilot target payloads; no independent generalization validation.",
+    "Shared baseline for three variants; comparisons and repeated judgments are dependent.",
+    "A tie is not strict defect sensitivity. Baseline is not assumed to deserve score 4.",
+    "No factual, human or pedagogical efficacy validation; no significance tests or rubric changes.",
+    "A generic resource reference can remain implicit after removal of the explicit materials field.",
+    "No claim of complete defect isolation across semantic criteria; inspect all four scores."
+  ]
+}

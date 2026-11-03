@@ -1,0 +1,413 @@
+{
+  "protocol": "requirement-judgments-v2",
+  "completed": 18,
+  "statuses": {
+    "success": 18
+  },
+  "responses": [
+    {
+      "job_id": "base",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "duration_contradiction",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "median": 2
+        }
+      }
+    },
+    {
+      "job_id": "formatting",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "misalignment",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "contradicted": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "median": 2
+        },
+        "textual_coherence": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "median": 2
+        }
+      }
+    },
+    {
+      "job_id": "omission",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "not_addressed": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    },
+    {
+      "job_id": "verbosity",
+      "valid": 3,
+      "complete_triplet": true,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 3
+          },
+          "exact_agreement": true
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        },
+        "textual_coherence": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "median": 4
+        }
+      }
+    }
+  ],
+  "interpretation": "Nominal frequencies, not a composite score. Incomplete triplets have no median or agreement.",
+  "planned": 18
+}

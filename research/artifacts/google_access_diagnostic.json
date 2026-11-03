@@ -1,0 +1,525 @@
+{
+  "at": "2026-10-16T17:53:31.384116+00:00",
+  "credential_source": "[REDACTED]",
+  "configured_model": "gemini-3.8-flash",
+  "experimental_data": false,
+  "billing_and_project_limits": "Not accessible from model inference credentials alone; inspect AI Studio usage and billing.",
+  "models": [
+    {
+      "name": "models/gemini-2.5-flash",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-pro",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-preview-tts",
+      "supported_actions": [
+        "countTokens",
+        "generateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-pro-preview-tts",
+      "supported_actions": [
+        "countTokens",
+        "generateContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemma-4-26b-a4b-it",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemma-4-31b-it",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-flash-latest",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-flash-lite-latest",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-pro-latest",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-lite",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-image",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3-flash-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview-customtools",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3-pro-image-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3-pro-image",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/nano-banana-pro-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-image-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-image",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite-image",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-nano-banana-2.1",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-flash",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-flash-lite",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-omni-flash-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-omni-1.1-flash",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-transcribe",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-3.6-flash",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.7-flash",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-flash",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-4-argon",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/lyria-3-clip-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/lyria-3-pro-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/lyria-3.5",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-tts-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-flash-tts",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-flash-lite-tts",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-robotics-er-2-preview",
+      "supported_actions": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-computer-use-preview-10-2025",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/antigravity-preview-05-2026",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/antigravity-preview-09-2026",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/antigravity-preview-latest",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/deep-research-max-preview-04-2026",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/deep-research-preview-04-2026",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/deep-research-pro-preview-12-2025",
+      "supported_actions": [
+        "generateContent",
+        "countTokens"
+      ]
+    },
+    {
+      "name": "models/gemini-embedding-001",
+      "supported_actions": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
+      "name": "models/gemini-embedding-2-preview",
+      "supported_actions": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
+      "name": "models/gemini-embedding-2",
+      "supported_actions": [
+        "embedContent",
+        "countTextTokens",
+        "countTokens",
+        "asyncBatchEmbedContent"
+      ]
+    },
+    {
+      "name": "models/aqa",
+      "supported_actions": [
+        "generateAnswer"
+      ]
+    },
+    {
+      "name": "models/veo-3.1-generate-preview",
+      "supported_actions": [
+        "predictLongRunning"
+      ]
+    },
+    {
+      "name": "models/veo-3.1-fast-generate-preview",
+      "supported_actions": [
+        "predictLongRunning"
+      ]
+    },
+    {
+      "name": "models/veo-3.1-lite-generate-preview",
+      "supported_actions": [
+        "predictLongRunning"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-transcribe-live",
+      "supported_actions": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-latest",
+      "supported_actions": [
+        "countTokens",
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+      "supported_actions": [
+        "countTokens",
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "supported_actions": [
+        "countTokens",
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.1-flash-live-preview",
+      "supported_actions": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-live",
+      "supported_actions": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.8-live-extended-thinking",
+      "supported_actions": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-robotics-er-2-streaming-preview",
+      "supported_actions": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/gemini-3.5-live-translate-preview",
+      "supported_actions": [
+        "bidiGenerateContent"
+      ]
+    },
+    {
+      "name": "models/lyria-realtime-exp",
+      "supported_actions": [
+        "bidiGenerateMusic"
+      ]
+    }
+  ],
+  "configured_model_listed": true,
+  "model_get": {
+    "name": "models/gemini-3.8-flash",
+    "display_name": "Gemini 3.8 Flash",
+    "description": "Gemini 3.8 Flash",
+    "version": "3.0",
+    "tuned_model_info": {},
+    "input_token_limit": 1048576,
+    "output_token_limit": 65536,
+    "supported_actions": [
+      "generateContent",
+      "countTokens",
+      "createCachedContent",
+      "batchGenerateContent"
+    ],
+    "temperature": 1.0,
+    "max_temperature": 2.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "thinking": true
+  },
+  "generation_error": {
+    "type": "ServerError",
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "details": {
+      "error": {
+        "code": 503,
+        "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+        "status": "UNAVAILABLE"
+      }
+    }
+  }
+}

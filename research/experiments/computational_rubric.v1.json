@@ -1,0 +1,65 @@
+{
+  "rubric_version": "eduadocs-computational-rubric-v1.0.0",
+  "artifact_type": "lesson_plan",
+  "language": "pt-BR",
+  "requirement_count": 7,
+  "requirements": [
+    "topic",
+    "grade_level",
+    "learning_objectives",
+    "duration_minutes",
+    "methodology",
+    "materials",
+    "assessment_strategy"
+  ],
+  "requirement_scores": [0, 0.5, 1],
+  "requirement_weight": 0.14285714285714285,
+  "primary_metrics": {
+    "requirement_compliance_score": "count(score == 1) / 7",
+    "completeness_score": "sum(score) / 7",
+    "omission_rate": "count(score == 0) / 7"
+  },
+  "duration_sum_tolerance_minutes": 1,
+  "partial_keyword_coverage_threshold": 0.5,
+  "failure_policy": {
+    "primary_analysis": "exclude_from_structural_scores_and_report_separately",
+    "sensitivity_analysis": "score_as_zero",
+    "retry_transient_failure_once": true,
+    "preserve_original_failure": true
+  },
+  "failure_categories": [
+    "authentication_error",
+    "rate_limit",
+    "provider_unavailable",
+    "timeout",
+    "empty_response",
+    "truncated_response",
+    "refusal",
+    "wrong_language",
+    "processing_error",
+    "export_error"
+  ],
+  "secondary_metrics": [
+    "latency_ms",
+    "input_tokens",
+    "output_tokens",
+    "estimated_cost_usd",
+    "failure_rate",
+    "response_word_count",
+    "response_sentence_count",
+    "lexical_diversity",
+    "readability_pt",
+    "repetition_consistency"
+  ],
+  "statistical_unit": "task",
+  "repetitions_are_independent": false,
+  "planned_omnibus_test": "friedman",
+  "planned_pairwise_test": "wilcoxon_signed_rank",
+  "multiple_comparison_correction": "holm",
+  "llm_as_primary_judge": false,
+  "llm_judge": {
+    "enabled_as_secondary_metric": true,
+    "rubric_path": "experiments/llm_judge_rubric.v1.json",
+    "human_ground_truth_claimed": false
+  }
+}

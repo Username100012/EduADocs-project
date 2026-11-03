@@ -1,0 +1,13 @@
+﻿generator_id,condition,criterion,median_of_task_medians,complete_triplets,exact_agreement_triplets
+gemini,c0,instructional_alignment,3.0,31,25
+gemini,c0,textual_coherence,4.0,31,23
+gemini,c1,instructional_alignment,4.0,32,32
+gemini,c1,textual_coherence,4.0,32,30
+gemini,c2,instructional_alignment,4.0,33,33
+gemini,c2,textual_coherence,4.0,33,31
+qwen3,c0,instructional_alignment,3.0,33,21
+qwen3,c0,textual_coherence,3.0,33,24
+qwen3,c1,instructional_alignment,4.0,33,27
+qwen3,c1,textual_coherence,3.0,33,27
+qwen3,c2,instructional_alignment,4.0,34,33
+qwen3,c2,textual_coherence,3.0,34,31

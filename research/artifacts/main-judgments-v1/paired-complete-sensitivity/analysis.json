@@ -1,0 +1,5387 @@
+{
+  "analysis": "post-hoc matched complete-case sensitivity; not the frozen primary analysis",
+  "api_calls": 0,
+  "matching_rule": "generator + task + generation repetition; both conditions require 3 valid judgments",
+  "caveat": "Replicate labels are administrative matches, not proof of independent or coupled stochastic draws. Complete-case selection may be informative.",
+  "coverage": [
+    {
+      "generator_id": "gemini",
+      "planned_pairs": 36,
+      "included_pairs": 30,
+      "excluded_pairs": 6,
+      "represented_tasks": 12,
+      "pairs_per_task": {
+        "task-001": 3,
+        "task-002": 2,
+        "task-003": 3,
+        "task-004": 3,
+        "task-005": 3,
+        "task-006": 1,
+        "task-007": 3,
+        "task-008": 3,
+        "task-009": 3,
+        "task-010": 2,
+        "task-011": 3,
+        "task-012": 1
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "planned_pairs": 36,
+      "included_pairs": 31,
+      "excluded_pairs": 5,
+      "represented_tasks": 12,
+      "pairs_per_task": {
+        "task-001": 3,
+        "task-002": 2,
+        "task-003": 3,
+        "task-004": 2,
+        "task-005": 2,
+        "task-006": 3,
+        "task-007": 3,
+        "task-008": 3,
+        "task-009": 3,
+        "task-010": 2,
+        "task-011": 3,
+        "task-012": 2
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-001:c1:r1",
+        "c2": "gemini:task-001:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-001:c1:r2",
+        "c2": "gemini:task-001:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-001:c1:r3",
+        "c2": "gemini:task-001:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-002:c1:r1",
+        "c2": "gemini:task-002:c2:r1"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "generation_error"
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-002:c1:r2",
+        "c2": "gemini:task-002:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-002:c1:r3",
+        "c2": "gemini:task-002:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-003:c1:r1",
+        "c2": "gemini:task-003:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-003:c1:r2",
+        "c2": "gemini:task-003:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-003:c1:r3",
+        "c2": "gemini:task-003:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-004:c1:r1",
+        "c2": "gemini:task-004:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-004:c1:r2",
+        "c2": "gemini:task-004:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-004:c1:r3",
+        "c2": "gemini:task-004:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-005:c1:r1",
+        "c2": "gemini:task-005:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-005:c1:r2",
+        "c2": "gemini:task-005:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-005:c1:r3",
+        "c2": "gemini:task-005:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-006:c1:r1",
+        "c2": "gemini:task-006:c2:r1"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-006:c1:r2",
+        "c2": "gemini:task-006:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-006:c1:r3",
+        "c2": "gemini:task-006:c2:r3"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "incomplete_judgment_triplet",
+        "c2": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-007:c1:r1",
+        "c2": "gemini:task-007:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-007:c1:r2",
+        "c2": "gemini:task-007:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-007:c1:r3",
+        "c2": "gemini:task-007:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-008:c1:r1",
+        "c2": "gemini:task-008:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-008:c1:r2",
+        "c2": "gemini:task-008:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-008:c1:r3",
+        "c2": "gemini:task-008:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-009:c1:r1",
+        "c2": "gemini:task-009:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-009:c1:r2",
+        "c2": "gemini:task-009:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-009:c1:r3",
+        "c2": "gemini:task-009:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-010:c1:r1",
+        "c2": "gemini:task-010:c2:r1"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c2": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-010:c1:r2",
+        "c2": "gemini:task-010:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-010:c1:r3",
+        "c2": "gemini:task-010:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-011:c1:r1",
+        "c2": "gemini:task-011:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-011:c1:r2",
+        "c2": "gemini:task-011:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-011:c1:r3",
+        "c2": "gemini:task-011:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "gemini:task-012:c1:r1",
+        "c2": "gemini:task-012:c2:r1"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "gemini:task-012:c1:r2",
+        "c2": "gemini:task-012:c2:r2"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c2": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "gemini:task-012:c1:r3",
+        "c2": "gemini:task-012:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-001:c1:r1",
+        "c2": "qwen3:task-001:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-001:c1:r2",
+        "c2": "qwen3:task-001:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-001:c1:r3",
+        "c2": "qwen3:task-001:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-002:c1:r1",
+        "c2": "qwen3:task-002:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-002:c1:r2",
+        "c2": "qwen3:task-002:c2:r2"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c2": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-002:c1:r3",
+        "c2": "qwen3:task-002:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-003:c1:r1",
+        "c2": "qwen3:task-003:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-003:c1:r2",
+        "c2": "qwen3:task-003:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-003:c1:r3",
+        "c2": "qwen3:task-003:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-004:c1:r1",
+        "c2": "qwen3:task-004:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-004:c1:r2",
+        "c2": "qwen3:task-004:c2:r2"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-004:c1:r3",
+        "c2": "qwen3:task-004:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-005:c1:r1",
+        "c2": "qwen3:task-005:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-005:c1:r2",
+        "c2": "qwen3:task-005:c2:r2"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c2": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-005:c1:r3",
+        "c2": "qwen3:task-005:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-006:c1:r1",
+        "c2": "qwen3:task-006:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-006:c1:r2",
+        "c2": "qwen3:task-006:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-006:c1:r3",
+        "c2": "qwen3:task-006:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-007:c1:r1",
+        "c2": "qwen3:task-007:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-007:c1:r2",
+        "c2": "qwen3:task-007:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-007:c1:r3",
+        "c2": "qwen3:task-007:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-008:c1:r1",
+        "c2": "qwen3:task-008:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-008:c1:r2",
+        "c2": "qwen3:task-008:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-008:c1:r3",
+        "c2": "qwen3:task-008:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-009:c1:r1",
+        "c2": "qwen3:task-009:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-009:c1:r2",
+        "c2": "qwen3:task-009:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-009:c1:r3",
+        "c2": "qwen3:task-009:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-010:c1:r1",
+        "c2": "qwen3:task-010:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-010:c1:r2",
+        "c2": "qwen3:task-010:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-010:c1:r3",
+        "c2": "qwen3:task-010:c2:r3"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-011:c1:r1",
+        "c2": "qwen3:task-011:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-011:c1:r2",
+        "c2": "qwen3:task-011:c2:r2"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-011:c1:r3",
+        "c2": "qwen3:task-011:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "generation_repetition": 1,
+      "job_ids": {
+        "c1": "qwen3:task-012:c1:r1",
+        "c2": "qwen3:task-012:c2:r1"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "generation_repetition": 2,
+      "job_ids": {
+        "c1": "qwen3:task-012:c1:r2",
+        "c2": "qwen3:task-012:c2:r2"
+      },
+      "included": false,
+      "exclusion_reasons": {
+        "c1": "incomplete_judgment_triplet"
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "generation_repetition": 3,
+      "job_ids": {
+        "c1": "qwen3:task-012:c1:r3",
+        "c2": "qwen3:task-012:c2:r3"
+      },
+      "included": true,
+      "exclusion_reasons": {}
+    }
+  ],
+  "requirements": [
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 90,
+      "supported": 86,
+      "partial": 4,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 90,
+      "supported": 90,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 93,
+      "supported": 87,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 6,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 93,
+      "supported": 71,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 22,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 93,
+      "supported": 67,
+      "partial": 21,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 5
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 93,
+      "supported": 83,
+      "partial": 10,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 93,
+      "supported": 83,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 1,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 93,
+      "supported": 57,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 20,
+      "uncertain": 16
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 93,
+      "supported": 93,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 93,
+      "supported": 88,
+      "partial": 5,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    }
+  ],
+  "by_task_requirements": [
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 8,
+      "partial": 1,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 3,
+      "partial": 3,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "gemini",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 3,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 6,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 6,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 5,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 4,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 6,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 3,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 3,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 5,
+      "partial": 4,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 3,
+      "partial": 1,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 5
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 2,
+      "partial": 4,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 6,
+      "partial": 3,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 5,
+      "partial": 1,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 3,
+      "partial": 6,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 6,
+      "partial": 3,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "topic",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 9,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "valid_judgments": 6,
+      "supported": 5,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 1,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 3,
+      "uncertain": 3
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 6,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 2,
+      "uncertain": 7
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 3,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 6,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 0,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 3,
+      "uncertain": 6
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "methodology",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "materials",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-001",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-002",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-003",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-004",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-005",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-006",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-007",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 4,
+      "partial": 5,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-008",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-009",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-010",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-011",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 9,
+      "supported": 9,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    },
+    {
+      "generator_id": "qwen3",
+      "task_id": "task-012",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "valid_judgments": 6,
+      "supported": 6,
+      "partial": 0,
+      "not_addressed": 0,
+      "contradicted": 0,
+      "uncertain": 0
+    }
+  ],
+  "secondary_scores": [
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "criterion": "instructional_alignment",
+      "paired_complete_median_of_task_medians": 4.0,
+      "primary_median_of_task_medians": 4.0,
+      "task_medians": {
+        "task-001": 4,
+        "task-002": 4.0,
+        "task-003": 4,
+        "task-004": 4,
+        "task-005": 4,
+        "task-006": 4,
+        "task-007": 4,
+        "task-008": 4,
+        "task-009": 4,
+        "task-010": 4.0,
+        "task-011": 4,
+        "task-012": 4
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c1",
+      "criterion": "textual_coherence",
+      "paired_complete_median_of_task_medians": 4.0,
+      "primary_median_of_task_medians": 4.0,
+      "task_medians": {
+        "task-001": 4,
+        "task-002": 4.0,
+        "task-003": 3,
+        "task-004": 4,
+        "task-005": 4,
+        "task-006": 4,
+        "task-007": 4,
+        "task-008": 4,
+        "task-009": 4,
+        "task-010": 3.5,
+        "task-011": 4,
+        "task-012": 4
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "criterion": "instructional_alignment",
+      "paired_complete_median_of_task_medians": 4.0,
+      "primary_median_of_task_medians": 4.0,
+      "task_medians": {
+        "task-001": 4,
+        "task-002": 4.0,
+        "task-003": 4,
+        "task-004": 4,
+        "task-005": 4,
+        "task-006": 4,
+        "task-007": 4,
+        "task-008": 4,
+        "task-009": 4,
+        "task-010": 4.0,
+        "task-011": 4,
+        "task-012": 4
+      }
+    },
+    {
+      "generator_id": "gemini",
+      "condition": "c2",
+      "criterion": "textual_coherence",
+      "paired_complete_median_of_task_medians": 4.0,
+      "primary_median_of_task_medians": 4.0,
+      "task_medians": {
+        "task-001": 4,
+        "task-002": 4.0,
+        "task-003": 4,
+        "task-004": 4,
+        "task-005": 4,
+        "task-006": 4,
+        "task-007": 4,
+        "task-008": 4,
+        "task-009": 4,
+        "task-010": 4.0,
+        "task-011": 4,
+        "task-012": 3
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "criterion": "instructional_alignment",
+      "paired_complete_median_of_task_medians": 4.0,
+      "primary_median_of_task_medians": 4.0,
+      "task_medians": {
+        "task-001": 4,
+        "task-002": 4.0,
+        "task-003": 4,
+        "task-004": 3.0,
+        "task-005": 3.5,
+        "task-006": 2,
+        "task-007": 4,
+        "task-008": 4,
+        "task-009": 3,
+        "task-010": 4.0,
+        "task-011": 4,
+        "task-012": 2.0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "criterion": "textual_coherence",
+      "paired_complete_median_of_task_medians": 3.0,
+      "primary_median_of_task_medians": 3.0,
+      "task_medians": {
+        "task-001": 3,
+        "task-002": 4.0,
+        "task-003": 3,
+        "task-004": 3.5,
+        "task-005": 4.0,
+        "task-006": 2,
+        "task-007": 4,
+        "task-008": 2,
+        "task-009": 2,
+        "task-010": 3.0,
+        "task-011": 4,
+        "task-012": 2.0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "criterion": "instructional_alignment",
+      "paired_complete_median_of_task_medians": 4.0,
+      "primary_median_of_task_medians": 4.0,
+      "task_medians": {
+        "task-001": 3,
+        "task-002": 4.0,
+        "task-003": 4,
+        "task-004": 3.0,
+        "task-005": 4.0,
+        "task-006": 4,
+        "task-007": 3,
+        "task-008": 4,
+        "task-009": 4,
+        "task-010": 4.0,
+        "task-011": 4,
+        "task-012": 2.0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "criterion": "textual_coherence",
+      "paired_complete_median_of_task_medians": 3.0,
+      "primary_median_of_task_medians": 3.0,
+      "task_medians": {
+        "task-001": 3,
+        "task-002": 3.0,
+        "task-003": 4,
+        "task-004": 4.0,
+        "task-005": 3.0,
+        "task-006": 2,
+        "task-007": 2,
+        "task-008": 3,
+        "task-009": 3,
+        "task-010": 3.0,
+        "task-011": 4,
+        "task-012": 1.5
+      }
+    }
+  ],
+  "source_sha256": {
+    "artifacts/main-study-v1/generations.jsonl": "70969e6fe4df45f92d7dd9605eb68cb90b6dfa9eaa6d0346bb2f1f1a4b5b4135",
+    "artifacts/main-judgments-v1/judgments.v2.jsonl": "d975021750a36abb3adf0feefa3271991a08c97c0628e51cc3f76f8bb1f29cc3",
+    "artifacts/main-judgments-v1/summary.v2.json": "3637e1dc16badd5d1c92ab19411ab5fc4f77a8522277a6f798822eeabd77fd71",
+    "artifacts/main-judgments-v1/results_tables.json": "5d9d81177d7cc07756e9a56f29ea9586e5d3dba34be86dd1954ea89550d53295"
+  }
+}

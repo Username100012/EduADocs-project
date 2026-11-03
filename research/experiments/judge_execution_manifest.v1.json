@@ -1,0 +1,83 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "computational_rubric",
+      "path": "experiments/computational_rubric.v1.json",
+      "sha256": "0557f3cb98dc933ab8ba91b90ae1b6d43c7814c3d608c466b2b6651a9e070424"
+    },
+    {
+      "artifact_id": "judge_model_selection",
+      "path": "experiments/judge_model_selection.v1.json",
+      "sha256": "5c83e6128125e81a61620e143c766fe1633a478fd833ea155a2bba3d446fdb14"
+    },
+    {
+      "artifact_id": "judge_rubric",
+      "path": "experiments/llm_judge_rubric.v1.json",
+      "sha256": "9f4c500223172ee03dc2c4d9601222d7c178ba864aade42058609090c63a0566"
+    },
+    {
+      "artifact_id": "judge_response_schema",
+      "path": "experiments/llm_judge_response.schema.json",
+      "sha256": "6eadfbe2bcf67f267aa7cc28fdea0a93561075efa624b06da7e92a3700c3b85c"
+    },
+    {
+      "artifact_id": "judge_prompt_source",
+      "path": "src/experiment/judge_prompt.py",
+      "sha256": "5c22362cb584928c7c2f866bb6c543bdb2226bf200d41d8da9c54062ae978105"
+    },
+    {
+      "artifact_id": "judge_protocol",
+      "path": "docs/LLM_AS_JUDGE_PROTOCOL.md",
+      "sha256": "5b7b6525a0d269ee8bdb772b910c69dd826e208e3cca7d79462e5bff7fddcc9a"
+    }
+  ],
+  "attempt_policy": {
+    "max_attempts_per_repetition": 2,
+    "preserve_every_attempt": true,
+    "replace_failed_repetition": false,
+    "retry_validation_errors_once": [
+      "empty_response",
+      "invalid_json",
+      "duplicate_key",
+      "non_object_root",
+      "missing_required_field",
+      "unexpected_field",
+      "unsupported_schema_version",
+      "unsupported_rubric_version",
+      "invalid_evaluation_id",
+      "evaluation_id_mismatch",
+      "invalid_score",
+      "invalid_justification",
+      "schema_violation"
+    ]
+  },
+  "blinding_policy": {
+    "hide_condition": true,
+    "hide_generator_model": true,
+    "hide_provider": true,
+    "opaque_evaluation_id": true,
+    "pointwise_evaluation": true
+  },
+  "frozen_at": "2026-10-15T15:29:14-03:00",
+  "judge_configuration": {
+    "max_output_tokens": 1200,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "model_version": "gpt-5.4-mini-2026-03-17",
+    "provider": "openai",
+    "provider_parameters": {
+      "api": "responses",
+      "reasoning_effort": "none",
+      "service_tier": "standard",
+      "store": false,
+      "strict_schema": true,
+      "top_p": 1
+    },
+    "response_format": "json_schema",
+    "seed": null,
+    "temperature": 0.0
+  },
+  "manifest_id": "judge-manifest-eduadocs-v1",
+  "repetitions_per_response": 3,
+  "schema_version": "eduadocs-judge-manifest-v1.0.0",
+  "status": "frozen"
+}

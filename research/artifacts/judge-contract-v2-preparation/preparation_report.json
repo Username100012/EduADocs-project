@@ -1,0 +1,1160 @@
+{
+  "api_calls": 0,
+  "judgments_executed": 0,
+  "simulated_generations": false,
+  "source_log_sha256": "8742de0ce3846f0b59af70e9227fa43f4c14a43ea5cf77df0361478752321e45",
+  "configuration_hash": "de679b331f86e6499e9935868f7c2962bc8811c94ddc522ffa31e6534e4e2026",
+  "configuration_snapshot": {
+    "protocol_version": "eduadocs-main-draft-v1",
+    "curricular_reference": {
+      "reference_id": "sbc-rf-2017-cc",
+      "title": "Referenciais de Formação para os Cursos de Graduação em Computação",
+      "publisher": "Sociedade Brasileira de Computação",
+      "year": 2017,
+      "isbn": "978-85-7669-424-3",
+      "course": "Bacharelado em Ciência da Computação",
+      "chapter": "II",
+      "section": "II.6",
+      "source_url": "https://repositorio.pucrs.br/dspace/bitstream/10923/22180/2/Referenciais_de_Formao_para_os_Cursos_de_Graduao_em_Computao.pdf",
+      "mapping_policy": "Competências parafraseadas; tópicos, objetivos de aula, pré-requisitos e procedimentos são operacionalizações autorais, não prescrições ou validação pela SBC."
+    },
+    "status": "draft_offline_only",
+    "purpose": "Proposta de estudo computacional, sem participantes humanos; não iniciar coleta até fechamento do protocolo.",
+    "language": "pt-BR",
+    "conditions": [
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "repetitions_per_task_condition": 3,
+    "planned_generations": 216,
+    "execution": {
+      "shuffle_seed": 42,
+      "automatic_retries": 0,
+      "timeout_ms": 60000,
+      "resume_policy": "Não repetir sucessos ou falhas. Interromper retomada se houver chamada iniciada sem resultado; investigar antes de decidir nova chamada."
+    },
+    "generators": {
+      "gemini": {
+        "provider": "google",
+        "model": "gemini-3.8-flash",
+        "version_policy": "Identificador estável publicado; não é snapshot datado nem garantia de imutabilidade. Registrar model_version devolvida pela API quando disponível, SDK e data de cada chamada.",
+        "api": "generate_content",
+        "generation_config": {
+          "max_output_tokens": 4096,
+          "thinking_config": {
+            "thinking_level": "low"
+          },
+          "response_mime_type": "text/plain"
+        },
+        "omitted_parameters": [
+          "temperature",
+          "top_p",
+          "top_k",
+          "candidate_count",
+          "seed"
+        ],
+        "tools_enabled": false,
+        "conversation_history": false,
+        "system_instruction": null,
+        "response_schema": null,
+        "selection_rationale": "Fornecedor diferente da julgadora OpenAI; modelo estável para geração textual, custo de Flash e raciocínio baixo para um rascunho de aula delimitado. Não se presume superioridade pedagógica.",
+        "pricing_reference": {
+          "checked_on": "2026-10-15",
+          "input_usd_per_million_tokens": 0.75,
+          "output_usd_per_million_tokens_including_thinking": 3.75,
+          "valid_through": "2026-12-31",
+          "url": "https://ai.google.dev/gemini-api/docs/generate-content/whats-new-gemini-3.8"
+        },
+        "sdk_version": "1.56.0",
+        "compatibility_check": "python scripts/check_google_pilot.py --live; teste fora da coleta.",
+        "output_limit_policy": "4096 é limite operacional, não tamanho obrigatório. Preservar truncamentos sem modificar o limite durante a coleta."
+      },
+      "qwen3": {
+        "provider": "ollama",
+        "model": "qwen3:4b-q4_K_M",
+        "expected_digest": "2bfd38a7daaf4b1037efe517ccb73d1a3bbd4822cf89f1a82be1569050a114e0",
+        "ollama_version": "0.17.1",
+        "host": "http://localhost:11434",
+        "generation_config": {
+          "temperature": 0.7,
+          "seed": 42,
+          "num_ctx": 8192,
+          "num_predict": 4096
+        },
+        "think": false,
+        "keep_alive": "10m",
+        "timeout_ms": 600000,
+        "quantization": "Q4_K_M",
+        "parameter_size": "4.0B",
+        "selection_rationale": "Modelo multilíngue de família diferente de Gemini e GPT, viável na RTX 2060 de 6 GB. Sondagem prévia não demonstra qualidade integral.",
+        "repetition_policy": "Seed fixa: as três repetições medem estabilidade nesta configuração e podem gerar respostas idênticas; não são amostras independentes.",
+        "hardware_reference": "docs/OLLAMA_LOCAL_FEASIBILITY.md"
+      }
+    },
+    "judge": {
+      "configuration": {
+        "provider": "openai",
+        "model": "gpt-6.1-sol",
+        "model_version": "gpt-6.1-sol",
+        "temperature": null,
+        "seed": null,
+        "max_output_tokens": 4096,
+        "response_format": "json_schema",
+        "provider_parameters": {
+          "api": "responses",
+          "reasoning_effort": "low",
+          "top_p": null,
+          "store": false,
+          "service_tier": "standard",
+          "strict_schema": true
+        }
+      },
+      "role": "secondary_automatic_semantic_estimate",
+      "repetitions_per_response": 3,
+      "planned_judgments_if_all_generations_succeed": 648,
+      "prompt_version": "lesson-plan-requirement-judge-v2.0.0",
+      "status": "proposed_not_finally_selected",
+      "response_schema_reference": "experiments/judge_response.v2.schema.json",
+      "contract": {
+        "status": "closed_for_local_implementation_not_empirically_validated",
+        "schema_version": "eduadocs-requirement-judge-response-v2.0.0",
+        "rubric_version": "eduadocs-requirement-judge-v2.0.0",
+        "requirement_states": [
+          "supported",
+          "partial",
+          "not_addressed",
+          "contradicted",
+          "uncertain"
+        ],
+        "secondary_criteria": [
+          "instructional_alignment",
+          "textual_coherence"
+        ],
+        "evidence_policy": "exact complete source lines, 1-based inclusive; empty evidence required for not_addressed",
+        "no_composite_score": true,
+        "nominal_aggregation": "report all state frequencies and exact agreement; no numeric encoding, median or automatic majority verdict",
+        "ordinal_aggregation": "median only for the two separate 1-4 authorial criteria with three valid judgments",
+        "scientific_status": "authorial operationalization informed by literature; not a validated pedagogical scale",
+        "artifact_sha256": {
+          "src/experiment/judge_contract_v2.py": "33331319404a83bfa70123402cba62be309ddc44070e2f5a41874fead19d0c07",
+          "experiments/judge_response.v2.schema.json": "c4408e51531ba17d307c9f4f96a0ecac30f592b6e7538a7a2e14465b959ddf95",
+          "src/experiment/requirement_measurement.py": "901c3f191fea8128f815818b46583afe09e6f1db3b76c85028bcbabadd186293"
+        }
+      }
+    },
+    "experimental_controls": {
+      "same_payload_instance_for_c1_and_c2": true,
+      "c0_receives_only_material_type_and_topic": true,
+      "same_generator_configuration_across_conditions": true,
+      "do_not_force_output_schema_or_section_headings_for_generator": true,
+      "judge_receives_same_target_payload_for_all_conditions": true,
+      "hide_condition_and_generator_from_judge": true,
+      "evaluate_original_text_before_docx_export": true,
+      "preserve_raw_responses_and_failures": true
+    },
+    "measurement_policy": {
+      "presence_checks": "Report detected, empty or not_detected labeled fields as structural observations only. They are not requirement compliance.",
+      "per_requirement_results": "true, false ou null quando o extrator não permite decidir; preservar trechos de evidência.",
+      "duration": "Normalizar minutos e horas. Registrar duração declarada, soma de etapas quando identificável e contradições. Ausência de extração não prova ausência da duração.",
+      "objective": "Verbo e conceito presentes são indícios lexicais; não comprovam clareza, qualidade ou equivalência semântica.",
+      "negation": "Correspondência em contexto negado ou contraditório não deve ser contada automaticamente como positiva.",
+      "no_legacy_composite_score": "Não utilizar RCS, CS ou OR do protocolo anterior neste piloto; a escala 0/0.5/1 e seus limiares ainda não foram validados.",
+      "failure": "Reportar execuções planejadas, tentadas, válidas e falhas; não atribuir nota semântica zero a falha técnica.",
+      "readability": "Adiar índice de legibilidade até selecionar fórmula e implementação adequadas ao português.",
+      "analysis": "Descritiva por tarefa, condição e gerador; 216 gerações planejadas não são 216 tarefas independentes. Sem testes de significância ou nota composta.",
+      "semantic_judge": "Report five nominal states separately for each of seven requirements and exact evidence validation; two ordinal text criteria, no global fidelity or pedagogical adequacy score."
+    },
+    "operational_metrics": [
+      "latency_ms",
+      "input_tokens",
+      "output_tokens",
+      "cost_if_pricing_available",
+      "failure_category",
+      "word_count"
+    ],
+    "tasks": [
+      {
+        "task_id": "task-001",
+        "subject": "Algoritmos e Programação",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.1.3",
+          "printed_page": 18,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Maior elemento de um vetor não vazio",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Implementar em pseudocódigo a identificação do maior elemento de um vetor de inteiros não vazio e testar valores negativos e máximos repetidos",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com vetores de inteiros para testes de mesa",
+          "assessment_strategy": "Entregar pseudocódigo e dois testes de mesa, um com valores negativos e outro com máximo repetido"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "maior",
+              "máximo"
+            ],
+            [
+              "vetor",
+              "vetores"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "implementar",
+            "identificar",
+            "testar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "pseudocódigo"
+            ],
+            [
+              "teste de mesa",
+              "testes de mesa"
+            ],
+            [
+              "negativos",
+              "negativo"
+            ],
+            [
+              "repetido",
+              "repetidos"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-002",
+        "subject": "Algoritmos e Programação",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.1.3",
+          "printed_page": 18,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Contagem de números pares em um vetor",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Implementar em pseudocódigo a contagem de valores pares em um vetor e verificar os casos de vetor vazio e de vetor sem pares",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com vetores contendo valores pares e ímpares",
+          "assessment_strategy": "Produzir pseudocódigo e testes de mesa para vetor vazio e vetor sem pares, justificando a contagem"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "pares",
+              "par"
+            ],
+            [
+              "vetor",
+              "vetores"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "implementar",
+            "contar",
+            "verificar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "pseudocódigo"
+            ],
+            [
+              "vazio"
+            ],
+            [
+              "pares"
+            ],
+            [
+              "contagem"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-003",
+        "subject": "Algoritmos e Programação",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.1.3",
+          "printed_page": 18,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Uma passagem de trocas adjacentes em ordenação por bolha",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Simular uma passagem da esquerda para a direita de trocas adjacentes e explicar por que o maior valor termina na última posição",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com sequências curtas de inteiros",
+          "assessment_strategy": "Registrar o vetor após cada comparação de uma passagem e justificar a posição final do maior valor"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "trocas",
+              "troca"
+            ],
+            [
+              "bolha",
+              "bubble sort"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "simular",
+            "explicar",
+            "registrar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "comparação",
+              "comparações"
+            ],
+            [
+              "maior"
+            ],
+            [
+              "posição",
+              "posicao"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-004",
+        "subject": "Algoritmos e Programação",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.1.3",
+          "printed_page": 18,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Operações de pilha com política LIFO",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Simular operações push e pop e identificar o topo e o estado da pilha após cada operação, incluindo remoção de pilha vazia",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com sequências de operações de pilha",
+          "assessment_strategy": "Entregar o rastreamento de operações push e pop, indicando o topo e o tratamento da remoção em pilha vazia"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "pilha",
+              "pilhas"
+            ],
+            [
+              "LIFO"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "simular",
+            "identificar",
+            "rastrear"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "push"
+            ],
+            [
+              "pop"
+            ],
+            [
+              "topo"
+            ],
+            [
+              "vazia"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-005",
+        "subject": "Banco de Dados",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.10",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Chaves primária e estrangeira em tabelas de pedidos",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Identificar chaves primárias e estrangeiras nas tabelas clientes e pedidos e justificar a integridade referencial em dois exemplos",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com tabelas de clientes e pedidos",
+          "assessment_strategy": "Marcar as chaves nas duas tabelas e explicar um registro válido e um que viola a integridade referencial"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "chave",
+              "chaves"
+            ],
+            [
+              "primária",
+              "primarias"
+            ],
+            [
+              "estrangeira",
+              "estrangeiras"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "identificar",
+            "justificar",
+            "marcar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "chaves",
+              "chave"
+            ],
+            [
+              "integridade referencial"
+            ],
+            [
+              "válido",
+              "valido"
+            ],
+            [
+              "viola",
+              "violação"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-006",
+        "subject": "Banco de Dados",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.10",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "INNER JOIN entre clientes e pedidos",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Escrever uma consulta INNER JOIN entre clientes e pedidos e determinar as linhas retornadas quando um cliente não possui pedidos",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com duas tabelas pequenas de clientes e pedidos",
+          "assessment_strategy": "Produzir a consulta INNER JOIN e listar seu resultado, explicando a ausência do cliente sem pedidos"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "INNER JOIN"
+            ],
+            [
+              "clientes"
+            ],
+            [
+              "pedidos"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "escrever",
+            "determinar",
+            "produzir"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "INNER JOIN"
+            ],
+            [
+              "resultado"
+            ],
+            [
+              "cliente"
+            ],
+            [
+              "pedidos"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-007",
+        "subject": "Banco de Dados",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.10",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Agrupamento SQL com GROUP BY e COUNT",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Escrever uma consulta com GROUP BY e COUNT para contar pedidos por cliente e conferir o resultado a partir de uma tabela pequena",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com tabela de pedidos e identificadores de clientes",
+          "assessment_strategy": "Entregar a consulta de agrupamento e a contagem esperada de cada cliente, justificando a diferença entre linhas e grupos"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "GROUP BY"
+            ],
+            [
+              "COUNT"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "escrever",
+            "contar",
+            "conferir"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "consulta"
+            ],
+            [
+              "contagem"
+            ],
+            [
+              "cliente"
+            ],
+            [
+              "grupos",
+              "grupo"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-008",
+        "subject": "Banco de Dados",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.10",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Primeira forma normal e atributos multivalorados",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Identificar um atributo multivalorado em uma tabela de contatos e reorganizar os dados com valores atômicos, justificando a primeira forma normal",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com tabela de contatos contendo múltiplos telefones",
+          "assessment_strategy": "Apresentar a tabela reorganizada e explicar como os telefones deixam de ocupar uma única célula multivalorada"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "primeira forma normal",
+              "1FN"
+            ],
+            [
+              "multivalorado",
+              "multivalorados"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "identificar",
+            "reorganizar",
+            "justificar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "tabela"
+            ],
+            [
+              "telefones",
+              "telefone"
+            ],
+            [
+              "multivalorada",
+              "multivalorado"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-009",
+        "subject": "Engenharia de Software",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.7",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Caso de uso de reserva de uma quadra esportiva",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Descrever ator, pré-condição, fluxo principal e fluxo alternativo de indisponibilidade de uma quadra em um caso de uso de reserva",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com descrição de um sistema de reservas de quadras",
+          "assessment_strategy": "Entregar um caso de uso com ator, pré-condição e os dois fluxos, justificando a condição que aciona a alternativa"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "caso de uso"
+            ],
+            [
+              "reserva",
+              "reservas"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "descrever",
+            "identificar",
+            "especificar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "ator"
+            ],
+            [
+              "pré-condição",
+              "pre-condicao"
+            ],
+            [
+              "principal"
+            ],
+            [
+              "alternativo",
+              "alternativa"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-010",
+        "subject": "Engenharia de Software",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.7",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Critérios de aceitação de aplicação de cupom em uma compra",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Especificar dois critérios de aceitação no formato Dado Quando Então para cupom válido e cupom expirado e justificar os resultados observáveis",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com regras de uso de cupons em um carrinho de compras",
+          "assessment_strategy": "Entregar dois cenários Dado Quando Então e seus resultados esperados, distinguindo cupom válido de expirado"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "critérios de aceitação",
+              "criterios de aceitacao"
+            ],
+            [
+              "cupom",
+              "cupons"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "especificar",
+            "elaborar",
+            "justificar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "Dado"
+            ],
+            [
+              "Quando"
+            ],
+            [
+              "Então",
+              "Entao"
+            ],
+            [
+              "válido",
+              "valido"
+            ],
+            [
+              "expirado"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-011",
+        "subject": "Engenharia de Software",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.8",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Particionamento de equivalência para validação de idade",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Identificar partições válidas e inválidas para um campo que aceita idades inteiras de zero a 120 e selecionar entradas de teste representativas",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com a especificação de validação de idade inteira entre zero e 120",
+          "assessment_strategy": "Entregar a classificação das partições e três entradas de teste com resultados esperados, cobrindo classes válidas e inválidas"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "particionamento de equivalência",
+              "particoes de equivalencia",
+              "partições de equivalência"
+            ],
+            [
+              "idade",
+              "idades"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "identificar",
+            "selecionar",
+            "classificar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "partições",
+              "particoes"
+            ],
+            [
+              "teste",
+              "testes"
+            ],
+            [
+              "válidas",
+              "validas"
+            ],
+            [
+              "inválidas",
+              "invalidas"
+            ]
+          ]
+        }
+      },
+      {
+        "task_id": "task-012",
+        "subject": "Engenharia de Software",
+        "curricular_mapping": {
+          "reference_id": "sbc-rf-2017-cc",
+          "chapter": "II",
+          "section": "II.6",
+          "competency_id": "C.2.8",
+          "printed_page": 22,
+          "scope": "Mapeamento autoral de um recorte; não é prescrição ou validação da SBC."
+        },
+        "payload": {
+          "topic": "Rastreabilidade entre requisitos e testes de um aplicativo de entregas",
+          "grade_level": "Graduação em Ciência da Computação, formação introdutória",
+          "learning_objectives": "Construir uma matriz relacionando três requisitos de entregas aos testes que os verificam e identificar um requisito sem cobertura",
+          "duration_minutes": 50,
+          "methodology": "Resolução colaborativa de problemas",
+          "materials": "Quadro e folha com três requisitos e casos de teste de um aplicativo de entregas",
+          "assessment_strategy": "Entregar a matriz requisito-teste e propor um teste para o requisito sem cobertura, justificando a correspondência"
+        },
+        "textual_evidence": {
+          "topic_concept_groups": [
+            [
+              "rastreabilidade",
+              "matriz"
+            ],
+            [
+              "requisitos",
+              "requisito"
+            ],
+            [
+              "testes",
+              "teste"
+            ]
+          ],
+          "grade_aliases": [
+            "graduação",
+            "ensino superior",
+            "bacharelado"
+          ],
+          "objective_verbs": [
+            "construir",
+            "identificar",
+            "relacionar"
+          ],
+          "methodology_aliases": [
+            "resolução colaborativa de problemas"
+          ],
+          "required_resource_groups": [
+            [
+              "quadro",
+              "lousa"
+            ],
+            [
+              "folha",
+              "folhas",
+              "material impresso"
+            ]
+          ],
+          "assessment_action_groups": [
+            [
+              "matriz"
+            ],
+            [
+              "requisito",
+              "requisitos"
+            ],
+            [
+              "teste",
+              "testes"
+            ],
+            [
+              "cobertura"
+            ]
+          ]
+        }
+      }
+    ],
+    "limitations": [
+      "As 12 tarefas são propostas autorais e intencionais; não há representatividade curricular ou cálculo de poder amostral.",
+      "São tópicos distintos dos três pilotos; compartilham disciplinas e conceitos, sem demonstração de independência ou dificuldade equivalente.",
+      "As métricas lexicais não comprovam cumprimento semântico; as notas LLM são estimativas secundárias, sem validação pedagógica.",
+      "A comparação de provedores não isola efeitos de hardware, quantização, família ou parâmetros.",
+      "Sol não tem snapshot datado no identificador consultado; preservar metadados e data sem prometer imutabilidade.",
+      "O contrato v2 tem validação local de forma e citações, sem validação empírica de semântica.",
+      "Observação de campo não é cumprimento: detected é sintático; supported é uma estimativa da LLM."
+    ],
+    "study_phase": "main",
+    "catalog_id": "cc-main-authorial-v1",
+    "analysis_plan": {
+      "type": "descriptive_by_task_condition_and_generator",
+      "statistical_unit": "task",
+      "primary_comparison": "C1 versus C2 within generator",
+      "secondary_comparison": "C0 versus C1: additional information and structure are not isolated",
+      "task_weighting": "equal per task; report areas separately",
+      "primary_dimensions": [
+        "D1",
+        "D2",
+        "D4",
+        "D5"
+      ],
+      "technical_controls": [
+        "D3"
+      ],
+      "secondary_dimensions": [
+        "D6",
+        "D7",
+        "D9"
+      ],
+      "exploratory_dimensions": [
+        "pedagogical_level_appropriateness_excluded_from_new_judge_contract"
+      ],
+      "diagnostics": [
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "metrics_version": "eduadocs-requirement-observations-v1",
+      "composite_score": false,
+      "significance_tests": false,
+      "missing_policy": "preserve nulls and report coverage; no zero for technical errors",
+      "judgment_aggregation": "Nominal requirement states: frequencies and agreement, no numeric conversion. Two authorial ordinal criteria: median of three valid judgments per response.",
+      "independent_repetitions": false,
+      "aliases_policy": "declared before collection; changes require a new analysis version and held-out checks",
+      "legacy_lexical_metrics_version": "eduadocs-textual-proxies-v2",
+      "requirement_measurement": "primary: observable labeled fields and numeric duration; secondary: per-requirement LLM estimates with exact evidence; legacy aliases only auxiliary diagnostics"
+    },
+    "readiness_requirements": [
+      "verify the new closed v2 contract with a bounded technical check and reserved cases, without tuning on them",
+      "confirm actual Gemini access and billing before live collection",
+      "review task/prerequisite scope before final freeze",
+      "integrate and validate the v2 judge executor for the main collection before paid judgments"
+    ]
+  },
+  "contract": {
+    "status": "closed_for_local_implementation_not_empirically_validated",
+    "schema_version": "eduadocs-requirement-judge-response-v2.0.0",
+    "rubric_version": "eduadocs-requirement-judge-v2.0.0",
+    "requirement_states": [
+      "supported",
+      "partial",
+      "not_addressed",
+      "contradicted",
+      "uncertain"
+    ],
+    "secondary_criteria": [
+      "instructional_alignment",
+      "textual_coherence"
+    ],
+    "evidence_policy": "exact complete source lines, 1-based inclusive; empty evidence required for not_addressed",
+    "no_composite_score": true,
+    "nominal_aggregation": "report all state frequencies and exact agreement; no numeric encoding, median or automatic majority verdict",
+    "ordinal_aggregation": "median only for the two separate 1-4 authorial criteria with three valid judgments",
+    "scientific_status": "authorial operationalization informed by literature; not a validated pedagogical scale",
+    "artifact_sha256": {
+      "src/experiment/judge_contract_v2.py": "33331319404a83bfa70123402cba62be309ddc44070e2f5a41874fead19d0c07",
+      "experiments/judge_response.v2.schema.json": "c4408e51531ba17d307c9f4f96a0ecac30f592b6e7538a7a2e14465b959ddf95",
+      "src/experiment/requirement_measurement.py": "901c3f191fea8128f815818b46583afe09e6f1db3b76c85028bcbabadd186293"
+    }
+  },
+  "configuration": {
+    "provider": "openai",
+    "model": "gpt-6.1-sol",
+    "model_version": "gpt-6.1-sol",
+    "temperature": null,
+    "seed": null,
+    "max_output_tokens": 4096,
+    "response_format": "json_schema",
+    "provider_parameters": {
+      "api": "responses",
+      "reasoning_effort": "low",
+      "top_p": null,
+      "store": false,
+      "service_tier": "standard",
+      "strict_schema": true
+    }
+  },
+  "generation_results": 27,
+  "generation_statuses": {
+    "success": 27
+  },
+  "prepared_judgments": 81,
+  "prompt_version": "lesson-plan-requirement-judge-v2.0.0",
+  "note": "Prepared v2 inputs, not semantic results or main collection. Legacy v1 executors must not execute this queue."
+}

@@ -1,0 +1,4389 @@
+{
+  "measurement_version": "eduadocs-requirement-observations-v1",
+  "simulated": false,
+  "api_calls": 0,
+  "source_log_sha256": "8742de0ce3846f0b59af70e9227fa43f4c14a43ea5cf77df0361478752321e45",
+  "records": [
+    {
+      "job_id": "qwen3:pilot-002:c1:r1",
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 6,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 6,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "**Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 18,
+                "text": "- **Objetivo:** Introduzir o conceito de consultas SQL, destacando a importância do `SELECT` e do `WHERE` para filtrar dados."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos.  "
+              },
+              {
+                "line": 11,
+                "text": "- Determinar as linhas retornadas por condições de **igualdade** e **comparação numérica**.  "
+              },
+              {
+                "line": 12,
+                "text": "- Desenvolver habilidades de **resolução colaborativa de problemas**."
+              },
+              {
+                "line": 18,
+                "text": "- **Objetivo:** Introduzir o conceito de consultas SQL, destacando a importância do `SELECT` e do `WHERE` para filtrar dados."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "**Duração da aula:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "**Duração da aula:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 82,
+                "text": "- **Metodologia:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 83,
+                "text": "  - Dividir a turma em grupos de 2 a 3 alunos.  "
+              },
+              {
+                "line": 84,
+                "text": "  - Cada grupo recebe uma tarefa.  "
+              },
+              {
+                "line": 85,
+                "text": "  - Os grupos devem escrever a consulta SQL e identificar os dados retornados.  "
+              },
+              {
+                "line": 86,
+                "text": "  - Após a escrita, os grupos apresentam suas respostas à turma.  "
+              },
+              {
+                "line": 87,
+                "text": "  - O professor corrige e explica eventuais dúvidas."
+              }
+            ]
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 93,
+                "text": "- **Estratégia de Avaliação:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 94,
+                "text": "  - Os alunos devem escrever **duas consultas SQL** com `SELECT` e `WHERE`:  "
+              },
+              {
+                "line": 95,
+                "text": "    1. Uma com **igualdade** (ex: `WHERE codigo = 5`).  "
+              },
+              {
+                "line": 96,
+                "text": "    2. Uma com **comparação numérica** (ex: `WHERE preco < 1000`).  "
+              },
+              {
+                "line": 97,
+                "text": "  - Os alunos devem **indicar os resultados esperados** para cada consulta.  "
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 8,
+              "text": "**Duração da aula:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "- **Tópico:** Consultas SQL com SELECT e WHERE em uma tabela"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "- **Tópico:** Consultas SQL com SELECT e WHERE em uma tabela"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – formação introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – formação introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "- Identificar e utilizar cláusulas SELECT e WHERE em consultas SQL."
+              },
+              {
+                "line": 19,
+                "text": "- Escrever consultas que retornem linhas específicas de uma tabela com base em condições de igualdade e comparação numérica."
+              },
+              {
+                "line": 20,
+                "text": "- Entender como as condições afetam o resultado de uma consulta SQL."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Materiais e recursos:** Quadro, folha com tabela de produtos (contendo código, nome e preço), projetor (opcional), computadores com acesso a ambiente SQL (opcional)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- **Materiais e recursos:** Quadro, folha com tabela de produtos (contendo código, nome e preço), projetor (opcional), computadores com acesso a ambiente SQL (opcional)"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 12,
+                "text": "- **Estratégia de avaliação:** Escrever duas consultas com SELECT e WHERE, uma com igualdade e outra com comparação numérica, e indicar os resultados esperados"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "- **Estratégia de avaliação:** Escrever duas consultas com SELECT e WHERE, uma com igualdade e outra com comparação numérica, e indicar os resultados esperados"
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 9,
+              "text": "- **Duração:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r1",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 3,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 3,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "**Objetivo de Aprendizagem:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- Implementar a busca linear em pseudocódigo sobre um vetor de inteiros, retornando a posição do elemento ou indicando ausência.  "
+              },
+              {
+                "line": 9,
+                "text": "- Testar casos de presença e ausência de elementos no vetor.  "
+              },
+              {
+                "line": 10,
+                "text": "- Justificar os resultados obtidos como estratégia de avaliação.  "
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 5,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 5,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 6,
+                "text": "**Metodologia:** Resolução colaborativa de problemas  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 6,
+                "text": "**Metodologia:** Resolução colaborativa de problemas  "
+              }
+            ]
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 5,
+              "text": "**Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r1",
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Turma:** Introductory  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Turma:** Introductory  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 19,
+                "text": "- **Objetivo:** Aplicar o conceito de requisitos funcionais e não funcionais em um contexto prático."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "  Identificar e especificar **dois requisitos funcionais** e **dois requisitos não funcionais** de um sistema de biblioteca, justificando a classificação e formulando condições verificáveis."
+              },
+              {
+                "line": 19,
+                "text": "- **Objetivo:** Aplicar o conceito de requisitos funcionais e não funcionais em um contexto prático."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Metodologia: Resolução Colaborativa de Problemas**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 16,
+                "text": "### **2. Metodologia: Resolução Colaborativa de Problemas**"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 24,
+                "text": "### **3. Materiais e Recursos**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 26,
+                "text": "- **Quadro com descrição de sistema de empréstimo de biblioteca** (exemplo de sistema com funções e comportamentos).  "
+              },
+              {
+                "line": 27,
+                "text": "- **Folha de atividade** com perguntas e diretrizes.  "
+              },
+              {
+                "line": 28,
+                "text": "- **Folhas de anotação** para cada grupo.  "
+              },
+              {
+                "line": 29,
+                "text": "- **Canetas, lápis, marcadores.**"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 20,
+                "text": "- **Estratégia de Avaliação:** Cada grupo apresentará dois requisitos funcionais e dois não funcionais, justificando a classificação e apresentando condições de verificação."
+              },
+              {
+                "line": 83,
+                "text": "### **6. Avaliação**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- **Estratégia de Avaliação:** Cada grupo apresentará dois requisitos funcionais e dois não funcionais, justificando a classificação e apresentando condições de verificação."
+              },
+              {
+                "line": 85,
+                "text": "- Cada grupo apresentará 2 requisitos funcionais e 2 não funcionais, com justificativa e condições de verificação."
+              },
+              {
+                "line": 86,
+                "text": "- A avaliação será baseada na **precisão da classificação**, na **justificativa** e na **condição de verificação**."
+              },
+              {
+                "line": 87,
+                "text": "- Os grupos serão avaliados por meio de **interação e colaboração** durante a atividade."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r2",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 3,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 3,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "**Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 18,
+                "text": "**Objetivo:** Apresentar o conceito de busca linear e sua aplicação em vetores."
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar o algoritmo de busca linear em pseudocódigo."
+              },
+              {
+                "line": 63,
+                "text": "**Objetivo:** Trabalhar em grupo para implementar e testar o algoritmo."
+              },
+              {
+                "line": 96,
+                "text": "**Objetivo:** Reforçar o conteúdo e resolver dúvidas."
+              },
+              {
+                "line": 115,
+                "text": "**Objetivo:** Avaliar o entendimento e a aplicação do algoritmo."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- Implementar o algoritmo de **busca linear** em pseudocódigo sobre um vetor de inteiros.  "
+              },
+              {
+                "line": 9,
+                "text": "- Retornar a posição do elemento ou indicar sua ausência.  "
+              },
+              {
+                "line": 10,
+                "text": "- Testar casos de **presença** e **ausência** do elemento.  "
+              },
+              {
+                "line": 11,
+                "text": "- Utilizar **quadro e folha com vetores de inteiros** para testes de mesa.  "
+              },
+              {
+                "line": 12,
+                "text": "- Produzir **pseudocódigo** e realizar **testes de mesa**, justificando os resultados como estratégia de avaliação."
+              },
+              {
+                "line": 18,
+                "text": "**Objetivo:** Apresentar o conceito de busca linear e sua aplicação em vetores."
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar o algoritmo de busca linear em pseudocódigo."
+              },
+              {
+                "line": 63,
+                "text": "**Objetivo:** Trabalhar em grupo para implementar e testar o algoritmo."
+              },
+              {
+                "line": 96,
+                "text": "**Objetivo:** Reforçar o conteúdo e resolver dúvidas."
+              },
+              {
+                "line": 115,
+                "text": "**Objetivo:** Avaliar o entendimento e a aplicação do algoritmo."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 5,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 5,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 6,
+                "text": "**Metodologia:** Resolução colaborativa de problemas  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 6,
+                "text": "**Metodologia:** Resolução colaborativa de problemas  "
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 65,
+                "text": "**Materiais:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 66,
+                "text": "- Quadro com vetores de inteiros (ex: [15, 25, 35, 45, 55])."
+              },
+              {
+                "line": 67,
+                "text": "- Folhas com os mesmos vetores para testes de mesa."
+              },
+              {
+                "line": 68,
+                "text": "- Páginas de anotações para cada grupo."
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 88,
+                "text": "**Avaliação:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 89,
+                "text": "- Cada grupo apresenta o pseudocódigo, o teste de mesa e a justificativa do resultado."
+              },
+              {
+                "line": 90,
+                "text": "- Professor faz uma correção e oferece feedback."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 5,
+              "text": "**Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r2",
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Nível:** Ensino Médio / Início do Ensino Superior  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Nível:** Ensino Médio / Início do Ensino Superior  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Objetivos:**  "
+              },
+              {
+                "line": 23,
+                "text": "**Objetivos:**"
+              },
+              {
+                "line": 53,
+                "text": "**Objetivos:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "  - Entender o conceito de vetor e suas operações.  "
+              },
+              {
+                "line": 13,
+                "text": "  - Compreender o funcionamento da busca linear em vetores.  "
+              },
+              {
+                "line": 14,
+                "text": "  - Implementar um algoritmo de busca linear em um vetor.  "
+              },
+              {
+                "line": 15,
+                "text": "  - Analisar a eficiência da busca linear em diferentes cenários.  "
+              },
+              {
+                "line": 24,
+                "text": "- Definir o que é um vetor.  "
+              },
+              {
+                "line": 25,
+                "text": "- Explicar a estrutura de dados de vetor.  "
+              },
+              {
+                "line": 26,
+                "text": "- Introduzir o conceito de busca linear.  "
+              },
+              {
+                "line": 27,
+                "text": "- Apresentar o algoritmo de busca linear.  "
+              },
+              {
+                "line": 54,
+                "text": "- Implementar o algoritmo de busca linear em uma linguagem de programação.  "
+              },
+              {
+                "line": 55,
+                "text": "- Analisar a complexidade do algoritmo.  "
+              },
+              {
+                "line": 56,
+                "text": "- Discutir as vantagens e desvantagens da busca linear.  "
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Carga horária:** 2 aulas (45 minutos cada)  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Carga horária:** 2 aulas (45 minutos cada)  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 105,
+                "text": "### **4. Recursos:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 106,
+                "text": "- Computadores com acesso a Python ou outro linguagem de programação.  "
+              },
+              {
+                "line": 107,
+                "text": "- Projetor de vídeo ou tela para demonstração.  "
+              },
+              {
+                "line": 108,
+                "text": "- Fichas de atividade e exemplos.  "
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 91,
+                "text": "### **3. Avaliação:**"
+              },
+              {
+                "line": 93,
+                "text": "- **Avaliação formativa:**  "
+              },
+              {
+                "line": 96,
+                "text": "- **Avaliação sumativa:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 94,
+                "text": "  - Participação nas atividades práticas.  "
+              },
+              {
+                "line": 95,
+                "text": "  - Entendimento do conceito de busca linear.  "
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 90.0,
+              "line": 9,
+              "text": "- **Carga horária:** 2 aulas (45 minutos cada)  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r3",
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Tema:** Busca linear em vetores"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Tema:** Busca linear em vetores"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível:** Ensino Médio / Início do Ensino Superior"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível:** Ensino Médio / Início do Ensino Superior"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Objetivos:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "  - Compreender o conceito de busca linear em vetores."
+              },
+              {
+                "line": 13,
+                "text": "  - Identificar as diferenças entre busca linear e busca binária."
+              },
+              {
+                "line": 14,
+                "text": "  - Implementar algoritmos de busca linear em vetores."
+              },
+              {
+                "line": 15,
+                "text": "  - Resolver problemas práticos com busca linear."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 2 aulas (45 minutos cada)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 2 aulas (45 minutos cada)"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "empty",
+            "labels": [
+              {
+                "line": 80,
+                "text": "### **4. Avaliação:**"
+              }
+            ],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 90.0,
+              "line": 10,
+              "text": "- **Duração:** 2 aulas (45 minutos cada)"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r2",
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Turma:** Introductory  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Turma:** Introductory  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 19,
+                "text": "- **Objetivo:** Aplicar o conceito de requisitos funcionais e não funcionais em um contexto prático."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "  Identificar e especificar **dois requisitos funcionais** e **dois requisitos não funcionais** de um sistema de biblioteca, justificando a classificação e formulando condições verificáveis."
+              },
+              {
+                "line": 19,
+                "text": "- **Objetivo:** Aplicar o conceito de requisitos funcionais e não funcionais em um contexto prático."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Metodologia: Resolução Colaborativa de Problemas**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 16,
+                "text": "### **2. Metodologia: Resolução Colaborativa de Problemas**"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 24,
+                "text": "### **3. Materiais e Recursos**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 26,
+                "text": "- **Quadro com descrição de sistema de empréstimo de biblioteca** (exemplo de sistema com funções e comportamentos).  "
+              },
+              {
+                "line": 27,
+                "text": "- **Folha de atividade** com perguntas e diretrizes.  "
+              },
+              {
+                "line": 28,
+                "text": "- **Folhas de anotação** para cada grupo.  "
+              },
+              {
+                "line": 29,
+                "text": "- **Canetas, lápis, marcadores.**"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 20,
+                "text": "- **Estratégia de Avaliação:** Cada grupo apresentará dois requisitos funcionais e dois não funcionais, justificando a classificação e apresentando condições de verificação."
+              },
+              {
+                "line": 83,
+                "text": "### **6. Avaliação**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 20,
+                "text": "- **Estratégia de Avaliação:** Cada grupo apresentará dois requisitos funcionais e dois não funcionais, justificando a classificação e apresentando condições de verificação."
+              },
+              {
+                "line": 85,
+                "text": "- Cada grupo apresentará 2 requisitos funcionais e 2 não funcionais, com justificativa e condições de verificação."
+              },
+              {
+                "line": 86,
+                "text": "- A avaliação será baseada na **precisão da classificação**, na **justificativa** e na **condição de verificação**."
+              },
+              {
+                "line": 87,
+                "text": "- Os grupos serão avaliados por meio de **interação e colaboração** durante a atividade."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Busca Linear em Vetores"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Busca Linear em Vetores"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível Educacional:** Graduação em Ciência da Computação – Formação Introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível Educacional:** Graduação em Ciência da Computação – Formação Introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "**2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "- Identificar a estrutura de um algoritmo de busca linear em vetores."
+              },
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo."
+              },
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente)."
+              },
+              {
+                "line": 21,
+                "text": "- Justificar os resultados obtidos com base no algoritmo implementado."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              },
+              {
+                "line": 11,
+                "text": "- **Carga Horária:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              },
+              {
+                "line": 11,
+                "text": "- **Carga Horária:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 79,
+                "text": "**5. Recursos e Materiais**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 81,
+                "text": "- Quadro branco"
+              },
+              {
+                "line": 82,
+                "text": "- Folhas com vetores de inteiros para testes de mesa"
+              },
+              {
+                "line": 83,
+                "text": "- Lápis, caneta e papel para anotações"
+              },
+              {
+                "line": 84,
+                "text": "- Pósteres com exemplos de vetores e valores de busca"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 88,
+                "text": "**6. Avaliação**"
+              },
+              {
+                "line": 96,
+                "text": "**7. Avaliação Formativa**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total"
+              },
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total"
+              },
+              {
+                "line": 92,
+                "text": "- **Participação e apresentação oral** – 40% do total"
+              },
+              {
+                "line": 98,
+                "text": "- Durante a atividade colaborativa, o professor observará a compreensão e a aplicação do algoritmo por parte dos alunos."
+              },
+              {
+                "line": 99,
+                "text": "- Através da apresentação dos pseudocódigos e dos testes, será possível identificar o nível de domínio do conceito de busca linear."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos"
+            },
+            {
+              "minutes": 50.0,
+              "line": 11,
+              "text": "- **Carga Horária:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": false,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r1",
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "### **Objetivos de Aprendizagem:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "1. Entender o conceito de **requisitos funcionais** e **não funcionais** em sistemas de informação."
+              },
+              {
+                "line": 11,
+                "text": "2. Identificar e classificar os requisitos de um sistema de biblioteca."
+              },
+              {
+                "line": 12,
+                "text": "3. Aplicar os conceitos em um exemplo prático de sistema de biblioteca."
+              },
+              {
+                "line": 13,
+                "text": "4. Desenvolver habilidades de análise e planejamento de sistemas."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 70,
+                "text": "### **Avaliação:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 71,
+                "text": "- Participação nas atividades."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 180.0,
+              "line": 7,
+              "text": "### **Duração:** 2 aulas (90 minutos cada)"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r3",
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Requisitos funcionais e não funcionais de um sistema de biblioteca"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Requisitos funcionais e não funcionais de um sistema de biblioteca"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – Formação introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – Formação introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "empty",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": []
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 12,
+                "text": "- **Recursos:** Quadro, folha com descrição de um sistema de empréstimos de biblioteca"
+              },
+              {
+                "line": 83,
+                "text": "### **5. Recursos e Materiais**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "- **Recursos:** Quadro, folha com descrição de um sistema de empréstimos de biblioteca"
+              },
+              {
+                "line": 85,
+                "text": "- Quadro de apoio com descrição do sistema de empréstimo de biblioteca;"
+              },
+              {
+                "line": 86,
+                "text": "- Folha de atividade com descrição do sistema;"
+              },
+              {
+                "line": 87,
+                "text": "- Lápis, caneta e papel para anotações."
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "empty",
+            "labels": [
+              {
+                "line": 70,
+                "text": "### **4. Avaliação**"
+              }
+            ],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r1",
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "### **Tema:** Consultas SQL com SELECT e WHERE  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "### **Tema:** Consultas SQL com SELECT e WHERE  "
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "### **Objetivo Geral:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "Compreender e aplicar as instruções `SELECT` e `WHERE` para realizar consultas básicas em uma tabela SQL."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 96,
+                "text": "## **Avaliação:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 98,
+                "text": "- Participação nas aulas  "
+              },
+              {
+                "line": 99,
+                "text": "- Correção de exercícios em tempo real  "
+              },
+              {
+                "line": 100,
+                "text": "- Entrega de um relatório com consultas criadas  "
+              },
+              {
+                "line": 101,
+                "text": "- Resolução de problemas com base em dados reais (opcional)"
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 180.0,
+              "line": 9,
+              "text": "### **Duração:** 2 aulas (90 minutos cada)  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r3",
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 6,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 6,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "**Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 16,
+                "text": "**Objetivo:** Estabelecer o contexto e a relevância das consultas SQL para extração de dados em bancos de dados."
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica."
+              },
+              {
+                "line": 46,
+                "text": "**Objetivo:** Familiarizar os alunos com a tabela de produtos que será utilizada durante a aula."
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica."
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos."
+              },
+              {
+                "line": 111,
+                "text": "**Objetivo:** Reforçar o conteúdo e avaliar o entendimento dos alunos."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica."
+              },
+              {
+                "line": 16,
+                "text": "**Objetivo:** Estabelecer o contexto e a relevância das consultas SQL para extração de dados em bancos de dados."
+              },
+              {
+                "line": 18,
+                "text": "- Apresentar a importância de manipular dados em tabelas de produtos."
+              },
+              {
+                "line": 19,
+                "text": "- Introduzir os conceitos de `SELECT` e `WHERE` como ferramentas essenciais para filtrar resultados."
+              },
+              {
+                "line": 20,
+                "text": "- Mostrar a estrutura básica de uma consulta SQL:"
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica."
+              },
+              {
+                "line": 46,
+                "text": "**Objetivo:** Familiarizar os alunos com a tabela de produtos que será utilizada durante a aula."
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica."
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos."
+              },
+              {
+                "line": 104,
+                "text": "- Cada grupo apresenta a consulta SQL e o resultado esperado."
+              },
+              {
+                "line": 105,
+                "text": "- O professor corrigi e complementa as respostas, destacando a importância da sintaxe correta e da interpretação das condições."
+              },
+              {
+                "line": 111,
+                "text": "**Objetivo:** Reforçar o conteúdo e avaliar o entendimento dos alunos."
+              },
+              {
+                "line": 113,
+                "text": "- O professor ressalta a importância de usar `WHERE` para filtrar dados."
+              },
+              {
+                "line": 114,
+                "text": "- A avaliação será feita com base na capacidade dos alunos de escrever consultas corretas com `SELECT` e `WHERE`."
+              },
+              {
+                "line": 115,
+                "text": "- O professor pode realizar uma pequena avaliação escrita (em folha de rosto) para verificar o entendimento de alguns conceitos."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 8,
+              "text": "**Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r2",
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "### **Objetivos de Aprendizagem:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "1. Entender o conceito de **requisitos funcionais** e **não funcionais** em sistemas de informação."
+              },
+              {
+                "line": 11,
+                "text": "2. Identificar e classificar os requisitos de um sistema de biblioteca."
+              },
+              {
+                "line": 12,
+                "text": "3. Aplicar os conceitos em um exemplo prático de sistema de biblioteca."
+              },
+              {
+                "line": 13,
+                "text": "4. Desenvolver habilidades de análise e planejamento de sistemas."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 70,
+                "text": "### **Avaliação:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 71,
+                "text": "- Participação nas atividades."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 180.0,
+              "line": 7,
+              "text": "### **Duração:** 2 aulas (90 minutos cada)"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r3",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Busca Linear em Vetores"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Busca Linear em Vetores"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível Educacional:** Graduação em Ciência da Computação – Formação Introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível Educacional:** Graduação em Ciência da Computação – Formação Introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "**2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "- Identificar a estrutura de um algoritmo de busca linear em vetores."
+              },
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo."
+              },
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente)."
+              },
+              {
+                "line": 21,
+                "text": "- Justificar os resultados obtidos com base no algoritmo implementado."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              },
+              {
+                "line": 11,
+                "text": "- **Carga Horária:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              },
+              {
+                "line": 11,
+                "text": "- **Carga Horária:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 79,
+                "text": "**5. Recursos e Materiais**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 81,
+                "text": "- Quadro branco"
+              },
+              {
+                "line": 82,
+                "text": "- Folhas com vetores de inteiros para testes de mesa"
+              },
+              {
+                "line": 83,
+                "text": "- Lápis, caneta e papel para anotações"
+              },
+              {
+                "line": 84,
+                "text": "- Pósteres com exemplos de vetores e valores de busca"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 88,
+                "text": "**6. Avaliação**"
+              },
+              {
+                "line": 96,
+                "text": "**7. Avaliação Formativa**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total"
+              },
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total"
+              },
+              {
+                "line": 92,
+                "text": "- **Participação e apresentação oral** – 40% do total"
+              },
+              {
+                "line": 98,
+                "text": "- Durante a atividade colaborativa, o professor observará a compreensão e a aplicação do algoritmo por parte dos alunos."
+              },
+              {
+                "line": 99,
+                "text": "- Através da apresentação dos pseudocódigos e dos testes, será possível identificar o nível de domínio do conceito de busca linear."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos"
+            },
+            {
+              "minutes": 50.0,
+              "line": 11,
+              "text": "- **Carga Horária:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": false,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r2",
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 29,
+                "text": "**Tema:** Requisitos funcionais e não funcionais de um sistema de biblioteca"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 29,
+                "text": "**Tema:** Requisitos funcionais e não funcionais de um sistema de biblioteca"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível de Ensino:** Graduação em Ciência da Computação"
+              },
+              {
+                "line": 12,
+                "text": "- **Turma:** [Inserir turma]"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível de Ensino:** Graduação em Ciência da Computação"
+              },
+              {
+                "line": 12,
+                "text": "- **Turma:** [Inserir turma]"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Objetivos de Aprendizagem**"
+              },
+              {
+                "line": 41,
+                "text": "**Objetivo:** Introduzir os conceitos de requisitos funcionais e não funcionais."
+              },
+              {
+                "line": 55,
+                "text": "**Objetivo:** Identificar e classificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca."
+              },
+              {
+                "line": 76,
+                "text": "**Objetivo:** Discutir os requisitos identificados pelos grupos."
+              },
+              {
+                "line": 89,
+                "text": "**Objetivo:** Avaliar o desempenho dos alunos na identificação e classificação dos requisitos."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "Ao final da aula, os alunos serão capazes de:"
+              },
+              {
+                "line": 20,
+                "text": "- Identificar e especificar **dois requisitos funcionais** de um sistema de biblioteca."
+              },
+              {
+                "line": 21,
+                "text": "- Identificar e especificar **dois requisitos não funcionais** de um sistema de biblioteca."
+              },
+              {
+                "line": 22,
+                "text": "- Justificar a classificação de cada requisito."
+              },
+              {
+                "line": 23,
+                "text": "- Formular **condições verificáveis** para cada requisito."
+              },
+              {
+                "line": 41,
+                "text": "**Objetivo:** Introduzir os conceitos de requisitos funcionais e não funcionais."
+              },
+              {
+                "line": 43,
+                "text": "- Apresentar definições de requisitos funcionais e não funcionais."
+              },
+              {
+                "line": 44,
+                "text": "- Discutir a importância de identificar esses requisitos em sistemas de informação."
+              },
+              {
+                "line": 45,
+                "text": "- Mostrar exemplos de requisitos funcionais e não funcionais em sistemas de biblioteca."
+              },
+              {
+                "line": 55,
+                "text": "**Objetivo:** Identificar e classificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca."
+              },
+              {
+                "line": 76,
+                "text": "**Objetivo:** Discutir os requisitos identificados pelos grupos."
+              },
+              {
+                "line": 89,
+                "text": "**Objetivo:** Avaliar o desempenho dos alunos na identificação e classificação dos requisitos."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração da Aula:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração da Aula:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "empty",
+            "labels": [
+              {
+                "line": 108,
+                "text": "### **6. Avaliação**"
+              }
+            ],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração da Aula:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r3",
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "### **Tema:** Consultas SQL com SELECT e WHERE  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "### **Tema:** Consultas SQL com SELECT e WHERE  "
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "### **Objetivo Geral:**  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "Compreender e aplicar as instruções `SELECT` e `WHERE` para realizar consultas básicas em uma tabela SQL."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 96,
+                "text": "## **Avaliação:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 98,
+                "text": "- Participação nas aulas  "
+              },
+              {
+                "line": 99,
+                "text": "- Correção de exercícios em tempo real  "
+              },
+              {
+                "line": 100,
+                "text": "- Entrega de um relatório com consultas criadas  "
+              },
+              {
+                "line": 101,
+                "text": "- Resolução de problemas com base em dados reais (opcional)"
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 180.0,
+              "line": 9,
+              "text": "### **Duração:** 2 aulas (90 minutos cada)  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c1:r3",
+      "task_id": "pilot-001",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 3,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 3,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 6,
+                "text": "**Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 18,
+                "text": "**Objetivo:** Contextualizar a busca linear como uma técnica básica de busca em estruturas de dados."
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar a lógica do algoritmo de busca linear e apresentar o pseudocódigo."
+              },
+              {
+                "line": 67,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para implementar e testar o pseudocódigo."
+              },
+              {
+                "line": 99,
+                "text": "**Objetivo:** Validar a compreensão dos alunos e reforçar o conteúdo."
+              },
+              {
+                "line": 120,
+                "text": "**Objetivo:** Reforçar o conteúdo e preparar os alunos para a próxima aula."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "- Implementar pseudocódigo para a busca linear em um vetor de inteiros.  "
+              },
+              {
+                "line": 8,
+                "text": "- Retornar a posição do elemento ou indicar sua ausência.  "
+              },
+              {
+                "line": 9,
+                "text": "- Testar casos de presença e ausência de elementos.  "
+              },
+              {
+                "line": 10,
+                "text": "- Aplicar a metodologia de resolução colaborativa de problemas.  "
+              },
+              {
+                "line": 11,
+                "text": "- Utilizar o quadro e folha com vetores de inteiros para testes de mesa.  "
+              },
+              {
+                "line": 12,
+                "text": "- Produzir pseudocódigo e realizar testes de mesa, justificando os resultados.  "
+              },
+              {
+                "line": 18,
+                "text": "**Objetivo:** Contextualizar a busca linear como uma técnica básica de busca em estruturas de dados."
+              },
+              {
+                "line": 35,
+                "text": "**Objetivo:** Explicar a lógica do algoritmo de busca linear e apresentar o pseudocódigo."
+              },
+              {
+                "line": 67,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para implementar e testar o pseudocódigo."
+              },
+              {
+                "line": 69,
+                "text": "**Dividir os alunos em grupos de 3 a 4 pessoas.**"
+              },
+              {
+                "line": 99,
+                "text": "**Objetivo:** Validar a compreensão dos alunos e reforçar o conteúdo."
+              },
+              {
+                "line": 120,
+                "text": "**Objetivo:** Reforçar o conteúdo e preparar os alunos para a próxima aula."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 5,
+                "text": "**Duração:** 50 minutos  "
+              },
+              {
+                "line": 22,
+                "text": "- **Duração:** O algoritmo tem complexidade O(n), onde n é o tamanho do vetor."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 5,
+                "text": "**Duração:** 50 minutos  "
+              },
+              {
+                "line": 22,
+                "text": "- **Duração:** O algoritmo tem complexidade O(n), onde n é o tamanho do vetor."
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "empty",
+            "labels": [
+              {
+                "line": 107,
+                "text": "- **Avaliação:**  "
+              }
+            ],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 5,
+              "text": "**Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [
+            {
+              "line": 22,
+              "text": "- **Duração:** O algoritmo tem complexidade O(n), onde n é o tamanho do vetor."
+            }
+          ],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c1:r3",
+      "task_id": "pilot-003",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Nível:** Graduação em Ciência da Computação"
+              },
+              {
+                "line": 9,
+                "text": "- **Turma:** 1º Ano"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Nível:** Graduação em Ciência da Computação"
+              },
+              {
+                "line": 9,
+                "text": "- **Turma:** 1º Ano"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 12,
+                "text": "- **Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 32,
+                "text": "**Objetivo:** Trabalhar em grupo para identificar e classificar requisitos, justificando e apresentando condições verificáveis."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 13,
+                "text": "  Identificar e especificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca, justificando a classificação e formulando condições verificáveis."
+              },
+              {
+                "line": 32,
+                "text": "**Objetivo:** Trabalhar em grupo para identificar e classificar requisitos, justificando e apresentando condições verificáveis."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Metodologia:** Resolução Colaborativa de Problemas"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- **Metodologia:** Resolução Colaborativa de Problemas"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 79,
+                "text": "### **3. Materiais e Recursos**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 81,
+                "text": "- **Quadro com descrição do sistema de empréstimo de biblioteca** (exemplo de descrição):"
+              },
+              {
+                "line": 82,
+                "text": "  - O sistema permite que os usuários busquem livros, façam empréstimos, devolvam livros, consultem o catálogo, e gerem relatórios de uso."
+              },
+              {
+                "line": 83,
+                "text": "  - O sistema deve ser acessível por alunos, professores e funcionários."
+              },
+              {
+                "line": 84,
+                "text": "  - O sistema deve garantir a segurança dos dados e a integridade dos empréstimos."
+              },
+              {
+                "line": 85,
+                "text": "  - O sistema deve funcionar com baixa latência e alta disponibilidade."
+              },
+              {
+                "line": 87,
+                "text": "- **Folha com descrição do sistema** (para os alunos lerem e compreenderem o contexto)."
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 70,
+                "text": "- **Avaliação:**  "
+              },
+              {
+                "line": 91,
+                "text": "### **4. Estratégia de Avaliação**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 71,
+                "text": "  - Cada grupo recebe uma avaliação baseada na **correção, justificativa e clareza** dos requisitos apresentados."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r1",
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "- **Tópico:** Consultas SQL com SELECT e WHERE em uma tabela"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "- **Tópico:** Consultas SQL com SELECT e WHERE em uma tabela"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – formação introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – formação introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "- Identificar e utilizar cláusulas SELECT e WHERE em consultas SQL."
+              },
+              {
+                "line": 19,
+                "text": "- Escrever consultas que retornem linhas específicas de uma tabela com base em condições de igualdade e comparação numérica."
+              },
+              {
+                "line": 20,
+                "text": "- Entender como as condições afetam o resultado de uma consulta SQL."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Materiais e recursos:** Quadro, folha com tabela de produtos (contendo código, nome e preço), projetor (opcional), computadores com acesso a ambiente SQL (opcional)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- **Materiais e recursos:** Quadro, folha com tabela de produtos (contendo código, nome e preço), projetor (opcional), computadores com acesso a ambiente SQL (opcional)"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 12,
+                "text": "- **Estratégia de avaliação:** Escrever duas consultas com SELECT e WHERE, uma com igualdade e outra com comparação numérica, e indicar os resultados esperados"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "- **Estratégia de avaliação:** Escrever duas consultas com SELECT e WHERE, uma com igualdade e outra com comparação numérica, e indicar os resultados esperados"
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 9,
+              "text": "- **Duração:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c2:r1",
+      "task_id": "pilot-003",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 29,
+                "text": "**Tema:** Requisitos funcionais e não funcionais de um sistema de biblioteca"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 29,
+                "text": "**Tema:** Requisitos funcionais e não funcionais de um sistema de biblioteca"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível de Ensino:** Graduação em Ciência da Computação"
+              },
+              {
+                "line": 12,
+                "text": "- **Turma:** [Inserir turma]"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível de Ensino:** Graduação em Ciência da Computação"
+              },
+              {
+                "line": 12,
+                "text": "- **Turma:** [Inserir turma]"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Objetivos de Aprendizagem**"
+              },
+              {
+                "line": 41,
+                "text": "**Objetivo:** Introduzir os conceitos de requisitos funcionais e não funcionais."
+              },
+              {
+                "line": 55,
+                "text": "**Objetivo:** Identificar e classificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca."
+              },
+              {
+                "line": 76,
+                "text": "**Objetivo:** Discutir os requisitos identificados pelos grupos."
+              },
+              {
+                "line": 89,
+                "text": "**Objetivo:** Avaliar o desempenho dos alunos na identificação e classificação dos requisitos."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "Ao final da aula, os alunos serão capazes de:"
+              },
+              {
+                "line": 20,
+                "text": "- Identificar e especificar **dois requisitos funcionais** de um sistema de biblioteca."
+              },
+              {
+                "line": 21,
+                "text": "- Identificar e especificar **dois requisitos não funcionais** de um sistema de biblioteca."
+              },
+              {
+                "line": 22,
+                "text": "- Justificar a classificação de cada requisito."
+              },
+              {
+                "line": 23,
+                "text": "- Formular **condições verificáveis** para cada requisito."
+              },
+              {
+                "line": 41,
+                "text": "**Objetivo:** Introduzir os conceitos de requisitos funcionais e não funcionais."
+              },
+              {
+                "line": 43,
+                "text": "- Apresentar definições de requisitos funcionais e não funcionais."
+              },
+              {
+                "line": 44,
+                "text": "- Discutir a importância de identificar esses requisitos em sistemas de informação."
+              },
+              {
+                "line": 45,
+                "text": "- Mostrar exemplos de requisitos funcionais e não funcionais em sistemas de biblioteca."
+              },
+              {
+                "line": 55,
+                "text": "**Objetivo:** Identificar e classificar dois requisitos funcionais e dois não funcionais de um sistema de biblioteca."
+              },
+              {
+                "line": 76,
+                "text": "**Objetivo:** Discutir os requisitos identificados pelos grupos."
+              },
+              {
+                "line": 89,
+                "text": "**Objetivo:** Avaliar o desempenho dos alunos na identificação e classificação dos requisitos."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração da Aula:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração da Aula:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "empty",
+            "labels": [
+              {
+                "line": 108,
+                "text": "### **6. Avaliação**"
+              }
+            ],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração da Aula:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c0:r1",
+      "task_id": "pilot-001",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "### **1. Objetivos de Aprendizagem**"
+              },
+              {
+                "line": 9,
+                "text": "**Objetivo Geral:**"
+              },
+              {
+                "line": 12,
+                "text": "**Objetivos Específicos:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Entender o conceito de busca linear em vetores e aplicá-lo em algoritmos de programação."
+              },
+              {
+                "line": 13,
+                "text": "- Definir o que é um vetor e suas características."
+              },
+              {
+                "line": 14,
+                "text": "- Entender o conceito de busca linear em vetores."
+              },
+              {
+                "line": 15,
+                "text": "- Implementar algoritmos de busca linear em diferentes linguagens de programação."
+              },
+              {
+                "line": 16,
+                "text": "- Analisar a complexidade temporal da busca linear."
+              },
+              {
+                "line": 17,
+                "text": "- Aplicar a busca linear em exemplos práticos."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 52,
+                "text": "### **3. Duração da Aula**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 53,
+                "text": "- **5 aulas**, cada uma com duração de **45 minutos**."
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 103,
+                "text": "### **6. Avaliação**"
+              },
+              {
+                "line": 104,
+                "text": "- **Avaliação formativa:** participação nas aulas, resolução de exercícios em tempo real."
+              },
+              {
+                "line": 105,
+                "text": "- **Avaliação sumativa:** entrega de um programa que implemente a busca linear em um vetor."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 104,
+                "text": "- **Avaliação formativa:** participação nas aulas, resolução de exercícios em tempo real."
+              },
+              {
+                "line": 105,
+                "text": "- **Avaliação sumativa:** entrega de um programa que implemente a busca linear em um vetor."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 225.0,
+              "line": 52,
+              "text": "### **3. Duração da Aula**\n- **5 aulas**, cada uma com duração de **45 minutos**."
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c0:r2",
+      "task_id": "pilot-002",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "### **Nível de ensino:** Ensino Médio / Graduação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "### **Nível de ensino:** Ensino Médio / Graduação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "### **Objetivos de aprendizagem:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "1. Entender o conceito de consultas SQL."
+              },
+              {
+                "line": 12,
+                "text": "2. Identificar a estrutura básica de uma consulta SQL com `SELECT`."
+              },
+              {
+                "line": 13,
+                "text": "3. Utilizar a cláusula `WHERE` para filtrar resultados."
+              },
+              {
+                "line": 14,
+                "text": "4. Criar consultas personalizadas para buscar dados específicos em uma tabela."
+              },
+              {
+                "line": 15,
+                "text": "5. Aplicar o conhecimento em exemplos práticos."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "### **Duração da aula:** 90 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "### **Duração da aula:** 90 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 76,
+                "text": "- **Avaliação formativa:**"
+              },
+              {
+                "line": 91,
+                "text": "## **Avaliação:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 77,
+                "text": "  - O professor pode fazer uma atividade rápida no quadro, como:"
+              },
+              {
+                "line": 78,
+                "text": "    - \"Escreva uma consulta para listar clientes com idade menor que 25.\""
+              },
+              {
+                "line": 79,
+                "text": "    - \"Escreva uma consulta para listar clientes cujo nome contenha 'João'.\""
+              },
+              {
+                "line": 92,
+                "text": "- Participação ativa nas atividades."
+              },
+              {
+                "line": 93,
+                "text": "- Correção dos exercícios práticos."
+              },
+              {
+                "line": 94,
+                "text": "- Resposta às questões de revisão."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 90.0,
+              "line": 7,
+              "text": "### **Duração da aula:** 90 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-001:c2:r2",
+      "task_id": "pilot-001",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Busca Linear em Vetores"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Tópico:** Busca Linear em Vetores"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Nível Educacional:** Graduação em Ciência da Computação – Formação Introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Nível Educacional:** Graduação em Ciência da Computação – Formação Introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "**2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "- Identificar a estrutura de um algoritmo de busca linear em vetores."
+              },
+              {
+                "line": 19,
+                "text": "- Implementar o algoritmo de busca linear em pseudocódigo."
+              },
+              {
+                "line": 20,
+                "text": "- Testar o algoritmo com diferentes cenários (elemento presente e ausente)."
+              },
+              {
+                "line": 21,
+                "text": "- Justificar os resultados obtidos com base no algoritmo implementado."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              },
+              {
+                "line": 11,
+                "text": "- **Carga Horária:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Duração:** 50 minutos"
+              },
+              {
+                "line": 11,
+                "text": "- **Carga Horária:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 79,
+                "text": "**5. Recursos e Materiais**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 81,
+                "text": "- Quadro branco"
+              },
+              {
+                "line": 82,
+                "text": "- Folhas com vetores de inteiros para testes de mesa"
+              },
+              {
+                "line": 83,
+                "text": "- Lápis, caneta e papel para anotações"
+              },
+              {
+                "line": 84,
+                "text": "- Pósteres com exemplos de vetores e valores de busca"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 88,
+                "text": "**6. Avaliação**"
+              },
+              {
+                "line": 96,
+                "text": "**7. Avaliação Formativa**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 90,
+                "text": "- **Produção de pseudocódigo** – 30% do total"
+              },
+              {
+                "line": 91,
+                "text": "- **Testes de mesa com justificativa** – 30% do total"
+              },
+              {
+                "line": 92,
+                "text": "- **Participação e apresentação oral** – 40% do total"
+              },
+              {
+                "line": 98,
+                "text": "- Durante a atividade colaborativa, o professor observará a compreensão e a aplicação do algoritmo por parte dos alunos."
+              },
+              {
+                "line": 99,
+                "text": "- Através da apresentação dos pseudocódigos e dos testes, será possível identificar o nível de domínio do conceito de busca linear."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 10,
+              "text": "- **Duração:** 50 minutos"
+            },
+            {
+              "minutes": 50.0,
+              "line": 11,
+              "text": "- **Carga Horária:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": false,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r2",
+      "task_id": "pilot-002",
+      "condition": "c2",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "- **Tópico:** Consultas SQL com SELECT e WHERE em uma tabela"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "- **Tópico:** Consultas SQL com SELECT e WHERE em uma tabela"
+              }
+            ]
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – formação introdutória"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "- **Nível educacional:** Graduação em Ciência da Computação – formação introdutória"
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 16,
+                "text": "### **2. Objetivos de Aprendizagem**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 18,
+                "text": "- Entender a estrutura básica de uma consulta SQL com SELECT e WHERE"
+              },
+              {
+                "line": 19,
+                "text": "- Utilizar operadores de comparação (igualdade e numérica) para filtrar registros"
+              },
+              {
+                "line": 20,
+                "text": "- Identificar e escrever consultas que retornam apenas as linhas que atendem a uma condição específica"
+              },
+              {
+                "line": 21,
+                "text": "- Desenvolver habilidades práticas de consulta em uma tabela de produtos"
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 9,
+                "text": "- **Duração:** 50 minutos"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 10,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "- **Metodologia:** Resolução colaborativa de problemas"
+              }
+            ]
+          },
+          "materials": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 11,
+                "text": "- **Materiais e recursos:** Quadro, folha com tabela de produtos (contendo código, nome e preço), projetor (opcional), laptop com ambiente de SQL (ex: MySQL Workbench ou SQL Server Management Studio)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 11,
+                "text": "- **Materiais e recursos:** Quadro, folha com tabela de produtos (contendo código, nome e preço), projetor (opcional), laptop com ambiente de SQL (ex: MySQL Workbench ou SQL Server Management Studio)"
+              }
+            ]
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 12,
+                "text": "- **Estratégia de avaliação:** Escrever duas consultas com SELECT e WHERE, uma com igualdade e outra com comparação numérica, e indicar os resultados esperados"
+              },
+              {
+                "line": 105,
+                "text": "### **6. Avaliação**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 12,
+                "text": "- **Estratégia de avaliação:** Escrever duas consultas com SELECT e WHERE, uma com igualdade e outra com comparação numérica, e indicar os resultados esperados"
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 9,
+              "text": "- **Duração:** 50 minutos"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-003:c0:r3",
+      "task_id": "pilot-003",
+      "condition": "c0",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "### **Objetivos de Aprendizagem:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "1. Entender o conceito de **requisitos funcionais** e **não funcionais** em sistemas de informação."
+              },
+              {
+                "line": 11,
+                "text": "2. Identificar e classificar os requisitos de um sistema de biblioteca."
+              },
+              {
+                "line": 12,
+                "text": "3. Aplicar os conceitos em um exemplo prático de sistema de biblioteca."
+              },
+              {
+                "line": 13,
+                "text": "4. Desenvolver habilidades de análise e planejamento de sistemas."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 7,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 7,
+                "text": "### **Duração:** 2 aulas (90 minutos cada)"
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 70,
+                "text": "### **Avaliação:**"
+              }
+            ],
+            "evidence": [
+              {
+                "line": 71,
+                "text": "- Participação nas atividades."
+              }
+            ]
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 180.0,
+              "line": 7,
+              "text": "### **Duração:** 2 aulas (90 minutos cada)"
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": false,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": true,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c1:r2",
+      "task_id": "pilot-002",
+      "condition": "c1",
+      "generator_id": "qwen3",
+      "status": "success",
+      "observation": {
+        "measurement_version": "eduadocs-requirement-observations-v1",
+        "fields": {
+          "topic": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "grade_level": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 6,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 6,
+                "text": "**Nível:** Graduação em Ciência da Computação  "
+              }
+            ]
+          },
+          "learning_objectives": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 9,
+                "text": "**Objetivo de Aprendizagem:**  "
+              },
+              {
+                "line": 16,
+                "text": "**Objetivo:** Estabelecer o contexto e a relevância das consultas SQL para extração de dados em bancos de dados."
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica."
+              },
+              {
+                "line": 46,
+                "text": "**Objetivo:** Familiarizar os alunos com a tabela de produtos que será utilizada durante a aula."
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica."
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos."
+              },
+              {
+                "line": 111,
+                "text": "**Objetivo:** Reforçar o conteúdo e avaliar o entendimento dos alunos."
+              }
+            ],
+            "evidence": [
+              {
+                "line": 10,
+                "text": "Escrever consultas SQL com `SELECT` e `WHERE` em uma tabela de produtos e determinar as linhas retornadas por condições de igualdade e comparação numérica."
+              },
+              {
+                "line": 16,
+                "text": "**Objetivo:** Estabelecer o contexto e a relevância das consultas SQL para extração de dados em bancos de dados."
+              },
+              {
+                "line": 18,
+                "text": "- Apresentar a importância de manipular dados em tabelas de produtos."
+              },
+              {
+                "line": 19,
+                "text": "- Introduzir os conceitos de `SELECT` e `WHERE` como ferramentas essenciais para filtrar resultados."
+              },
+              {
+                "line": 20,
+                "text": "- Mostrar a estrutura básica de uma consulta SQL:"
+              },
+              {
+                "line": 29,
+                "text": "**Objetivo:** Reforçar o entendimento dos conceitos de igualdade e comparação numérica."
+              },
+              {
+                "line": 46,
+                "text": "**Objetivo:** Familiarizar os alunos com a tabela de produtos que será utilizada durante a aula."
+              },
+              {
+                "line": 65,
+                "text": "**Objetivo:** Os alunos trabalham em grupos para resolver duas consultas com `SELECT` e `WHERE`, uma com igualdade e outra com comparação numérica."
+              },
+              {
+                "line": 102,
+                "text": "**Objetivo:** Os grupos apresentam suas consultas e resultados, com a participação de todos os alunos."
+              },
+              {
+                "line": 104,
+                "text": "- Cada grupo apresenta a consulta SQL e o resultado esperado."
+              },
+              {
+                "line": 105,
+                "text": "- O professor corrigi e complementa as respostas, destacando a importância da sintaxe correta e da interpretação das condições."
+              },
+              {
+                "line": 111,
+                "text": "**Objetivo:** Reforçar o conteúdo e avaliar o entendimento dos alunos."
+              },
+              {
+                "line": 113,
+                "text": "- O professor ressalta a importância de usar `WHERE` para filtrar dados."
+              },
+              {
+                "line": 114,
+                "text": "- A avaliação será feita com base na capacidade dos alunos de escrever consultas corretas com `SELECT` e `WHERE`."
+              },
+              {
+                "line": 115,
+                "text": "- O professor pode realizar uma pequena avaliação escrita (em folha de rosto) para verificar o entendimento de alguns conceitos."
+              }
+            ]
+          },
+          "duration_minutes": {
+            "observation": "detected",
+            "labels": [
+              {
+                "line": 8,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ],
+            "evidence": [
+              {
+                "line": 8,
+                "text": "**Duração:** 50 minutos  "
+              }
+            ]
+          },
+          "methodology": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "materials": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          },
+          "assessment_strategy": {
+            "observation": "not_detected",
+            "labels": [],
+            "evidence": []
+          }
+        },
+        "duration": {
+          "target_minutes": 50,
+          "declared": [
+            {
+              "minutes": 50.0,
+              "line": 8,
+              "text": "**Duração:** 50 minutos  "
+            }
+          ],
+          "unresolved_declarations": [],
+          "declared_matches_target": true,
+          "clock_intervals": [],
+          "clock_schedule_minutes": null,
+          "schedule_matches_target": null,
+          "target_mismatch_detected": false,
+          "internal_inconsistency_detected": null,
+          "warning": "Only explicit numeric declarations and contiguous HH:MM intervals; step durations are not summed. No detected inconsistency is not proof of consistency."
+        },
+        "interpretation": "Labeled textual content only. Detected is not supported; not_detected is not a semantic omission. No aliases, negation heuristic or topic terms determine semantic status."
+      }
+    }
+  ],
+  "groups": [
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "topic",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 3,
+        "empty": 0,
+        "not_detected": 6
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "grade_level",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 3,
+        "empty": 0,
+        "not_detected": 6
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "learning_objectives",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "duration_minutes",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "methodology",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 0,
+        "empty": 0,
+        "not_detected": 9
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "materials",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 1,
+        "empty": 0,
+        "not_detected": 8
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c0",
+      "requirement": "assessment_strategy",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 8,
+        "empty": 1,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "topic",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 0,
+        "empty": 0,
+        "not_detected": 9
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "grade_level",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "learning_objectives",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "duration_minutes",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "methodology",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 6,
+        "empty": 0,
+        "not_detected": 3
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "materials",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 4,
+        "empty": 0,
+        "not_detected": 5
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c1",
+      "requirement": "assessment_strategy",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 5,
+        "empty": 1,
+        "not_detected": 3
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "topic",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "grade_level",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "learning_objectives",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 8,
+        "empty": 1,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "duration_minutes",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 9,
+        "empty": 0,
+        "not_detected": 0
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "methodology",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 4,
+        "empty": 0,
+        "not_detected": 5
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "materials",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 7,
+        "empty": 0,
+        "not_detected": 2
+      }
+    },
+    {
+      "generator_id": "qwen3",
+      "condition": "c2",
+      "requirement": "assessment_strategy",
+      "analyzable_texts": 9,
+      "results_without_text": 0,
+      "counts": {
+        "detected": 6,
+        "empty": 3,
+        "not_detected": 0
+      }
+    }
+  ],
+  "interpretation": "Syntactic field observations only. Not semantic adherence estimates or educational quality. Missing label is not proven omission."
+}

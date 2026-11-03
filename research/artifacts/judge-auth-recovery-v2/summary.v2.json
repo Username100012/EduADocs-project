@@ -1,0 +1,137 @@
+{
+  "protocol": "requirement-judgments-v2",
+  "completed": 2,
+  "statuses": {
+    "success": 2
+  },
+  "responses": [
+    {
+      "job_id": "qwen3:pilot-001:c2:r1",
+      "valid": 1,
+      "complete_triplet": false,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4
+          ],
+          "median": null
+        },
+        "textual_coherence": {
+          "scores": [
+            3
+          ],
+          "median": null
+        }
+      }
+    },
+    {
+      "job_id": "qwen3:pilot-002:c2:r3",
+      "valid": 1,
+      "complete_triplet": false,
+      "requirements": {
+        "topic": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "grade_level": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "learning_objectives": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "duration_minutes": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "methodology": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "materials": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        },
+        "assessment_strategy": {
+          "frequencies": {
+            "supported": 1
+          },
+          "exact_agreement": null
+        }
+      },
+      "assessments": {
+        "instructional_alignment": {
+          "scores": [
+            4
+          ],
+          "median": null
+        },
+        "textual_coherence": {
+          "scores": [
+            4
+          ],
+          "median": null
+        }
+      }
+    }
+  ],
+  "interpretation": "Nominal frequencies, not a composite score. Incomplete triplets have no median or agreement.",
+  "planned": 2
+}

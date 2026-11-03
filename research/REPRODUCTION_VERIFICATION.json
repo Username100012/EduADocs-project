@@ -1,0 +1,37 @@
+{
+  "api_calls": 0,
+  "network_blocked": true,
+  "analysis_payloads_equal_to_published": [
+    "artifacts/main-study-v1/requirement_observations.v1.json",
+    "artifacts/main-study-v1/automatic_summary.v1.json",
+    "artifacts/main-judgments-v1/results_tables.json"
+  ],
+  "serialization_metadata_differences": [
+    {
+      "file": "artifacts/main-study-v1/automatic_summary.v1.json",
+      "field": "source_observations_sha256",
+      "reason": "OS line endings in derived observations; JSON content identical",
+      "published": "0690543da83956b43a7ee0dd669ee3f7246ba84fa297dc2a892a019ee1acd556",
+      "recomputed": "3f49b68574fbf7b624b8dfdab1ccb420ac87015c7708812831b598041953d14f"
+    }
+  ],
+  "raw_logs_unchanged": true,
+  "raw_sha256": {
+    "artifacts/main-study-v1/generations.jsonl": "70969e6fe4df45f92d7dd9605eb68cb90b6dfa9eaa6d0346bb2f1f1a4b5b4135",
+    "artifacts/main-judgments-v1/judgments.v2.jsonl": "d975021750a36abb3adf0feefa3271991a08c97c0628e51cc3f76f8bb1f29cc3"
+  },
+  "tests_run": true,
+  "python": "3.13.7",
+  "outputs": [
+    "main-study-v1/requirement_observations.v1.json",
+    "main-study-v1/automatic_summary.v1.json",
+    "main-study-v1/AUTOMATIC_METRICS.md",
+    "main-study-v1/automatic_fields.v1.csv",
+    "main-study-v1/automatic_operations.v1.csv",
+    "main-study-v1/automatic_duration.v1.csv",
+    "main-judgments-v1/results_tables.json",
+    "main-judgments-v1/RESULTS.md",
+    "main-judgments-v1/requirements_by_condition.csv",
+    "main-judgments-v1/requirements_by_task.csv"
+  ]
+}
