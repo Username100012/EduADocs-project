@@ -1,3 +1,0 @@
-
-# Frozen research hashes must survive checkout on every platform.
-research/** -text

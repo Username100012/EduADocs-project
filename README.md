@@ -117,5 +117,3 @@ If the environment already exists, reuse it. The application exports DOCX; the a
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests
 ```
-
-This application update includes source code and focused offline tests. Research datasets, experimental runs and article drafts remain separate.
